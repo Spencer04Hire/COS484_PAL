@@ -70,9 +70,9 @@ class ProgramInterface:
     
     def __init__(
         self,
-        model: str = 'code-davinci-002',
+        model: str = 'gpt-4o-mini',
         runtime: Optional[Any] = None,
-        stop: str = '\n\n',
+        stop: str = '\n\n\n',
         get_answer_symbol: Optional[str] = None,
         get_answer_expr: Optional[str] = None,
         get_answer_from_stdout: bool = False,
@@ -144,7 +144,7 @@ class ProgramInterface:
         return counter.most_common(1)[0][0]
     
     
-SYSTEM_MESSAGES = 'You are a helpful python programmer.'
+SYSTEM_MESSAGES = 'You are a helpful assistant that can write Python code that solves mathematical reasoning questions similarly to the examples that you will be provided.'
 class ProgramChatInterface(ProgramInterface):
     def __init__(self, *args, system_message: str = SYSTEM_MESSAGES, **kwargs):
         super().__init__(*args, **kwargs)
