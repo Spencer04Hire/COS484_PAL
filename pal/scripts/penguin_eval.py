@@ -52,7 +52,7 @@ with open(OUTPUT_PATH, 'a' if args.append else 'w') as f:
     for x in pbar:
         question = task_prefix + x['input']
         result = copy.copy(x)
-        
+
         try:
             ans = itf.run(penguin_prompt.PENGUIN_PROMPT.format(question=question))
             if isinstance(ans, float):
@@ -61,7 +61,7 @@ with open(OUTPUT_PATH, 'a' if args.append else 'w') as f:
             result['answer_str'] = ans_str
         except:
             ans_str = ""
-            
+
         if ans_str in x['target_scores']:
             score = x['target_scores'][ans_str]
         else:

@@ -12,8 +12,66 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# ------------------------------------------Direct-------------------------------------------
 
-PENGUIN_PROMPT = '''
+
+PENGUIN_PROMPT_DIRECT = '''
+"""
+Q: Here is a table where the first line is a header and each subsequent line is a penguin:
+name, age, height (cm), weight (kg) 
+Louis, 7, 50, 11
+Bernard, 5, 80, 13
+Vincent, 9, 60, 11
+Gwen, 8, 70, 15
+For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of Bernard is 80 cm. 
+We now add a penguin to the table:
+James, 12, 90, 12
+How many penguins are less than 8 years old?
+"""
+
+A:
+2
+
+
+"""
+Q: Here is a table where the first line is a header and each subsequent line is a penguin:
+name, age, height (cm), weight (kg) 
+Louis, 7, 50, 11
+Bernard, 5, 80, 13
+Vincent, 9, 60, 11
+Gwen, 8, 70, 15
+For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of Bernard is 80 cm.
+Which is the youngest penguin?
+"""
+
+A:
+Bernard
+
+
+"""
+Q: Here is a table where the first line is a header and each subsequent line is a penguin:
+name, age, height (cm), weight (kg) 
+Louis, 7, 50, 11
+Bernard, 5, 80, 13
+Vincent, 9, 60, 11
+Gwen, 8, 70, 15
+For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of Bernard is 80 cm.
+What is the name of the second penguin sorted by alphabetic order?
+"""
+
+A:
+Gwen
+
+
+"""
+Q: %s
+"""
+'''.strip() + '\n'
+
+# ------------------------------------------Python-------------------------------------------
+
+
+PENGUIN_PROMPT_PYTHON = '''
 """
 Q: Here is a table where the first line is a header and each subsequent line is a penguin:
 name, age, height (cm), weight (kg) 
@@ -33,16 +91,14 @@ penguins.append(('Louis', 7, 50, 11))
 penguins.append(('Bernard', 5, 80, 13))
 penguins.append(('Vincent', 9, 60, 11))
 penguins.append(('Gwen', 8, 70, 15))
-
 # Add penguin James.
 penguins.append(('James', 12, 90, 12))
-
 # Find penguins under 8 years old.
 penguins_under_8_years_old = [penguin for penguin in penguins if penguin[1] < 8]
-
 # Count number of perguins under 8.
 num_penguin_under_8 = len(penguins_under_8_years_old)
 answer = num_penguin_under_8
+print(answer)
 
 
 """
@@ -62,13 +118,12 @@ penguins.append(('Louis', 7, 50, 11))
 penguins.append(('Bernard', 5, 80, 13))
 penguins.append(('Vincent', 9, 60, 11))
 penguins.append(('Gwen', 8, 70, 15))
-
 # Sort the penguins by age.
 penguins = sorted(penguins, key=lambda x: x[1])
-
 # Get the youngest penguin's name.
 youngest_penguin_name = penguins[0][0]
 answer = youngest_penguin_name
+print(answer)
 
 
 """
@@ -88,16 +143,145 @@ penguins.append(('Louis', 7, 50, 11))
 penguins.append(('Bernard', 5, 80, 13))
 penguins.append(('Vincent', 9, 60, 11))
 penguins.append(('Gwen', 8, 70, 15))
-
 # Sort penguins by alphabetic order.
 penguins_alphabetic = sorted(penguins, key=lambda x: x[0])
-
 # Get the second penguin sorted by alphabetic order.
 second_penguin_name = penguins_alphabetic[1][0]
 answer = second_penguin_name
+print(answer)
 
 
 """
-{question}
+Q: %s
 """
 '''.strip() + '\n'
+
+
+# ------------------------------------------Java-------------------------------------------
+
+
+PENGUIN_PROMPT_JAVA = '''
+"""
+Q: Here is a table where the first line is a header and each subsequent line is a penguin:
+name, age, height (cm), weight (kg) 
+Louis, 7, 50, 11
+Bernard, 5, 80, 13
+Vincent, 9, 60, 11
+Gwen, 8, 70, 15
+For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of Bernard is 80 cm. 
+We now add a penguin to the table:
+James, 12, 90, 12
+How many penguins are less than 8 years old?
+"""
+
+
+public class Solution {
+    public static int solution() {
+        // Put the penguins into a list.
+        ArrayList<String[]> penguins = new ArrayList<>();
+        penguins.add(new String[]{"Louis", "7", "50", "11"});
+        penguins.add(new String[]{"Bernard", "5", "80", "13"});
+        penguins.add(new String[]{"Vincent", "9", "60", "11"});
+        penguins.add(new String[]{"Gwen", "8", "70", "15"});
+
+        // Add penguin James.
+        penguins.add(new String[]{"James", "12", "90", "12"});
+        
+        // Find penguins under 8 years old.
+        ArrayList<String[]> penguinsUnder8YearsOld = new ArrayList<>();
+        for (String[] penguin : penguins) {
+            if (Integer.parseInt(penguin[1]) < 8) {
+                penguinsUnder8YearsOld.add(penguin);
+            }
+        }
+
+        // Count number of perguins under 8.
+        int numPenguinsUnder8 = penguinsUnder8YearsOld.length;
+        int answer = numPenguinsUnder8;
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        System.out.print(solution());
+    }
+}
+
+
+"""
+Q: Here is a table where the first line is a header and each subsequent line is a penguin:
+name, age, height (cm), weight (kg) 
+Louis, 7, 50, 11
+Bernard, 5, 80, 13
+Vincent, 9, 60, 11
+Gwen, 8, 70, 15
+For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of Bernard is 80 cm.
+Which is the youngest penguin?
+"""
+
+
+public class Solution {
+    public static String solution() {
+        // Put the penguins into a list.
+        ArrayList<String[]> penguins = new ArrayList<>();
+        penguins.add(new String[]{"Louis", "7", "50", "11"});
+        penguins.add(new String[]{"Bernard", "5", "80", "13"});
+        penguins.add(new String[]{"Vincent", "9", "60", "11"});
+        penguins.add(new String[]{"Gwen", "8", "70", "15"});
+
+        // Sort the penguins by age.
+        penguins.sort(Comparator.comparing(x -> x[1]));
+
+        // Get the youngest penguin's name.
+        String youngestPenguinName = penguins.get(0)[0];
+        String answer = youngestPenguinName;
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        System.out.print(solution());
+    }
+}
+
+
+"""
+Q: Here is a table where the first line is a header and each subsequent line is a penguin:
+name, age, height (cm), weight (kg) 
+Louis, 7, 50, 11
+Bernard, 5, 80, 13
+Vincent, 9, 60, 11
+Gwen, 8, 70, 15
+For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of Bernard is 80 cm.
+What is the name of the second penguin sorted by alphabetic order?
+"""
+
+
+public class Solution {
+    public static String solution() {
+        // Put the penguins into a list.
+        ArrayList<String[]> penguins = new ArrayList<>();
+        penguins.add(new String[]{"Louis", "7", "50", "11"});
+        penguins.add(new String[]{"Bernard", "5", "80", "13"});
+        penguins.add(new String[]{"Vincent", "9", "60", "11"});
+        penguins.add(new String[]{"Gwen", "8", "70", "15"});
+
+        // Sort penguins by alphabetic order.
+        penguins.sort(Comparator.comparing(p -> p[0]));
+        // Get the second penguin sorted by alphabetic order.
+        String secondPenguinName = penguins.get(1)[0];
+        String answer = secondPenguinName;
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        System.out.print(solution());
+    }
+}
+
+
+"""
+Q: %s
+"""
+'''.strip() + '\n'
+
+
+PENGUIN_PROMPTS = {"Direct": PENGUIN_PROMPT_DIRECT, "Python": PENGUIN_PROMPT_PYTHON, "Java": PENGUIN_PROMPT_JAVA}

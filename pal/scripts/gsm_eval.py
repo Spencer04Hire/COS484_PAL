@@ -20,7 +20,7 @@ import tqdm
 import os
 
 from pal import interface
-from pal.prompt import math_prompts
+from pal.prompt import math_prompt
 
 
 
@@ -63,7 +63,7 @@ with open(OUTPUT_PATH, 'a' if args.append else 'w') as f:
         result = copy.copy(x)
         
         try:
-            ans = itf.run(math_prompts.MATH_PROMPT.format(
+            ans = itf.run(math_prompt.MATH_PROMPT.format(
                 question=question), majority_at=args.majority_at, 
                 temperature=args.temperature, top_p=args.top_p,
                 max_tokens=args.max_tokens)

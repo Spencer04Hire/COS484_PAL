@@ -34,7 +34,7 @@ args = parser.parse_args()
 examples = json.load(open(DATA_PATH))['examples']
 
 itf = interface.ProgramInterface(
-    runtime=runtime.DateRuntime(),
+    runtime=runtime.PythonRuntime(),
     stop='\n\n',
     verbose=args.verbose
 )

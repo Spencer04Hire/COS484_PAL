@@ -12,12 +12,40 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# ------------------------------------------Direct-------------------------------------------
 
-COLOR_OBJECT_PROMPT = """
+
+COLOR_OBJECT_PROMPT_DIRECT = """
+Q: On the nightstand, there is a red pencil, a purple mug, a burgundy keychain, a fuchsia teddy bear, a black plate, and a blue stress ball. What color is the stress ball?
+
+A:
+blue
+
+
+Q: Q: On the table, you see a bunch of objects arranged in a row: a purple paperclip, a pink stress ball, a brown keychain, a green scrunchiephone charger, a mauve fidget spinner, and a burgundy pen. What is the color of the object directly to the right of the stress ball?
+
+A:
+brown
+
+
+Q: On the nightstand, you see the following items arranged in a row: a teal plate, a burgundy keychain, a yellow scrunchiephone charger, an orange mug, a pink notebook, and a grey cup. How many non-orange items do you see to the left of the teal item?
+
+A:
+0
+
+
+# Q: %s
+""".strip() + '\n'
+
+
+# ------------------------------------------Python-------------------------------------------
+
+
+COLOR_OBJECT_PROMPT_PYTHON = """
 # Generate Python3 Code to solve problems
 # Q: On the nightstand, there is a red pencil, a purple mug, a burgundy keychain, a fuchsia teddy bear, a black plate, and a blue stress ball. What color is the stress ball?
 # Put objects into a dictionary for quick look up
-objects = dict()
+objects = {{}}
 objects['pencil'] = 'red'
 objects['mug'] = 'purple'
 objects['keychain'] = 'burgundy'
@@ -28,6 +56,7 @@ objects['stress ball'] = 'blue'
 # Look up the color of stress ball
 stress_ball_color = objects['stress ball']
 answer = stress_ball_color
+print(answer)
 
 
 # Q: On the table, you see a bunch of objects arranged in a row: a purple paperclip, a pink stress ball, a brown keychain, a green scrunchiephone charger, a mauve fidget spinner, and a burgundy pen. What is the color of the object directly to the right of the stress ball?
@@ -53,6 +82,7 @@ direct_right = objects[i+1]
 # Check the directly right object's color
 direct_right_color = direct_right[1]
 answer = direct_right_color
+print(answer)
 
 
 # Q: On the nightstand, you see the following items arranged in a row: a teal plate, a burgundy keychain, a yellow scrunchiephone charger, an orange mug, a pink notebook, and a grey cup. How many non-orange items do you see to the left of the teal item?
@@ -78,7 +108,123 @@ non_orange = [object for object in objects[:i] if object[1] != 'orange']
 # Count number of non-orange objects
 num_non_orange = len(non_orange)
 answer = num_non_orange
+print(answer)
 
 
-# Q: {question}
+# Q: %s
 """.strip() + '\n'
+
+# ------------------------------------------Java-------------------------------------------
+
+COLOR_OBJECT_PROMPT_JAVA = """
+// Q: On the nightstand, there is a red pencil, a purple mug, a burgundy keychain, a fuchsia teddy bear, a black plate, and a blue stress ball. What color is the stress ball?
+
+public class Solution {
+    public static String solution() {
+        // Put objects into a dictionary for quick look up
+        HashMap<String, String> objects = new HashMap<>();
+        objects.put("pencil", "red");
+        objects.put("mug", "purple");
+        objects.put("keychain", "burgundy");
+        objects.put("teddy bear", "fuchsia");
+        objects.put("plate", "black");
+        objects.put("stress ball", "blue");
+
+        // Look up the color of stress ball
+        String stressBallColor = objects.get("stress ball");
+        String answer = stressBallColor;
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        System.out.print(solution());
+    }
+}
+
+
+// Q: On the table, you see a bunch of objects arranged in a row: a purple paperclip, a pink stress ball, a brown keychain, a green scrunchiephone charger, a mauve fidget spinner, and a burgundy pen. What is the color of the object directly to the right of the stress ball?
+
+public class Solution {
+    public static String solution() {
+        // Put objects into a list to record ordering
+        ArrayList<String[]> objects = new ArrayList<>();
+        for (int i = 0; i < 1; i++) objects.add(new String[]{"paperclip", "purple"});
+        for (int i = 0; i < 1; i++) objects.add(new String[]{"stress ball", "pink"});
+        for (int i = 0; i < 1; i++) objects.add(new String[]{"keychain", "brown"});
+        for (int i = 0; i < 1; i++) objects.add(new String[]{"scrunchiephone charger", "green"});
+        for (int i = 0; i < 1; i++) objects.add(new String[]{"fidget spinner", "mauve"});
+        for (int i = 0; i < 1; i++) objects.add(new String[]{"pen", "burgundy"});
+
+        // Find the index of the stress ball
+        int stressBallIndex = -1;
+        for (int i = 0; i < objects.size(); i++) {
+            String[] object = objects.get(i);
+            if (object[0].equals("stress ball")) {
+                stressBallIndex = i;
+                break;
+            }
+        }
+
+        // Find the directly right object
+        String[] directRight = objects.get(stressBallIndex + 1);
+
+        // Get the directly right object's color
+        String directRightColor = directRight[1];
+        String answer = directRightColor;
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        System.out.print(solution());
+    }
+}
+
+
+// Q: On the nightstand, you see the following items arranged in a row: a teal plate, a burgundy keychain, a yellow scrunchiephone charger, an orange mug, a pink notebook, and a grey cup. How many non-orange items do you see to the left of the teal item?
+
+public class Solution {
+    public static int solution() {
+        // Put objects into a list to record ordering
+        ArrayList<String[]> objects = new ArrayList<>();
+        for (int i = 0; i < 1; i++) objects.add(new String[]{"plate", "teal"});
+        for (int i = 0; i < 1; i++) objects.add(new String[]{"keychain", "burgundy"});
+        for (int i = 0; i < 1; i++) objects.add(new String[]{"scrunchiephone charger", "yellow"});
+        for (int i = 0; i < 1; i++) objects.add(new String[]{"mug", "orange"});
+        for (int i = 0; i < 1; i++) objects.add(new String[]{"notebook", "pink"});
+        for (int i = 0; i < 1; i++) objects.add(new String[]{"cup", "grey"});
+
+        // Find the index of the teal item
+        int tealIndex = -1;
+
+        for (int i = 0; i < objects.size(); i++) {
+            String[] object = objects.get(i);
+            if (object[1].equals("teal")) {
+                tealIndex = i;
+                break;
+            }
+        }
+
+        // Count number of non-orange objects to the left of the teal item
+        int numNonOrange = 0;
+        for (int i = 0; i < tealIndex; i++) {
+            String[] object = objects.get(i);
+            if (!object[1].equals("orange")) {
+                numNonOrange++;
+            }
+        }
+        int answer = numNonOrange;
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        System.out.print(solution());
+    }
+}
+
+
+// Q: %s
+""".strip() + '\n'
+
+
+
+COLOR_OBJECT_PROMPTS = {"Direct": COLOR_OBJECT_PROMPT_DIRECT, "Python": COLOR_OBJECT_PROMPT_PYTHON, "Java": COLOR_OBJECT_PROMPT_JAVA}

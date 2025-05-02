@@ -1,0 +1,9 @@
+for dataset in object_counting penguins_in_a_table repeat_copy date_understanding reasoning_about_colored_objects gsm gsmhardv2 svamp mawpssingleeq mawpssingleop mawpsaddsub mawpsmultiarith; do
+	python scripts/eval.py --dataset=${dataset} > "outputs/${dataset}_few_shot_python.txt" 2>&1 &
+	python scripts/eval.py --dataset=${dataset} --direct > "outputs/${dataset}_direct_python.txt" 2>&1 &
+done
+
+for dataset in object_counting penguins_in_a_table repeat_copy date_understanding reasoning_about_colored_objects gsm gsmhardv2 svamp mawpssingleeq mawpssingleop mawpsaddsub mawpsmultiarith; do
+	python scripts/eval.py --dataset=${dataset} --language=Java > "outputs/${dataset}_few_shot_java.txt" 2>&1 &
+	python scripts/eval.py --dataset=${dataset} --direct --language=Java > "outputs/${dataset}_direct_java.txt" 2>&1 &
+done

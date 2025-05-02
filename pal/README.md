@@ -30,7 +30,7 @@ Before running the scripts, set the OpenAI key,
 The core components of the `pal` package are the Interface classes. Specifically, `ProgramInterface` connects the LLM backend, a Python backend and user prompts.
 ```
 import pal
-from pal.prompt import math_prompts
+from pal.prompt import math_prompt
 
 interface = pal.interface.ProgramInterface(
   model='code-davinci-002',
@@ -39,7 +39,7 @@ interface = pal.interface.ProgramInterface(
 )
 
 question = 'xxxxx'
-prompt = math_prompts.MATH_PROMPT.format(question=question)
+prompt = math_prompt.MATH_PROMPT.format(question=question)
 answer = interface.run(prompt)
 ```
 Here, the `interface` 's `run`  method will run generation with the OpenAI API, run the generated snippet and then evaluate `get_answer_expr` (here `solution()`) to obtain the final answer.  

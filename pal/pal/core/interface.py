@@ -21,6 +21,8 @@ from collections import Counter
 from .runtime import GenericRuntime
 from .backend import call_gpt, call_chat_gpt
 
+import traceback
+
 
 class timeout:
     def __init__(self, seconds=1, error_message='Timeout'):
@@ -111,7 +113,7 @@ class ProgramInterface:
             with redirect_stdout(program_io):
                 self.runtime.exec_code('\n'.join(code))
             program_io.seek(0)
-            return program_io.readlines()[-1]
+            return program_io.readlines()[-1].rstrip()
         elif self.answer_symbol:
             self.runtime.exec_code('\n'.join(code))
             return self.runtime._global_vars[self.answer_symbol]
@@ -143,8 +145,7 @@ class ProgramInterface:
         counter = Counter(results)
         return counter.most_common(1)[0][0]
     
-    
-SYSTEM_MESSAGES = 'You are a helpful assistant that can write Python code that solves mathematical reasoning questions similarly to the examples that you will be provided.'
+SYSTEM_MESSAGES = 'You are a helpful assistant that can write code that solves mathematical reasoning questions similarly to the examples that you will be provided.'
 class ProgramChatInterface(ProgramInterface):
     def __init__(self, *args, system_message: str = SYSTEM_MESSAGES, **kwargs):
         super().__init__(*args, **kwargs)
@@ -161,6 +162,8 @@ class ProgramChatInterface(ProgramInterface):
     def process_generation_to_code(self, gens: str):
         if '```python' in gens:
             gens = gens.split('```python')[1].split('```')[0]
+        elif '```java' in gens:
+            gens = gens.split('```java')[1].split('```')[0]
         elif '```' in gens:
             gens = gens.split('```')[1].split('```')[0]
             
@@ -172,5 +175,7 @@ class ProgramChatInterface(ProgramInterface):
             try:
                 exec_result = self.execute(code)
             except Exception as e:
-                print(e)
+                print("Execute error: ")
+                print(traceback.format_exc())
+                return ""
         return exec_result

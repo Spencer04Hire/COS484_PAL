@@ -20,7 +20,7 @@ import tqdm
 import os
 
 from pal import interface
-from pal.prompt import math_prompts
+from pal.prompt import math_prompt
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--append', action='store_true')
@@ -43,7 +43,7 @@ itf = interface.ProgramChatInterface(
     get_answer_expr='solution()',
     model=args.model,
     verbose=args.verbose,
-    system_message=math_prompts.MATH_CHAT_BETA_SYSTEM_MESSAGE,
+    system_message=math_prompt.MATH_CHAT_BETA_SYSTEM_MESSAGE,
 )
 
 if args.append:
@@ -62,7 +62,7 @@ with open(OUTPUT_PATH, 'a' if args.append else 'w') as f:
         
         try:
             ans = itf.run(
-                math_prompts.MATH_CHAT_BETA_PROMPT.format(question=question),
+                math_prompt.MATH_CHAT_BETA_PROMPT.format(question=question),
                 temperature=args.temperature,
                 top_p=args.top_p,
                 max_tokens=args.max_tokens

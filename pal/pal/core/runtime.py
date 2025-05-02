@@ -17,6 +17,11 @@ import copy
 import datetime
 from typing import Any, Dict
 import dateutil.relativedelta
+import sympy
+import numpy
+import uuid
+
+import subprocess
 
 
 class GenericRuntime:
@@ -45,19 +50,67 @@ class GenericRuntime:
         return self._global_vars['answer']
 
     
-class DateRuntime(GenericRuntime):
+class PythonRuntime(GenericRuntime):
     GLOBAL_DICT = {
         'datetime': datetime.datetime, 
         'timedelta': dateutil.relativedelta.relativedelta,
-        'relativedelta': dateutil.relativedelta.relativedelta
+        'relativedelta': dateutil.relativedelta.relativedelta,
+        'sympy': sympy,
+        'numpy': numpy
     }
 
 
-class CustomDict(dict):
-    def __iter__(self):
-        return list(super().__iter__()).__iter__()
+class JavaRuntime(GenericRuntime):
+    GLOBAL_DICT = {}
+    LOCAL_DICT = None
+    HEADERS = []
 
+    IMPORTS = ["java.util.ArrayList",
+               "java.util.Comparator",
+               "java.util.HashMap",
+               "java.time.LocalDateTime",
+               "java.time.format.DateTimeFormatter"]
+
+    def __init__(self):
+        pass
+        
+    def exec_code(self, code_piece: str) -> None:
+
+        random_uuid = uuid.uuid1()
+
+        subprocess.run(["mkdir", "-p", str(random_uuid)])
+
+        # Setup imports
+        code = "\n".join(["import " + i + ";" for i in self.IMPORTS]) + code_piece
+
+        subprocess.run(["cp", "/dev/stdin", f"{str(random_uuid)}/Solution.java"], input=code, text=True)
+        subprocess.run(["javac", f"{str(random_uuid)}/Solution.java"])
+        result = subprocess.run(["java", "-cp", f"{str(random_uuid)}", "Solution"], capture_output=True)
+
+        # Print to stdout so we can grab it in Python
+        print(result.stdout.decode(), end="")
+        subprocess.run(["rm", "-rf", str(random_uuid)])
+
+    def eval_code(self, expr: str) -> Any:
+        raise NotImplementedError()
     
-class ColorObjectRuntime(GenericRuntime):
-    GLOBAL_DICT = {'dict': CustomDict}
+    def inject(self, var_dict: Dict[str, Any]) -> None:
+        raise NotImplementedError()
+    
+    @property
+    def answer(self):
+        raise NotImplementedError()
+    
+    @property
+    def _global_vars(self):
+        raise NotImplementedError()
+    
+    @property
+    def _local_vars(self):
+        raise NotImplementedError()
+    
 
+RUNTIME_DICT = {
+    "Python": PythonRuntime,
+    "Java": JavaRuntime
+}
