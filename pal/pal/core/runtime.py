@@ -225,9 +225,43 @@ class CppRuntime(GenericRuntime):
         raise NotImplementedError()
 
 
+class DirectRuntime(GenericRuntime):
+    GLOBAL_DICT = {}
+    LOCAL_DICT = None
+    HEADERS = []
+
+    def __init__(self):
+        pass
+        
+    def exec_code(self, code_piece: str) -> None:
+        code = code_piece.split('\n')
+        if len(code) != 0:
+            print(code[-1], end="")
+
+    def eval_code(self, expr: str) -> Any:
+        raise NotImplementedError()
+    
+    def inject(self, var_dict: Dict[str, Any]) -> None:
+        raise NotImplementedError()
+    
+    @property
+    def answer(self):
+        raise NotImplementedError()
+    
+    @property
+    def _global_vars(self):
+        raise NotImplementedError()
+    
+    @property
+    def _local_vars(self):
+        raise NotImplementedError()
+
+
+
 RUNTIME_DICT = {
     "Python": PythonRuntime,
     "Java": JavaRuntime,
     "Ocaml": OcamlRuntime,
-    "Cpp": CppRuntime
+    "Cpp": CppRuntime,
+    "Direct": DirectRuntime
 }

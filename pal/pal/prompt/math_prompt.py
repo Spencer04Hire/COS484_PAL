@@ -16,17 +16,20 @@
 
 
 MATH_PROMPT_DIRECT = """
-# Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
 A:
 8
 
 
-# Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
 A:
 33
 
 
 Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
 A:
 29
 
@@ -61,7 +64,9 @@ A:
 6
 
 
-# Q: %s
+Q: %s
+
+A:
 """.strip() + '\n'
 
 

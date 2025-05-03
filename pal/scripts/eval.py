@@ -145,7 +145,7 @@ def main():
                     parsed_target = float(x['target'])
                     score = 1 if abs(parsed_ans - parsed_target) < 1e-3 else 0
                 except ValueError:
-                    score = 1 if ans == x['target'] else 0
+                    score = 1 if ans.lower() == x['target'].lower() else 0
                 
             except Exception as e:
                 print("Exception:", e)
