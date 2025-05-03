@@ -81,20 +81,22 @@ class JavaRuntime(GenericRuntime):
 
         # Make a unique directory
         random_uuid = uuid.uuid1()
-        subprocess.run(["mkdir", "-p", str(random_uuid)])
+        try:
+            subprocess.run(["mkdir", "-p", f"llm_build/{str(random_uuid)}"])
 
-        # Copy and compile the code
-        subprocess.run(["cp", "/dev/stdin", f"{str(random_uuid)}/Solution.java"], input=code, text=True)
-        subprocess.run(["javac", f"{str(random_uuid)}/Solution.java"])
+            # Copy and compile the code
+            subprocess.run(["cp", "/dev/stdin", f"llm_build/{str(random_uuid)}/Solution.java"], input=code, text=True)
+            subprocess.run(["javac", f"llm_build/{str(random_uuid)}/Solution.java"])
 
-        # Run the program
-        result = subprocess.run(["java", "-cp", f"{str(random_uuid)}", "Solution"], capture_output=True)
+            # Run the program
+            result = subprocess.run(["java", "-cp", f"llm_build/{str(random_uuid)}", "Solution"], capture_output=True)
 
-        # Print to stdout so we can grab it in Python
-        print(result.stdout.decode(), end="")
+            # Print to stdout so we can grab it in Python
+            print(result.stdout.decode(), end="")
 
-        # Remove the directory
-        subprocess.run(["rm", "-rf", str(random_uuid)])
+        finally:
+            # Remove the directory
+            subprocess.run(["rm", "-rf", f"llm_build/{str(random_uuid)}"])
 
     def eval_code(self, expr: str) -> Any:
         raise NotImplementedError()
@@ -132,20 +134,22 @@ class OcamlRuntime(GenericRuntime):
 
         # Make a unique directory
         random_uuid = uuid.uuid1()
-        subprocess.run(["mkdir", "-p", str(random_uuid)])
+        try:
+            subprocess.run(["mkdir", "-p", f"llm_build/{str(random_uuid)}"])
 
-        # Copy and compile the code
-        subprocess.run(["cp", "/dev/stdin", f"{str(random_uuid)}/Solution.ml"], input=code, text=True)
-        subprocess.run(["ocamlc", "-I", "+unix", "unix.cma", "-o", f"{str(random_uuid)}/Solution", f"{str(random_uuid)}/Solution.ml"])
+            # Copy and compile the code
+            subprocess.run(["cp", "/dev/stdin", f"llm_build/{str(random_uuid)}/Solution.ml"], input=code, text=True)
+            subprocess.run(["ocamlc", "-I", "+unix", "unix.cma", "-o", f"llm_build/{str(random_uuid)}/Solution", f"llm_build/{str(random_uuid)}/Solution.ml"])
 
-        # Run the program
-        result = subprocess.run([f"{str(random_uuid)}/Solution"], capture_output=True)
+            # Run the program
+            result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
 
-        # Print to stdout so we can grab it in Python
-        print(result.stdout.decode(), end="")
+            # Print to stdout so we can grab it in Python
+            print(result.stdout.decode(), end="")
 
-        # Remove the directory
-        subprocess.run(["rm", "-rf", str(random_uuid)])
+        finally:
+            # Remove the directory
+            subprocess.run(["rm", "-rf", f"llm_build/{str(random_uuid)}"])
 
     def eval_code(self, expr: str) -> Any:
         raise NotImplementedError()
@@ -191,20 +195,21 @@ class CppRuntime(GenericRuntime):
 
         # Make a unique directory
         random_uuid = uuid.uuid1()
-        subprocess.run(["mkdir", "-p", str(random_uuid)])
+        try:
+            subprocess.run(["mkdir", "-p", f"llm_build/{str(random_uuid)}"])
 
-        # Copy and compile the code
-        subprocess.run(["cp", "/dev/stdin", f"{str(random_uuid)}/Solution.cpp"], input=code, text=True)
-        subprocess.run(["g++", "-std=c++20", "-o", f"{str(random_uuid)}/Solution", f"{str(random_uuid)}/Solution.cpp"])
+            # Copy and compile the code
+            subprocess.run(["cp", "/dev/stdin", f"llm_build/{str(random_uuid)}/Solution.cpp"], input=code, text=True)
+            subprocess.run(["g++", "-std=c++20", "-o", f"llm_build/{str(random_uuid)}/Solution", f"llm_build/{str(random_uuid)}/Solution.cpp"])
 
-        # Run the program
-        result = subprocess.run([f"{str(random_uuid)}/Solution"], capture_output=True)
+            # Run the program
+            result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
 
-        # Print to stdout so we can grab it in Python
-        print(result.stdout.decode(), end="")
-
-        # Remove the directory
-        subprocess.run(["rm", "-rf", str(random_uuid)])
+            # Print to stdout so we can grab it in Python
+            print(result.stdout.decode(), end="")
+        finally:
+            # Remove the directory
+            subprocess.run(["rm", "-rf", f"llm_build/{str(random_uuid)}"])
 
     def eval_code(self, expr: str) -> Any:
         raise NotImplementedError()
