@@ -113,7 +113,12 @@ class ProgramInterface:
             with redirect_stdout(program_io):
                 self.runtime.exec_code('\n'.join(code))
             program_io.seek(0)
-            return program_io.readlines()[-1].rstrip()
+            
+            lines = program_io.readlines()
+
+            if len(lines) == 0:
+                return ""
+            return lines[-1].rstrip()
         elif self.answer_symbol:
             self.runtime.exec_code('\n'.join(code))
             return self.runtime._global_vars[self.answer_symbol]
@@ -164,6 +169,10 @@ class ProgramChatInterface(ProgramInterface):
             gens = gens.split('```python')[1].split('```')[0]
         elif '```java' in gens:
             gens = gens.split('```java')[1].split('```')[0]
+        elif '```ocaml' in gens:
+            gens = gens.split('```ocaml')[1].split('```')[0]
+        elif '```cpp' in gens:
+            gens = gens.split('```cpp')[1].split('```')[0]
         elif '```' in gens:
             gens = gens.split('```')[1].split('```')[0]
             

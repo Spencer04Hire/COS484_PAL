@@ -42,7 +42,6 @@ A:
 
 
 COLOR_OBJECT_PROMPT_PYTHON = """
-# Generate Python3 Code to solve problems
 # Q: On the nightstand, there is a red pencil, a purple mug, a burgundy keychain, a fuchsia teddy bear, a black plate, and a blue stress ball. What color is the stress ball?
 # Put objects into a dictionary for quick look up
 objects = {{}}
@@ -114,7 +113,9 @@ print(answer)
 # Q: %s
 """.strip() + '\n'
 
+
 # ------------------------------------------Java-------------------------------------------
+
 
 COLOR_OBJECT_PROMPT_JAVA = """
 // Q: On the nightstand, there is a red pencil, a purple mug, a burgundy keychain, a fuchsia teddy bear, a black plate, and a blue stress ball. What color is the stress ball?
@@ -226,5 +227,186 @@ public class Solution {
 """.strip() + '\n'
 
 
+# ------------------------------------------C++-------------------------------------------
 
-COLOR_OBJECT_PROMPTS = {"Direct": COLOR_OBJECT_PROMPT_DIRECT, "Python": COLOR_OBJECT_PROMPT_PYTHON, "Java": COLOR_OBJECT_PROMPT_JAVA}
+
+COLOR_OBJECT_PROMPT_CPP = """
+int main() {
+    // Q: On the nightstand, there is a red pencil, a purple mug, a burgundy keychain, a fuchsia teddy bear, a black plate, and a blue stress ball. What color is the stress ball?
+
+    // Put objects into a dictionary for quick look up
+    std::map<std::string, std::string> objects;
+    objects["pencil"] = "red";
+    objects["mug"] = "purple";
+    objects["keychain"] = "burgundy";
+    objects["teddy bear"] = "fuchsia";
+    objects["plate"] = "black";
+    objects["stress ball"] = "blue";
+    
+    // Look up the color of stress ball
+    std::string stress_ball_color = objects["stress ball"];
+    std::string answer = stress_ball_color;
+    
+    std::cout << answer;
+        
+    return 0;
+}
+
+
+int main() {
+    // Q: On the table, you see a bunch of objects arranged in a row: a purple paperclip, a pink stress ball, a brown keychain, a green scrunchiephone charger, a mauve fidget spinner, and a burgundy pen. What is the color of the object directly to the right of the stress ball?
+
+    // Put objects into a list to record ordering
+    std::vector<std::tuple<std::string, std::string>> objects;
+    for (int i = 0; i < 1; i++) objects.push_back(std::make_tuple("paperclip", "purple"));
+    for (int i = 0; i < 1; i++) objects.push_back(std::make_tuple("stress ball", "pink"));
+    for (int i = 0; i < 1; i++) objects.push_back(std::make_tuple("keychain", "brown"));
+    for (int i = 0; i < 1; i++) objects.push_back(std::make_tuple("scrunchiephone charger", "green"));
+    for (int i = 0; i < 1; i++) objects.push_back(std::make_tuple("fidget spinner", "mauve"));
+    for (int i = 0; i < 1; i++) objects.push_back(std::make_tuple("pen", "burgundy"));
+    
+    // Find the index of the stress ball
+    int stress_ball_idx = -1;
+    for (int i = 0; i < objects.size(); i++) {
+        if (std::get<0>(objects[i]) == "stress ball") {
+            stress_ball_idx = i;
+            break;
+        }
+    }
+
+    // Find the directly right object
+    std::tuple<std::string, std::string> direct_right = objects[stress_ball_idx + 1];
+    
+    // Check the directly right object's color
+    std::string direct_right_color = std::get<1>(direct_right);
+    std::string answer = direct_right_color;
+    
+    std::cout << answer;
+    return 0;
+}
+
+
+int main() {
+    // Q: On the nightstand, you see the following items arranged in a row: a teal plate, a burgundy keychain, a yellow scrunchiephone charger, an orange mug, a pink notebook, and a grey cup. How many non-orange items do you see to the left of the teal item?
+
+    // Put objects into a list to record ordering
+    std::vector<std::tuple<std::string, std::string>> objects;
+    for (int i = 0; i < 1; i++) objects.push_back(std::make_tuple("plate", "teal"));
+    for (int i = 0; i < 1; i++) objects.push_back(std::make_tuple("keychain", "burgundy"));
+    for (int i = 0; i < 1; i++) objects.push_back(std::make_tuple("scrunchiephone charger", "yellow"));
+    for (int i = 0; i < 1; i++) objects.push_back(std::make_tuple("mug", "orange"));
+    for (int i = 0; i < 1; i++) objects.push_back(std::make_tuple("notebook", "pink"));
+    for (int i = 0; i < 1; i++) objects.push_back(std::make_tuple("cup", "grey"));
+
+    // Find the index of the teal item
+    int teal_idx = -1;
+    for (int i = 0; i < objects.size(); i++) {
+        if (std::get<1>(objects[i]) == "teal") {
+            teal_idx = i;
+            break;
+        }
+    }
+
+    // Find non-orange items to the left of the teal item
+    std::vector<std::tuple<std::string, std::string>> non_orange;
+    for (int i = 0; i < teal_idx; i++) {
+        if (std::get<1>(objects[i]) != "orange") {
+            non_orange.push_back(objects[i]);
+        }
+    }
+    
+    // Count number of non-orange objects
+    int num_non_orange = non_orange.size();
+    int answer = num_non_orange;
+    
+    std::cout << answer;
+    return 0;
+}
+
+
+# Q: %s
+""".strip() + '\n'
+
+
+# ------------------------------------------OCaml-------------------------------------------
+
+
+COLOR_OBJECT_PROMPT_OCAML = """
+
+Q: On the nightstand, there is a red pencil, a purple mug, a burgundy keychain, a fuchsia teddy bear, a black plate, and a blue stress ball. What color is the stress ball?
+
+(* solution using OCaml: *)
+
+(* Put objects into a dictionary for quick look up *)
+let objects = Hashtbl.create 6 in
+Hashtbl.add objects "pencil" "red";
+Hashtbl.add objects "mug" "purple";
+Hashtbl.add objects "keychain" "burgundy";
+Hashtbl.add objects "teddy bear" "fuchsia";
+Hashtbl.add objects "plate" "black";
+Hashtbl.add objects "stress ball" "blue";
+let stress_ball_color = Hashtbl.find objects "stress ball" in
+print_string stress_ball_color
+
+
+
+Q: On the table, you see a bunch of objects arranged in a row: a purple paperclip, a pink stress ball, a brown keychain, a green scrunchiephone charger, a mauve fidget spinner, and a burgundy pen. What is the color of the object directly to the right of the stress ball?
+
+(* solution using OCaml: *)
+
+(* Put objects into a list to record ordering *)
+let objects = [
+  ("purple", "paperclip");
+  ("pink", "stress ball");
+  ("brown", "keychain");
+  ("green", "scrunchiephone charger");
+  ("mauve", "fidget spinner");
+  ("burgundy", "pen")
+] in
+let find_color_right_of target =
+  let rec aux = function
+    | [] | [_] -> ""
+    | (_, obj) :: (color, _) :: _ when obj = target -> color
+    | _ :: rest -> aux rest
+  in
+  aux objects
+in
+let result = find_color_right_of "stress ball" in
+print_string result
+
+
+Q: On the nightstand, you see the following items arranged in a row: a teal plate, a burgundy keychain, a yellow scrunchiephone charger, an orange mug, a pink notebook, and a grey cup. How many non-orange items do you see to the left of the teal item?
+
+(* solution using OCaml: *)
+
+(* Put objects into a list to record ordering *)
+let objects = [
+  ("teal", "plate"); 
+  ("burgundy", "keychain"); 
+  ("yellow", "scrunchiephone charger"); 
+  ("orange", "mug"); 
+  ("pink", "notebook"); 
+  ("grey", "cup")
+] in
+(* Find non-orange items to the left of the teal item *)
+let count_non_orange_before target_color lst =
+  let rec aux count = function
+    | [] -> 0
+    | (color, _) :: _ when color = target_color -> count
+    | (color, _) :: rest ->
+        let new_count = if color <> "orange" then count + 1 else count in
+        aux new_count rest
+  in
+  aux 0 lst
+in
+let result = count_non_orange_before "teal" objects in
+print_int result
+
+
+# Q: %s
+""".strip() + '\n'
+
+
+COLOR_OBJECT_PROMPTS = {"Direct": COLOR_OBJECT_PROMPT_DIRECT, "Python": COLOR_OBJECT_PROMPT_PYTHON,
+						"Java": COLOR_OBJECT_PROMPT_JAVA, "Cpp": COLOR_OBJECT_PROMPT_CPP,
+						"OCaml": COLOR_OBJECT_PROMPT_OCAML}

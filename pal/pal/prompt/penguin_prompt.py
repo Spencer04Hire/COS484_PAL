@@ -284,4 +284,230 @@ Q: %s
 '''.strip() + '\n'
 
 
-PENGUIN_PROMPTS = {"Direct": PENGUIN_PROMPT_DIRECT, "Python": PENGUIN_PROMPT_PYTHON, "Java": PENGUIN_PROMPT_JAVA}
+# ------------------------------------------C++-------------------------------------------
+
+
+PENGUIN_PROMPT_CPP = '''
+"""
+Q: Here is a table where the first line is a header and each subsequent line is a penguin:
+name, age, height (cm), weight (kg) 
+Louis, 7, 50, 11
+Bernard, 5, 80, 13
+Vincent, 9, 60, 11
+Gwen, 8, 70, 15
+For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of Bernard is 80 cm. 
+We now add a penguin to the table:
+James, 12, 90, 12
+How many penguins are less than 8 years old?
+"""
+
+int main() {
+   // Put the penguins into a list
+   std::vector<std::tuple<std::string, int, int, int>> penguins;
+   penguins.push_back(std::make_tuple("Louis", 7, 50, 11));
+   penguins.push_back(std::make_tuple("Bernard", 5, 80, 13));
+   penguins.push_back(std::make_tuple("Vincent", 9, 60, 11));
+   penguins.push_back(std::make_tuple("Gwen", 8, 70, 15));
+
+   // Add penguin James
+   penguins.push_back(std::make_tuple("James", 12, 90, 12));
+   
+   // Find penguins under 8 years old
+   std::vector<std::tuple<std::string, int, int, int>> penguins_under_8_years_old;
+   for (const auto& penguin : penguins) {
+       if (std::get<1>(penguin) < 8) {
+           penguins_under_8_years_old.push_back(penguin);
+       }
+   }
+   
+   // Count number of penguins under 8
+   int num_penguin_under_8 = penguins_under_8_years_old.size();
+   int answer = num_penguin_under_8;
+   
+   std::cout << answer;
+   
+   return 0;
+}
+
+
+"""
+Q: Here is a table where the first line is a header and each subsequent line is a penguin:
+name, age, height (cm), weight (kg) 
+Louis, 7, 50, 11
+Bernard, 5, 80, 13
+Vincent, 9, 60, 11
+Gwen, 8, 70, 15
+For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of Bernard is 80 cm.
+Which is the youngest penguin?
+"""
+
+int main() {
+    // Put the penguins into a list
+    std::vector<std::tuple<std::string, int, int, int>> penguins;
+    penguins.push_back(std::make_tuple("Louis", 7, 50, 11));
+    penguins.push_back(std::make_tuple("Bernard", 5, 80, 13));
+    penguins.push_back(std::make_tuple("Vincent", 9, 60, 11));
+    penguins.push_back(std::make_tuple("Gwen", 8, 70, 15));
+    
+    // Sort the penguins by age.
+    std::sort(penguins.begin(), penguins.end(),
+    [] (const auto& a, const auto& b) {
+        return std::get<1>(a) < std::get<1>(b);
+    });
+   
+    // Get the youngest penguin's name.
+    std::string youngest_penguin_name = std::get<0>(penguins[0]);
+    std::string answer = youngest_penguin_name;
+    
+    std::cout << answer;
+    
+    return 0;
+}
+
+
+"""
+Q: Here is a table where the first line is a header and each subsequent line is a penguin:
+name, age, height (cm), weight (kg) 
+Louis, 7, 50, 11
+Bernard, 5, 80, 13
+Vincent, 9, 60, 11
+Gwen, 8, 70, 15
+For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of Bernard is 80 cm.
+What is the name of the second penguin sorted by alphabetic order?
+"""
+
+int main() {
+    // Put the penguins into a list
+    std::vector<std::tuple<std::string, int, int, int>> penguins;
+    penguins.push_back(std::make_tuple("Louis", 7, 50, 11));
+    penguins.push_back(std::make_tuple("Bernard", 5, 80, 13));
+    penguins.push_back(std::make_tuple("Vincent", 9, 60, 11));
+    penguins.push_back(std::make_tuple("Gwen", 8, 70, 15));
+    
+    // Sort penguins by alphabetic order
+    std::vector<std::tuple<std::string, int, int, int>> penguins_alphabetic = penguins;
+    std::sort(penguins_alphabetic.begin(), penguins_alphabetic.end(), 
+        [](const auto& a, const auto& b) {
+            return std::get<0>(a) < std::get<0>(b);
+       });
+   
+    // Get the second penguin sorted by alphabetic order
+    std::string second_penguin_name = std::get<0>(penguins_alphabetic[1]);
+    std::string answer = second_penguin_name;
+    
+    std::cout << answer;
+    
+    return 0;
+}
+
+"""
+Q: %s
+"""
+'''.strip() + '\n'
+
+
+# ------------------------------------------OCaml-------------------------------------------
+
+PENGUIN_PROMPT_OCAML = '''
+"""
+Q: Here is a table where the first line is a header and each subsequent line is a penguin:
+name, age, height (cm), weight (kg) 
+Louis, 7, 50, 11
+Bernard, 5, 80, 13
+Vincent, 9, 60, 11
+Gwen, 8, 70, 15
+For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of Bernard is 80 cm. 
+We now add a penguin to the table:
+James, 12, 90, 12
+How many penguins are less than 8 years old?
+"""
+
+(* Put the penguins into a list. *)
+let penguins = [
+    ("Louis", 7, 50, 11);
+    ("Bernard", 5, 80, 13);
+    ("Vincent", 9, 60, 11);
+    ("Gwen", 8, 70, 15);
+] in
+(* Add penguin James. *)
+let penguins = ("James", 12, 90, 12) :: penguins in
+(* Count number of perguins under 8. *)
+let check_under_eight count (_,age,_,_) = if age < 8 then count + 1 else count in
+let count_under_eight = List.fold_left check_under_eight 0 penguins in
+print_int count_under_eight
+
+
+"""
+Q: Here is a table where the first line is a header and each subsequent line is a penguin:
+name, age, height (cm), weight (kg) 
+Louis, 7, 50, 11
+Bernard, 5, 80, 13
+Vincent, 9, 60, 11
+Gwen, 8, 70, 15
+For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of Bernard is 80 cm.
+Which is the youngest penguin?
+"""
+
+
+(* Put the penguins into a list. *)
+let penguins = [
+    ("Louis", 7, 50, 11);
+    ("Bernard", 5, 80, 13);
+    ("Vincent", 9, 60, 11);
+    ("Gwen", 8, 70, 15);
+] in
+(* Find youngest penguin. *)
+let check_if_younger youngest penguin = 
+    let (_,age1,_,_) = youngest in
+    let (_,age2,_,_) = penguin in
+    if age2 < age1 then penguin else youngest
+in
+let youngest_penguin = List.fold_left check_if_younger (List.hd penguins) penguins in
+(* Get the youngest penguin's name. *)
+let (name,_,_,_) = youngest_penguin in
+print_string name
+
+
+"""
+Q: Here is a table where the first line is a header and each subsequent line is a penguin:
+name, age, height (cm), weight (kg) 
+Louis, 7, 50, 11
+Bernard, 5, 80, 13
+Vincent, 9, 60, 11
+Gwen, 8, 70, 15
+For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of Bernard is 80 cm.
+What is the name of the second penguin sorted by alphabetic order?
+"""
+
+
+(* Put the penguins into a list. *)
+let penguins = [
+    ("Louis", 7, 50, 11);
+    ("Bernard", 5, 80, 13);
+    ("Vincent", 9, 60, 11);
+    ("Gwen", 8, 70, 15);
+] in
+(* Sort penguins by alphabetic order. *)
+let compare_name penguin1 penguin2 =
+    let (name1,_,_,_) = penguin1 in
+    let (name2,_,_,_) = penguin2 in
+    String.compare name1 name2
+in
+let sorted_by_name = List.sort compare_name penguins in
+(* Get the second penguin sorted by alphabetic order. *)
+let second_penguin = List.nth sorted_by_name 1 in
+let (name, _, _, _) = second_penguin in
+print_string name
+
+
+"""
+Q: %s
+"""
+'''.strip() + '\n'
+
+
+
+
+PENGUIN_PROMPTS = {"Direct": PENGUIN_PROMPT_DIRECT, "Python": PENGUIN_PROMPT_PYTHON,
+				   "Java": PENGUIN_PROMPT_JAVA, "Cpp": PENGUIN_PROMPT_CPP,
+				   "OCaml": PENGUIN_PROMPT_OCAML}

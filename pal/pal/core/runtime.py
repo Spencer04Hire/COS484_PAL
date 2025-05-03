@@ -76,19 +76,24 @@ class JavaRuntime(GenericRuntime):
         
     def exec_code(self, code_piece: str) -> None:
 
-        random_uuid = uuid.uuid1()
-
-        subprocess.run(["mkdir", "-p", str(random_uuid)])
-
         # Setup imports
         code = "\n".join(["import " + i + ";" for i in self.IMPORTS]) + code_piece
 
+        # Make a unique directory
+        random_uuid = uuid.uuid1()
+        subprocess.run(["mkdir", "-p", str(random_uuid)])
+
+        # Copy and compile the code
         subprocess.run(["cp", "/dev/stdin", f"{str(random_uuid)}/Solution.java"], input=code, text=True)
         subprocess.run(["javac", f"{str(random_uuid)}/Solution.java"])
+
+        # Run the program
         result = subprocess.run(["java", "-cp", f"{str(random_uuid)}", "Solution"], capture_output=True)
 
         # Print to stdout so we can grab it in Python
         print(result.stdout.decode(), end="")
+
+        # Remove the directory
         subprocess.run(["rm", "-rf", str(random_uuid)])
 
     def eval_code(self, expr: str) -> Any:
@@ -108,9 +113,121 @@ class JavaRuntime(GenericRuntime):
     @property
     def _local_vars(self):
         raise NotImplementedError()
+
+
+class OcamlRuntime(GenericRuntime):
+    GLOBAL_DICT = {}
+    LOCAL_DICT = None
+    HEADERS = []
+
+    IMPORTS = []
+
+    def __init__(self):
+        pass
+        
+    def exec_code(self, code_piece: str) -> None:
+
+        # Setup imports
+        code = "\n".join(["open " + i for i in self.IMPORTS]) + code_piece
+
+        # Make a unique directory
+        random_uuid = uuid.uuid1()
+        subprocess.run(["mkdir", "-p", str(random_uuid)])
+
+        # Copy and compile the code
+        subprocess.run(["cp", "/dev/stdin", f"{str(random_uuid)}/Solution.ml"], input=code, text=True)
+        subprocess.run(["ocamlc", "-I", "+unix", "unix.cma", "-o", f"{str(random_uuid)}/Solution", f"{str(random_uuid)}/Solution.ml"])
+
+        # Run the program
+        result = subprocess.run([f"{str(random_uuid)}/Solution"], capture_output=True)
+
+        # Print to stdout so we can grab it in Python
+        print(result.stdout.decode(), end="")
+
+        # Remove the directory
+        subprocess.run(["rm", "-rf", str(random_uuid)])
+
+    def eval_code(self, expr: str) -> Any:
+        raise NotImplementedError()
     
+    def inject(self, var_dict: Dict[str, Any]) -> None:
+        raise NotImplementedError()
+    
+    @property
+    def answer(self):
+        raise NotImplementedError()
+    
+    @property
+    def _global_vars(self):
+        raise NotImplementedError()
+    
+    @property
+    def _local_vars(self):
+        raise NotImplementedError()
+
+
+class CppRuntime(GenericRuntime):
+    GLOBAL_DICT = {}
+    LOCAL_DICT = None
+    HEADERS = []
+
+    IMPORTS = ["iostream",
+               "map",
+               "vector",
+               "string",
+               "tuple",
+               "algorithm",
+               "chrono",
+               "iomanip",
+               "sstream"]
+
+    def __init__(self):
+        pass
+        
+    def exec_code(self, code_piece: str) -> None:
+
+        # Setup imports
+        code = "\n".join(["#include <" + i + ">" for i in self.IMPORTS]) + code_piece
+
+        # Make a unique directory
+        random_uuid = uuid.uuid1()
+        subprocess.run(["mkdir", "-p", str(random_uuid)])
+
+        # Copy and compile the code
+        subprocess.run(["cp", "/dev/stdin", f"{str(random_uuid)}/Solution.cpp"], input=code, text=True)
+        subprocess.run(["g++", "-std=c++20", "-o", f"{str(random_uuid)}/Solution", f"{str(random_uuid)}/Solution.cpp"])
+
+        # Run the program
+        result = subprocess.run([f"{str(random_uuid)}/Solution"], capture_output=True)
+
+        # Print to stdout so we can grab it in Python
+        print(result.stdout.decode(), end="")
+
+        # Remove the directory
+        subprocess.run(["rm", "-rf", str(random_uuid)])
+
+    def eval_code(self, expr: str) -> Any:
+        raise NotImplementedError()
+    
+    def inject(self, var_dict: Dict[str, Any]) -> None:
+        raise NotImplementedError()
+    
+    @property
+    def answer(self):
+        raise NotImplementedError()
+    
+    @property
+    def _global_vars(self):
+        raise NotImplementedError()
+    
+    @property
+    def _local_vars(self):
+        raise NotImplementedError()
+
 
 RUNTIME_DICT = {
     "Python": PythonRuntime,
-    "Java": JavaRuntime
+    "Java": JavaRuntime,
+    "Ocaml": OcamlRuntime,
+    "Cpp": CppRuntime
 }

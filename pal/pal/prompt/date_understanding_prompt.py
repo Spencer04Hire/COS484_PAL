@@ -272,4 +272,384 @@ public class Solution {
 '''.strip() + '\n'
 
 
-DATE_UNDERSTANDING_PROMPTS = {'Direct': DATE_UNDERSTANDING_PROMPT_DIRECT, 'Python': DATE_UNDERSTANDING_PROMPT_PYTHON, 'Java': DATE_UNDERSTANDING_PROMPT_JAVA}
+# ------------------------------------------C++-------------------------------------------
+
+
+DATE_UNDERSTANDING_PROMPT_CPP = '''
+"""
+# Q: 2015 is coming in 36 hours. What is the date one week from today in MM/DD/YYYY?
+"""
+
+int main() {
+    using namespace std::chrono;
+
+    // If 2015 is coming in 36 hours, then today is 36 hours before.
+    year_month_day ymd{year{2015}, month{1}, day{1}};
+    sys_days base_date{ymd};
+    auto today = base_date - hours{36};
+
+    // One week from today,
+    auto future_tp = today + weeks{1};
+
+    // The answer formatted with %%m/%%d/%%Y is
+    std::time_t answer = system_clock::to_time_t(future_tp);
+    std::cout << std::put_time(std::gmtime(&answer), "%%m/%%d/%%Y");
+
+    return 0;
+}
+
+"""
+# Q: The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date today in MM/DD/YYYY?
+"""
+
+int main() {
+    using namespace std::chrono;
+
+    // If the first day of 2019 is a Tuesday, and today is the first Monday of 2019, then today is 6 days later.
+    year_month_day ymd{year{2019}, month{1}, day{1}};
+    sys_days base_date{ymd};
+    auto today = base_date + days{6};
+
+    // The answer formatted with %%m/%%d/%%Y is
+    std::time_t answer = system_clock::to_time_t(today);
+    std::cout << std::put_time(std::gmtime(&answer), "%%m/%%d/%%Y");
+
+	return 0;
+}
+
+"""
+# Q: The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date 10 days ago in MM/DD/YYYY?
+"""
+
+int main() {
+    using namespace std::chrono;
+
+    // If the concert was scheduled to be on 06/01/1943, but was delayed by one day to today, then today is one day later.
+    year_month_day ymd{year{1943}, month{6}, day{1}};
+    sys_days base_date{ymd};
+    auto today = base_date + days{1};
+
+    // 10 days ago,
+    auto ten_days_ago = today - days{10};
+
+    // The answer formatted with %%m/%%d/%%Y is
+    std::time_t answer = system_clock::to_time_t(ten_days_ago);
+    std::cout << std::put_time(std::gmtime(&answer), "%%m/%%d/%%Y");
+
+    return 0;
+}
+
+"""
+# Q: It is 4/19/1969 today. What is the date 24 hours later in MM/DD/YYYY?
+"""
+
+int main() {
+    using namespace std::chrono;
+
+    // It is 4/19/1969 today.
+    year_month_day ymd{year{1969}, month{4}, day{19}};
+    sys_days base_date{ymd};
+    
+    // 24 hours later,
+    auto today = base_date + hours{24};
+
+    // The answer formatted with %%m/%%d/%%Y is
+    std::time_t answer = system_clock::to_time_t(today);
+    std::cout << std::put_time(std::gmtime(&answer), "%%m/%%d/%%Y");
+
+    return 0;
+}
+
+"""
+# Q: Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date 24 hours later in MM/DD/YYYY?
+"""
+
+int main() {
+    using namespace std::chrono;
+
+    // If Jane thought today is 3/11/2002, but today is in fact Mar 12, then today is 3/12/2002.
+    year_month_day ymd{year{2002}, month{3}, day{12}};
+    sys_days today{ymd};
+
+    // 24 hours later,
+    auto later = today + hours{24};
+
+    // The answer formatted with %%m/%%d/%%Y is
+    std::time_t answer = system_clock::to_time_t(later);
+    std::cout << std::put_time(std::gmtime(&answer), "%%m/%%d/%%Y");
+
+    return 0;
+}
+
+"""
+# Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date yesterday in MM/DD/YYYY?
+"""
+
+int main() {
+    using namespace std::chrono;
+
+    // If Jane was born on the last day of Feburary in 2001 and today is her 16-year-old birthday, then today is 16 years later.
+    constexpr year_month_day ymd{year{2001}, month{2}, day{28}};
+    year_month_day today = ymd + years{16};
+
+    // Yesterday,
+    sys_days today_days = sys_days{today};
+    sys_days yesterday = today_days - days{1};
+
+    // The answer formatted with %%m/%%d/%%Y is
+    std::time_t answer = system_clock::to_time_t(yesterday);
+    std::cout << std::put_time(std::gmtime(&answer), "%%m/%%d/%%Y");
+
+    return 0;
+}
+
+"""
+# Q: %s
+"""
+'''.strip() + '\n'
+
+
+# ------------------------------------------OCaml-------------------------------------------
+
+DATE_UNDERSTANDING_PROMPT_OCAML = '''
+"""
+# Q: 2015 is coming in 36 hours. What is the date one week from today in MM/DD/YYYY?
+"""
+
+open Unix;;
+
+(* Manually create the time structure for Jan 1 2015 *)
+let base_time = {
+    tm_sec = 0;
+    tm_min = 0;
+    tm_hour = 0;
+    tm_mday = 1;
+    tm_mon = 0;       (* January is month 0 (0-based) *)
+    tm_year = 2015 - 1900;  (* Years since 1900 *)
+    tm_wday = 0;        (* Will be set correctly by mktime *)
+    tm_yday = 0;        (* Will be set correctly by mktime *)
+    tm_isdst = false
+} in
+
+(* Convert to timestamp *)
+let timestamp_2015 = fst (Unix.mktime base_time) in
+
+let seconds_in_an_hour = 60. *. 60. in
+
+(* Subtract 36 hours in seconds *)
+let timestamp_now = timestamp_2015 -. (36. *. seconds_in_an_hour) in
+
+(* Add 1 week (7 days) in seconds *)
+let seconds_in_a_day = seconds_in_an_hour *. 24. in
+let timestamp_future = timestamp_now +. (7. *. seconds_in_a_day) in
+
+(* Convert back to time structure *)
+let future_date = Unix.localtime timestamp_future in
+
+(* Print result in MM/DD/YYYY format *)
+Printf.printf "%%02d/%%02d/%%d"
+(future_date.tm_mon + 1)
+future_date.tm_mday
+(future_date.tm_year + 1900)
+
+
+"""
+# Q: The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date today in MM/DD/YYYY?
+"""
+
+open Unix;;
+
+(* Manually create the time structure for Jan 1 2019 *)
+let base_time = {
+    tm_sec = 0;
+    tm_min = 0;
+    tm_hour = 0;
+    tm_mday = 1;
+    tm_mon = 0;       (* January is month 0 (0-based) *)
+    tm_year = 2019 - 1900;  (* Years since 1900 *)
+    tm_wday = 0;        (* Will be set correctly by mktime *)
+    tm_yday = 0;        (* Will be set correctly by mktime *)
+    tm_isdst = false
+} in
+
+(* Convert to timestamp *)
+let timestamp_2019 = fst (Unix.mktime base_time) in
+
+let seconds_in_a_day = 60. *. 60. *. 24. in
+(* If the first day of 2019 is a Tuesday, and today is the first Monday of 2019, then today is 6 days later. *)
+(* Add 6 days in seconds *)
+let timestamp_now = timestamp_2019 +. (6. *. seconds_in_a_day) in
+
+(* Convert back to time structure *)
+let today_date = Unix.localtime timestamp_now in
+
+(* Print result in MM/DD/YYYY format *)
+Printf.printf "%%02d/%%02d/%%d"
+(today_date.tm_mon + 1)
+today_date.tm_mday
+(today_date.tm_year + 1900)
+
+
+"""
+# Q: The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date 10 days ago in MM/DD/YYYY?
+"""
+
+open Unix;;
+
+(* Manually create the time structure for 06/01/1943 *)
+let base_time = {
+    tm_sec = 0;
+    tm_min = 0;
+    tm_hour = 0;
+    tm_mday = 1;
+    tm_mon = 5;       (* June is month 5 (0-based) *)
+    tm_year = 1943 - 1900;  (* Years since 1900 *)
+    tm_wday = 0;        (* Will be set correctly by mktime *)
+    tm_yday = 0;        (* Will be set correctly by mktime *)
+    tm_isdst = false
+} in
+
+(* Convert to timestamp *)
+let timestamp_concert = fst (Unix.mktime base_time) in
+
+let seconds_in_a_day = 60. *. 60. *. 24. in
+(* If the concert was scheduled to be on 06/01/1943, but was delayed by one day to today, then today is one day later. *)
+(* Add 1 day in seconds *)
+let timestamp_now = timestamp_concert +. (1. *. seconds_in_a_day) in
+
+(* Subtract 10 days in seconds *)
+let timestamp_before = timestamp_now -. (10. *. seconds_in_a_day) in
+
+
+(* Convert back to time structure *)
+let earlier_date = Unix.localtime timestamp_before in
+
+(* Print result in MM/DD/YYYY format *)
+Printf.printf "%%02d/%%02d/%%d"
+(earlier_date.tm_mon + 1)
+earlier_date.tm_mday
+(earlier_date.tm_year + 1900)
+
+
+"""
+# Q: It is 4/19/1969 today. What is the date 24 hours later in MM/DD/YYYY?
+"""
+
+open Unix;;
+
+(* Manually create the time structure for 4/19/1969 *)
+let base_time = {
+    tm_sec = 0;
+    tm_min = 0;
+    tm_hour = 0;
+    tm_mday = 19;
+    tm_mon = 3;         (* April is month 3 (0-based) *)
+    tm_year = 1969 - 1900;  (* Years since 1900 *)
+    tm_wday = 0;        (* Will be set correctly by mktime *)
+    tm_yday = 0;        (* Will be set correctly by mktime *)
+    tm_isdst = false
+} in
+
+(* Convert to timestamp *)
+let timestamp_today = fst (Unix.mktime base_time) in
+
+let seconds_in_an_hour = 60. *. 60. in
+
+(* Add 24 hours in seconds *)
+let timestamp_future = timestamp_today +. (24. *. seconds_in_an_hour) in
+
+(* Convert back to time structure *)
+let future_date = Unix.localtime timestamp_future in
+
+(* Print result in MM/DD/YYYY format *)
+Printf.printf "%%02d/%%02d/%%d"
+(future_date.tm_mon + 1)
+future_date.tm_mday
+(future_date.tm_year + 1900)
+
+
+"""
+# Q: Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date 24 hours later in MM/DD/YYYY?
+"""
+
+open Unix;;
+
+(* Manually create the time structure for Mar 12 2022*)
+let base_time = {
+    tm_sec = 0;
+    tm_min = 0;
+    tm_hour = 0;
+    tm_mday = 12;
+    tm_mon = 2;         (* March is month 2 (0-based) *)
+    tm_year = 2002 - 1900;  (* Years since 1900 *)
+    tm_wday = 0;        (* Will be set correctly by mktime *)
+    tm_yday = 0;        (* Will be set correctly by mktime *)
+    tm_isdst = false
+} in
+
+(* Convert to timestamp *)
+let timestamp_today = fst (Unix.mktime base_time) in
+
+let seconds_in_an_hour = 60. *. 60. in
+
+(* Add 24 hours in seconds *)
+let timestamp_future = timestamp_today +. (24. *. seconds_in_an_hour) in
+
+(* Convert back to time structure *)
+let future_date = Unix.localtime timestamp_future in
+
+(* Print result in MM/DD/YYYY format *)
+Printf.printf "%%02d/%%02d/%%d"
+(future_date.tm_mon + 1)
+future_date.tm_mday
+(future_date.tm_year + 1900)
+
+
+"""
+# Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date yesterday in MM/DD/YYYY?
+"""
+
+open Unix;;
+
+(* Manually create the time structure for Feb 28 2001 + 16 years *)
+let base_time = {
+    tm_sec = 0;
+    tm_min = 0;
+    tm_hour = 0;
+    tm_mday = 28;
+    tm_mon = 1;         (* February is month 1 (0-based) *)
+    tm_year = 2001 - 1900 + 16;  (* Years since 1900 *)
+    tm_wday = 0;        (* Will be set correctly by mktime *)
+    tm_yday = 0;        (* Will be set correctly by mktime *)
+    tm_isdst = false
+} in
+
+(* Convert to timestamp *)
+let timestamp_today = fst (Unix.mktime base_time) in
+
+let seconds_in_a_day = 60. *. 60. *. 24. in
+
+(* Add 24 hours in seconds *)
+let timestamp_yesterday = timestamp_today -. (1. *. seconds_in_a_day) in
+
+(* Convert back to time structure *)
+let yesterday_date = Unix.localtime timestamp_yesterday in
+
+(* Print result in MM/DD/YYYY format *)
+Printf.printf "%%02d/%%02d/%%d"
+(yesterday_date.tm_mon + 1)
+yesterday_date.tm_mday
+(yesterday_date.tm_year + 1900)
+
+
+"""
+# Q: %s
+"""
+'''.strip() + '\n'
+
+
+
+
+DATE_UNDERSTANDING_PROMPTS = {'Direct': DATE_UNDERSTANDING_PROMPT_DIRECT, 'Python': DATE_UNDERSTANDING_PROMPT_PYTHON,
+							  'Java': DATE_UNDERSTANDING_PROMPT_JAVA, "Cpp": DATE_UNDERSTANDING_PROMPT_CPP,
+							  "OCaml": DATE_UNDERSTANDING_PROMPT_OCAML}

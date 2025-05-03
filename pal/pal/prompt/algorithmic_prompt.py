@@ -48,6 +48,7 @@ Q: %s
 A:
 '''.strip() + '\n\n'
 
+
 # ------------------------------------------Python-------------------------------------------
 
 
@@ -114,7 +115,9 @@ Q: %s
 # solution using Python:
 '''.strip() + '\n\n'
 
+
 # ------------------------------------------Java-------------------------------------------
+
 
 REPEAT_COPY_PROMPT_JAVA = '''
 Q: say java twice and data once, and then repeat all of this three times.
@@ -221,7 +224,190 @@ Q: %s
 // solution using Java:
 '''.strip() + '\n\n'
 
-REPEAT_COPY_PROMPTS = {'Direct': REPEAT_COPY_PROMPT_DIRECT, 'Python': REPEAT_COPY_PROMPT_PYTHON, 'Java': REPEAT_COPY_PROMPT_JAVA}
+
+# ------------------------------------------C++-------------------------------------------
+
+
+REPEAT_COPY_PROMPT_CPP = '''
+Q: say java twice and data once, and then repeat all of this three times.
+
+// solution using C++:
+
+int main() {
+    // Q: say java twice and data once, and then repeat all of this three times.
+    std::vector<std::string> result;
+    std::vector<std::string> temp = {"java", "java", "data"};
+    
+    for (int i = 0; i < 3; i++) {
+        for (const auto& word : temp) {
+            result.push_back(word);
+        }
+    }
+    
+    for (size_t i = 0; i < result.size(); i++) {
+        std::cout << result[i];
+        if (i < result.size() - 1) {
+            std::cout << " ";
+        }
+    }
+
+    return 0;
+}
+
+
+
+Q: ask a group of insects in what family? four times. after the fourth time say The happy family
+
+// solution using C++:
+
+int main() {
+    // Q: ask a group of insects in what family? four times. after the fourth time say The happy family
+    std::vector<std::string> result;
+    
+    for (int i = 0; i < 5; i++) {
+        result.push_back("a group of insects in what family?");
+    }
+
+    result.push_back("The happy family");
+    
+    for (size_t i = 0; i < result.size(); i++) {
+        std::cout << result[i];
+        if (i < result.size() - 1) {
+            std::cout << " ";
+        }
+    }
+
+    return 0;
+}
+
+
+
+Q: Repeat the word duck four times, but halfway through also say quack
+
+// solution using C++:
+
+int main() {
+    // Q: Repeat the word duck four times, but halfway through also say quack
+    std::vector<std::string> result;
+    
+    for (int i = 0; i < 4; i++) {
+        result.push_back("duck");
+        if (i == 1) {
+            result.push_back("quack");
+        }
+    }
+
+    for (size_t i = 0; i < result.size(); i++) {
+        std::cout << result[i];
+        if (i < result.size() - 1) {
+            std::cout << " ";
+        }
+    }
+
+    return 0;
+}
+
+
+
+Q: Print boolean eleven times, but after the 3rd and 8th also say correct
+
+// solution using C++:
+
+int main() {
+    // Q: Print boolean eleven times, but after the 3rd and 8th also say correct
+    std::vector<std::string> result;
+    
+    for (int i = 0; i < 11; i++) {
+        result.push_back("boolean");
+        if (i == 2 || i == 7) {
+            result.push_back("correct");
+        }
+    }
+
+    for (size_t i = 0; i < result.size(); i++) {
+        std::cout << result[i];
+        if (i < result.size() - 1) {
+            std::cout << " ";
+        }
+    }
+
+    return 0;
+}
+
+
+
+Q: %s
+
+// solution using C++:
+'''.strip() + '\n\n'
+
+
+# ------------------------------------------OCaml-------------------------------------------
+
+
+REPEAT_COPY_PROMPT_OCAML = '''
+Q: say java twice and data once, and then repeat all of this three times.
+
+(* solution using OCaml: *)
+
+(* Q: say java twice and data once, and then repeat all of this three times. *)
+let tmp = ["java"; "java"; "data"] in
+let result = Buffer.create 100 in
+for _ = 1 to 3 do
+  List.iter (fun s -> Buffer.add_string result s; Buffer.add_string result " ") tmp;
+done;
+print_string (Buffer.contents result)
+
+
+Q: ask a group of insects in what family? four times. after the fourth time say The happy family
+
+(* solution using OCaml: *)
+
+(* Q: ask a group of insects in what family? four times. after the fourth time say The happy family *)
+let result = Buffer.create 100 in
+for _ = 1 to 4 do
+  Buffer.add_string result "a group of insects in what family? "
+done;
+Buffer.add_string result "The happy family";
+print_string (Buffer.contents result)
+
+
+Q: Repeat the word duck four times, but halfway through also say quack
+
+(* solution using OCaml: *)
+
+(* Q: Repeat the word duck four times, but halfway through also say quack *)
+let result = Buffer.create 100 in
+for i = 1 to 4 do
+  Buffer.add_string result "duck ";
+  if i = 2 then Buffer.add_string result "quack ";
+done;
+print_string (Buffer.contents result)
+
+
+
+Q: Print boolean eleven times, but after the 3rd and 8th also say correct
+
+(* solution using OCaml: *)
+
+(* Q: Print boolean eleven times, but after the 3rd and 8th also say correct *)
+let result = Buffer.create 100 in
+for i = 1 to 11 do
+  Buffer.add_string result "boolean ";
+  if i = 3 || i = 8 then Buffer.add_string result "correct "
+done;
+print_string (Buffer.contents result)
+
+
+
+Q: %s
+(* solution using OCaml: *)
+'''.strip() + '\n\n'
+
+
+REPEAT_COPY_PROMPTS = {'Direct': REPEAT_COPY_PROMPT_DIRECT, 'Python': REPEAT_COPY_PROMPT_PYTHON,
+					   'Java': REPEAT_COPY_PROMPT_JAVA, "Cpp": REPEAT_COPY_PROMPT_CPP,
+                       "OCaml": REPEAT_COPY_PROMPT_OCAML }
 
 # ------------------------------------------Direct-------------------------------------------
 
@@ -475,5 +661,209 @@ Q: %s
 # solution using Java:
 '''.strip() + '\n\n'
 
+# ------------------------------------------C++-------------------------------------------
 
-OBJECT_COUNTING_PROMPTS = {"Direct": OBJECT_COUNTING_PROMPT_DIRECT, "Python": OBJECT_COUNTING_PROMPT_PYTHON, "Java": OBJECT_COUNTING_PROMPT_JAVA}
+
+OBJECT_COUNTING_PROMPT_CPP = '''
+Q: I have a drum, a flute, a clarinet, a violin, four accordions, a piano, a trombone, and a trumpet. How many musical instruments do I have?
+
+// solution using C++:
+
+int main() {
+    // Q: I have a drum, a flute, a clarinet, a violin, four accordions, a piano, a trombone, and a trumpet. How many musical instruments do I have?
+    std::map<std::string, int> musical_instruments_to_count = {
+        {"drum", 1},
+        {"flute", 1},
+        {"clarinet", 1},
+        {"violin", 1},
+        {"accordion", 4},
+        {"piano", 1},
+        {"trombone", 1},
+        {"trumpet", 1}
+    };
+    
+    int num_musical_instruments = 0;
+    for (const auto& pair : musical_instruments_to_count) {
+        num_musical_instruments += pair.second;
+    }
+    
+    std::cout << num_musical_instruments;
+    
+    return 0;
+}
+
+
+
+Q: I have a chair, two ovens, and three tables. How many objects do I have?
+
+// solution using C++:
+
+int main() {
+    // Q: I have a chair, two ovens, and three tables. How many objects do I have?
+    std::map<std::string, int> objects_to_count = {
+        {"chair", 1},
+        {"oven", 2},
+        {"table", 3},
+    };
+    
+    int num_objects = 0;
+    for (const auto& pair : objects_to_count) {
+        num_objects += pair.second;
+    }
+    
+    std::cout << num_objects;
+    
+    return 0;
+}
+
+
+
+Q: I have a chair, two potatoes, a cauliflower, a lettuce head, two tables, a cabbage, two onions, and three fridges. How many vegetables do I have?
+
+// solution using C++:
+
+int main() {
+    // Q: I have a chair, two potatoes, a cauliflower, a lettuce head, two tables, a cabbage, two onions, and three fridges. How many vegetables do I have?
+    // note: I'm not counting the chair, tables, or fridges as vegetables
+    std::map<std::string, int> vegetables_to_count = {
+        {"potato", 2},
+        {"cauliflower", 1},
+        {"lettuce head", 1},
+        {"cabbage", 1},
+        {"onion", 2},
+    };
+    
+    int num_vegetables = 0;
+    for (const auto& pair : vegetables_to_count) {
+        num_vegetables += pair.second;
+    }
+    
+    std::cout << num_vegetables;
+    
+    return 0;
+}
+
+
+
+Q: I have a raspberry, a cat, a rabbit, a mouse, a pig, two snails, a fish, two cows, a snake, a goat, and a duck. How many animals do I have?
+
+// solution using C++:
+
+int main() {
+    // Q: I have a raspberry, a cat, a rabbit, a mouse, a pig, two snails, a fish, two cows, a snake, a goat, and a duck. How many animals do I have?
+    // note: I'm not counting the raspberry as an animal
+    std::map<std::string, int> animals_to_count = {
+        {"cat", 1},
+        {"rabbit", 1},
+        {"mouse", 1},
+        {"pig", 1},
+        {"snail", 2},
+        {"fish", 1},
+        {"cow", 2},
+        {"snake", 1},
+        {"goat", 1},
+        {"duck", 1},
+    };
+    
+    int num_animals = 0;
+    for (const auto& pair : animals_to_count) {
+        num_animals += pair.second;
+    }
+    
+    std::cout << num_animals;
+    
+    return 0;
+}
+    
+
+
+Q: %s
+
+// solution using C++:
+'''.strip() + '\n\n'
+
+
+# ------------------------------------------OCaml-------------------------------------------
+
+OBJECT_COUNTING_PROMPT_OCAML = '''
+Q: I have a drum, a flute, a clarinet, a violin, four accordions, a piano, a trombone, and a trumpet. How many musical instruments do I have?
+
+(* solution using OCaml: *)
+
+(* I have a drum, a flute, a clarinet, a violin, four accordions, a piano, a trombone, and a trumpet. How many musical instruments do I have? *)
+let instruments = Hashtbl.create 8 in
+Hashtbl.add instruments "drum" 1;
+Hashtbl.add instruments "flute" 1;
+Hashtbl.add instruments "clarinet" 1;
+Hashtbl.add instruments "violin" 1;
+Hashtbl.add instruments "accordion" 4;
+Hashtbl.add instruments "piano" 1;
+Hashtbl.add instruments "trombone" 1;
+Hashtbl.add instruments "trumpet" 1;
+let num_instruments = Hashtbl.fold (fun _ count total -> total + count) instruments 0 in
+print_int num_instruments
+
+
+
+Q: I have a chair, two ovens, and three tables. How many objects do I have?
+
+(* solution using OCaml: *)
+
+(* Q: I have a chair, two ovens, and three tables. How many objects do I have? *)
+let objects = Hashtbl.create 3 in
+Hashtbl.add objects "chair" 1;
+Hashtbl.add objects "oven" 2;
+Hashtbl.add objects "table" 3;
+let num_objects = Hashtbl.fold (fun _ count total -> total + count) objects 0 in
+print_int num_objects
+
+
+
+Q: I have a chair, two potatoes, a cauliflower, a lettuce head, two tables, a cabbage, two onions, and three fridges. How many vegetables do I have?
+
+(* solution using OCaml: *)
+
+(* Q: I have a chair, two potatoes, a cauliflower, a lettuce head, two tables, a cabbage, two onions, and three fridges. How many vegetables do I have? *)
+(* note: I'm not counting the chair, tables, or fridges as vegetables *)
+let vegetables = Hashtbl.create 5 in
+Hashtbl.add vegetables "potato" 2;
+Hashtbl.add vegetables "cauliflower" 1;
+Hashtbl.add vegetables "lettuce head" 1;
+Hashtbl.add vegetables "cabbage" 1;
+Hashtbl.add vegetables "onion" 2;
+let num_vegetables = Hashtbl.fold (fun _ count total -> total + count) vegetables 0 in
+print_int num_vegetables
+
+
+
+Q: I have a raspberry, a cat, a rabbit, a mouse, a pig, two snails, a fish, two cows, a snake, a goat, and a duck. How many animals do I have?
+
+(* solution using OCaml: *)
+
+(* Q: I have a raspberry, a cat, a rabbit, a mouse, a pig, two snails, a fish, two cows, a snake, a goat, and a duck. How many animals do I have? *)
+(* note: I'm not counting the raspberry as an animal *)
+let animals = Hashtbl.create 10 in
+Hashtbl.add animals "cat" 1;
+Hashtbl.add animals "rabbit" 1;
+Hashtbl.add animals "mouse" 1;
+Hashtbl.add animals "pig" 1;
+Hashtbl.add animals "snail" 2;
+Hashtbl.add animals "fish" 1;
+Hashtbl.add animals "cow" 2;
+Hashtbl.add animals "snake" 1;
+Hashtbl.add animals "goat" 1;
+Hashtbl.add animals "duck" 1;
+let num_animals = Hashtbl.fold (fun _ count total -> total + count) animals 0 in
+print_int num_animals
+
+
+
+Q: %s
+
+(* solution using OCaml: *)
+'''.strip() + '\n\n'
+
+
+OBJECT_COUNTING_PROMPTS = {"Direct": OBJECT_COUNTING_PROMPT_DIRECT, "Python": OBJECT_COUNTING_PROMPT_PYTHON,
+						   "Java": OBJECT_COUNTING_PROMPT_JAVA, "Cpp": OBJECT_COUNTING_PROMPT_CPP,
+						   "OCaml": OBJECT_COUNTING_PROMPT_OCAML}

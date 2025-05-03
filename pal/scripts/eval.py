@@ -80,8 +80,11 @@ DATASET_TO_EXAMPLES = {
 }
 
 LANGUAGE_TO_PROMPT = {
-    "Python": "You are a helpful assistant that can only write Python code that solves mathematical reasoning questions in a manner identical to the examples that you will be provided. In your code, please print the final result to standard out on a single line.",
-    "Java": "You are a helpful assistant that can only write Java code that solves mathematical reasoning questions in a manner identical to the examples that you will be provided. Name your class as 'Solution'. In your code, please print the final result to standard out on a single line."
+    "Python": "You are a helpful expert Python programmer that can only write Python code that solves questions in a manner identical to the examples that you will be provided. In your code, please print the final result to standard out on a single line.",
+    "Java": "You are a helpful expert Java programmer that can only write Java code that solves questions in a manner identical to the examples that you will be provided. Name your class as 'Solution'. In your code, please print the final result to standard out on a single line.",
+    "Cpp": "You are a helpful expert C++ programmer that can only write C++ code that solves questions in a manner identical to the examples that you will be provided. In your code, please print the final result to standard out on a single line.",
+    "Ocaml": "You are a helpful expert OCaml programmer that can only write OCaml code that solves questions in a manner identical to the examples that you will be provided. In your code, please print the final result to standard out on a single line.",
+    "Direct": "You are a helpful assistant that can solve questions in a manner identical to the examples that you will be provided."
 }
 
 
@@ -92,18 +95,18 @@ def main():
     parser.add_argument('--model', default='gpt-4o-mini', type=str)
     parser.add_argument('--temperature', default=0.0, type=float)
     parser.add_argument('--top_p', default=1.0, type=float)
-    parser.add_argument('--max_tokens', default=512, type=int)
-    parser.add_argument('--direct', action = 'store_true')
+    parser.add_argument('--max_tokens', default=1024, type=int)
     parser.add_argument('--language', default = "Python", type=str)
     parser.add_argument('--start_samples', default = 0, type = int)
     parser.add_argument('--end_samples', default = -1, type = int)
 
     args = parser.parse_args()
     language = args.language
+    dataset = args.dataset
     start_samples = args.start_samples
 
-    DATA_PATH = f'datasets/{args.dataset}.jsonl'
-    OUTPUT_PATH = f"eval_results/{'direct' if args.direct else 'few_shot'}/{args.language}/{args.dataset}.jsonl"
+    DATA_PATH = f'datasets/{dataset}.jsonl'
+    OUTPUT_PATH = f"eval_results/{language}/{dataset}.jsonl"
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
 
     # List of python objects with input and target
@@ -117,7 +120,7 @@ def main():
         runtime=RUNTIME_DICT[language](),
         model=args.model,
         verbose=args.verbose,
-        system_message=LANGUAGE_TO_PROMPT[args.language]
+        system_message=LANGUAGE_TO_PROMPT[language]
     )
 
     scores = []
@@ -129,7 +132,7 @@ def main():
             result = copy.copy(x)
             
             try:
-                prompt = question if args.direct else DATASET_TO_PROMPT[args.dataset][language] % (question)
+                prompt = DATASET_TO_PROMPT[dataset][language] % (question)
                 
                 # print("Prompt: ")
                 # print(prompt)

@@ -15,8 +15,8 @@
 import openai
 import time
 import os
-from openai import AzureOpenAI
-import openai
+from openai import AzureOpenAI, RateLimitError, InternalServerError, APITimeoutError
+
 
 openai.api_key = os.getenv('OPENAI_API_KEY')
 sandbox_api_key = os.getenv('OPENAI_API_KEY')
@@ -56,7 +56,7 @@ def call_gpt(prompt, model='gpt-4o-mini', stop=None, temperature=0., top_p=1.0,
             completions.extend(ans)
             if len(completions) >= num_completions:
                 return completions[:num_completions]
-        except openai.error.RateLimitError as e:
+        except RateLimitError as e:
             time.sleep(min(i**2, 60))
     raise RuntimeError('Failed to call GPT API')
 
@@ -99,7 +99,7 @@ def chat_api(model, max_tokens, stop, prompt, temperature,
 
 
 def call_chat_gpt(messages, model='gpt-4o-mini', stop=None, temperature=0., top_p=1.0, max_tokens=128):
-    # wait = 1
+    wait = 1
     client = AzureOpenAI(
         api_key=sandbox_api_key,
         azure_endpoint = sandbox_endpoint,
@@ -117,7 +117,7 @@ def call_chat_gpt(messages, model='gpt-4o-mini', stop=None, temperature=0., top_
                 n=1
             )
             return ans.choices[0].message.content
-        except openai.error.RateLimitError as e:
+        except (RateLimitError, InternalServerError, APITimeoutError):
             time.sleep(min(wait, 60))
             wait *= 2
     raise RuntimeError('Failed to call chat gpt')
