@@ -407,7 +407,7 @@ Q: %s
 
 REPEAT_COPY_PROMPTS = {'Direct': REPEAT_COPY_PROMPT_DIRECT, 'Python': REPEAT_COPY_PROMPT_PYTHON,
 					   'Java': REPEAT_COPY_PROMPT_JAVA, "Cpp": REPEAT_COPY_PROMPT_CPP,
-                       "OCaml": REPEAT_COPY_PROMPT_OCAML }
+                       "Ocaml": REPEAT_COPY_PROMPT_OCAML }
 
 # ------------------------------------------Direct-------------------------------------------
 
@@ -866,4 +866,4 @@ Q: %s
 
 OBJECT_COUNTING_PROMPTS = {"Direct": OBJECT_COUNTING_PROMPT_DIRECT, "Python": OBJECT_COUNTING_PROMPT_PYTHON,
 						   "Java": OBJECT_COUNTING_PROMPT_JAVA, "Cpp": OBJECT_COUNTING_PROMPT_CPP,
-						   "OCaml": OBJECT_COUNTING_PROMPT_OCAML}
+						   "Ocaml": OBJECT_COUNTING_PROMPT_OCAML}
