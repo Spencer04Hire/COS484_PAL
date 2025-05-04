@@ -184,7 +184,6 @@ class ProgramChatInterface(ProgramInterface):
             try:
                 exec_result = self.execute(code)
             except Exception as e:
-                print("Execute error: ")
                 print(traceback.format_exc())
                 return ""
         return exec_result

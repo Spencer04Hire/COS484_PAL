@@ -1,11 +1,11 @@
 
 mkdir -p outputs
 
-#Direct, Ocaml, Cpp
-for lang in Python Java; do
+for lang in Python Java Direct Cpp Ocaml; do
 
 	for dataset in object_counting penguins_in_a_table repeat_copy date_understanding reasoning_about_colored_objects gsm gsmhardv2 svamp mawpssingleeq mawpssingleop mawpsaddsub mawpsmultiarith; do
-		python scripts/eval.py --dataset=${dataset} --language=${lang} > "outputs/${dataset}_${lang}.txt" 2>&1 &
+		# -u to make it unbuffered
+		python -u scripts/eval.py --dataset=${dataset} --language=${lang} > "outputs/${dataset}_${lang}.txt" 2>&1 &
 	done
 
 done

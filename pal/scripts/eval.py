@@ -18,6 +18,7 @@ import json
 import argparse
 import tqdm
 import os
+import traceback
 
 from pal import interface
 from pal.prompt import math_prompt, penguin_prompt, date_understanding_prompt, algorithmic_prompt, colored_object_prompt
@@ -139,16 +140,16 @@ def main():
                 ans = itf.run(prompt,
                               temperature=args.temperature, top_p=args.top_p,
                               max_tokens=args.max_tokens)
-                
+
                 try:
                     parsed_ans = float(ans)
                     parsed_target = float(x['target'])
                     score = 1 if abs(parsed_ans - parsed_target) < 1e-3 else 0
                 except ValueError:
-                    score = 1 if ans.lower() == x['target'].lower() else 0
+                    score = 1 if ans.lower() == str(x['target']).lower() else 0
                 
             except Exception as e:
-                print("Exception:", e)
+                print(traceback.format_exc())
                 ans = ''
                 score = 0
             scores.append(score)

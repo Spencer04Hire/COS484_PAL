@@ -86,7 +86,11 @@ class JavaRuntime(GenericRuntime):
 
             # Copy and compile the code
             subprocess.run(["cp", "/dev/stdin", f"llm_build/{str(random_uuid)}/Solution.java"], input=code, text=True)
-            subprocess.run(["javac", f"llm_build/{str(random_uuid)}/Solution.java"])
+            compile = subprocess.run(["javac", f"llm_build/{str(random_uuid)}/Solution.java"])
+
+            # Don't run the program if it couldn't compile
+            if compile.returncode != 0:
+                return
 
             # Run the program
             result = subprocess.run(["java", "-cp", f"llm_build/{str(random_uuid)}", "Solution"], capture_output=True)
@@ -139,7 +143,11 @@ class OcamlRuntime(GenericRuntime):
 
             # Copy and compile the code
             subprocess.run(["cp", "/dev/stdin", f"llm_build/{str(random_uuid)}/Solution.ml"], input=code, text=True)
-            subprocess.run(["ocamlc", "-I", "+unix", "unix.cma", "-o", f"llm_build/{str(random_uuid)}/Solution", f"llm_build/{str(random_uuid)}/Solution.ml"])
+            compile = subprocess.run(["ocamlc", "-I", "+unix", "unix.cma", "-o", f"llm_build/{str(random_uuid)}/Solution", f"llm_build/{str(random_uuid)}/Solution.ml"])
+
+            # Don't run the program if it couldn't compile
+            if compile.returncode != 0:
+                return
 
             # Run the program
             result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
@@ -200,7 +208,11 @@ class CppRuntime(GenericRuntime):
 
             # Copy and compile the code
             subprocess.run(["cp", "/dev/stdin", f"llm_build/{str(random_uuid)}/Solution.cpp"], input=code, text=True)
-            subprocess.run(["g++", "-std=c++20", "-o", f"llm_build/{str(random_uuid)}/Solution", f"llm_build/{str(random_uuid)}/Solution.cpp"])
+            compile = subprocess.run(["g++", "-std=c++20", "-o", f"llm_build/{str(random_uuid)}/Solution", f"llm_build/{str(random_uuid)}/Solution.cpp"])
+
+            # Don't run the program if it couldn't compile
+            if compile.returncode != 0:
+                return
 
             # Run the program
             result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
