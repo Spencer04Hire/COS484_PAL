@@ -1,0 +1,61 @@
+Dataset,Language,Accuracy
+Date Understanding,Direct,0.52
+Date Understanding,C++,0.688
+Date Understanding,Java,0.867
+Date Understanding,OCaml,0.64
+Date Understanding,Python,0.864
+GSM,Direct,0.192
+GSM,C++,0.897
+GSM,Java,0.897
+GSM,OCaml,0.816
+GSM,Python,0.91
+GSM-Hard,Direct,0.0902
+GSM-Hard,C++,0.571
+GSM-Hard,Java,0.614
+GSM-Hard,OCaml,0.556
+GSM-Hard,Python,0.709
+AddSub,Direct,0.57
+AddSub,C++,0.972
+AddSub,Java,0.954
+AddSub,OCaml,0.754
+AddSub,Python,0.967
+MultiArith,Direct,0.75
+MultiArith,C++,0.993
+MultiArith,Java,0.992
+MultiArith,OCaml,0.993
+MultiArith,Python,0.992
+SingleEq,Direct,0.697
+SingleEq,C++,0.97
+SingleEq,Java,0.955
+SingleEq,OCaml,0.811
+SingleEq,Python,0.988
+SingleOp,Direct,0.801
+SingleOp,C++,0.966
+SingleOp,Java,0.961
+SingleOp,OCaml,0.959
+SingleOp,Python,0.961
+Object Counting,Direct,0.472
+Object Counting,C++,0.992
+Object Counting,Java,0.992
+Object Counting,OCaml,0.98
+Object Counting,Python,0.992
+Penguins,Direct,0.738
+Penguins,C++,0.987
+Penguins,Java,0.96
+Penguins,OCaml,0.926
+Penguins,Python,0.946
+Colored Objects,Direct,0.736
+Colored Objects,C++,0.937
+Colored Objects,Java,0.883
+Colored Objects,OCaml,0.773
+Colored Objects,Python,0.833
+Repeat Copy,Direct,0.688
+Repeat Copy,C++,0.813
+Repeat Copy,Java,0.719
+Repeat Copy,OCaml,0.844
+Repeat Copy,Python,0.906
+SVAMP,Direct,0.586
+SVAMP,C++,0.946
+SVAMP,Java,0.941
+SVAMP,OCaml,0.94
+SVAMP,Python,0.933
