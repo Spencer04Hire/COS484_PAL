@@ -61,7 +61,7 @@ Q: %s
 
 # ------------------------------------------COT-------------------------------------------
 
-
+# Prompts adapted from https://arxiv.org/pdf/2201.11903
 DATE_UNDERSTANDING_PROMPT_COT = (
     """
 Q: 2015 is coming in 36 hours. What is the date one week from today in MM/DD/YYYY?
