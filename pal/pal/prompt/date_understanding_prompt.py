@@ -15,63 +15,128 @@
 # ------------------------------------------Direct-------------------------------------------
 
 
-DATE_UNDERSTANDING_PROMPT_DIRECT = '''
-"""
-# Q: 2015 is coming in 36 hours. What is the date one week from today in MM/DD/YYYY?
-"""
+DATE_UNDERSTANDING_PROMPT_DIRECT = (
+    """
+Q: 2015 is coming in 36 hours. What is the date one week from today in MM/DD/YYYY?
 
 A:
 01/06/2015
 
 
-"""
-# Q: The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date today in MM/DD/YYYY?
-"""
+Q: The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date today in MM/DD/YYYY?
 
 A:
 01/07/2019
 
-"""
-# Q: The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date 10 days ago in MM/DD/YYYY?
-"""
+
+Q: The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date 10 days ago in MM/DD/YYYY?
 
 A:
 05/23/1943
 
-"""
-# Q: It is 4/19/1969 today. What is the date 24 hours later in MM/DD/YYYY?
-"""
+
+Q: It is 4/19/1969 today. What is the date 24 hours later in MM/DD/YYYY?
 
 A:
 04/20/1969
 
-"""
-# Q: Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date 24 hours later in MM/DD/YYYY?
-"""
+
+Q: Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date 24 hours later in MM/DD/YYYY?
 
 A:
 03/13/2002
 
-"""
-# Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date yesterday in MM/DD/YYYY?
-"""
+
+Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date yesterday in MM/DD/YYYY?
 
 A:
 02/27/2017
 
-"""
-# Q: %s
-"""
-'''.strip() + '\n'
+
+Q: %s
+""".strip()
+    + "\n"
+)
+
+
+# ------------------------------------------COT-------------------------------------------
+
+
+DATE_UNDERSTANDING_PROMPT_COT = (
+    """
+Q: 2015 is coming in 36 hours. What is the date one week from today in MM/DD/YYYY?
+
+Reasoning:
+If 2015 is coming in 36 hours, then it is coming in 2 days. 2 days before 01/01/2015 is 12/30/2014, so today
+is 12/30/2014. So one week from today will be 01/05/2015. So the answer is 01/05/2015.
+
+A:
+01/06/2015
+
+
+Q: The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date today in MM/DD/YYYY?
+
+Reasoning:
+If the first day of 2019 was Tuesday, then 01/01/2019 was a Tuesday. Today is the first monday, would be six
+days later. So today is 01/07/2019. So the answer is 01/07/2019.
+
+A:
+01/07/2019
+
+
+Q: The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date 10 days ago in MM/DD/YYYY?
+
+Reasoning:
+One day after 06/01/1943 is 06/02/1943, so today is 06/02/1943. 10 days before today is 05/23/1943. So the
+answer is 05/23/1943.
+
+A:
+05/23/1943
+
+
+Q: It is 4/19/1969 today. What is the date 24 hours later in MM/DD/YYYY?
+
+Reasoning:
+Today is 04/19/1969. 24 hours later is one day after today, which would be 04/20/1969. So the answer is
+04/20/1969.
+
+A:
+04/20/1969
+
+
+Q: Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date 24 hours later in MM/DD/YYYY?
+
+Reasoning:
+Today is 03/12/2002. So the date 24 hours later will be 03/13/2002. So the answer is 03/13/2002
+
+A:
+03/13/2002
+
+
+Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date yesterday in MM/DD/YYYY?
+
+Reasoning:
+The last day of February is the 28th, so Jane was born on 02/28/2001. Today is her 16-year old birthday, so
+today is 02/28/2017. So yesterday was 02/27/2017. So the answer is 02/27/2017.
+
+A:
+02/27/2017
+
+
+Q: %s
+
+Reasoning:
+""".strip()
+    + "\n"
+)
 
 
 # ------------------------------------------Python-------------------------------------------
 
 
-DATE_UNDERSTANDING_PROMPT_PYTHON = '''
-"""
+DATE_UNDERSTANDING_PROMPT_PYTHON = (
+    """
 # Q: 2015 is coming in 36 hours. What is the date one week from today in MM/DD/YYYY?
-"""
 
 # If 2015 is coming in 36 hours, then today is 36 hours before.
 today = datetime(2015, 1, 1) - relativedelta(hours=36)
@@ -81,9 +146,8 @@ one_week_from_today = today + relativedelta(weeks=1)
 answer = one_week_from_today.strftime('%%m/%%d/%%Y')
 print(answer)
 
-"""
+
 # Q: The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date today in MM/DD/YYYY?
-"""
 
 # If the first day of 2019 is a Tuesday, and today is the first Monday of 2019, then today is 6 days later.
 today = datetime(2019, 1, 1) + relativedelta(days=6)
@@ -91,9 +155,8 @@ today = datetime(2019, 1, 1) + relativedelta(days=6)
 answer = today.strftime('%%m/%%d/%%Y')
 print(answer)
 
-"""
+
 # Q: The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date 10 days ago in MM/DD/YYYY?
-"""
 
 # If the concert was scheduled to be on 06/01/1943, but was delayed by one day to today, then today is one day later.
 today = datetime(1943, 6, 1) + relativedelta(days=1)
@@ -103,9 +166,8 @@ ten_days_ago = today - relativedelta(days=10)
 answer = ten_days_ago.strftime('%%m/%%d/%%Y')
 print(answer)
 
-"""
+
 # Q: It is 4/19/1969 today. What is the date 24 hours later in MM/DD/YYYY?
-"""
 
 # It is 4/19/1969 today.
 today = datetime(1969, 4, 19)
@@ -115,9 +177,8 @@ later = today + relativedelta(hours=24)
 answer = later.strftime('%%m/%%d/%%Y')
 print(answer)
 
-"""
+
 # Q: Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date 24 hours later in MM/DD/YYYY?
-"""
 
 # If Jane thought today is 3/11/2002, but today is in fact Mar 12, then today is 3/12/2002.
 today = datetime(2002, 3, 12)
@@ -127,9 +188,8 @@ later = today + relativedelta(hours=24)
 answer = later.strftime('%%m/%%d/%%Y')
 print(answer)
 
-"""
+
 # Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date yesterday in MM/DD/YYYY?
-"""
 
 # If Jane was born on the last day of Feburary in 2001 and today is her 16-year-old birthday, then today is 16 years later.
 today = datetime(2001, 2, 28) + relativedelta(years=16)
@@ -139,16 +199,19 @@ yesterday = today - relativedelta(days=1)
 answer = yesterday.strftime('%%m/%%d/%%Y')
 print(answer)
 
-"""
+
 # Q: %s
-"""
-'''.strip() + '\n'
+
+""".strip()
+    + "\n"
+)
 
 
 # ------------------------------------------Java-------------------------------------------
 
 
-DATE_UNDERSTANDING_PROMPT_JAVA = '''
+DATE_UNDERSTANDING_PROMPT_JAVA = (
+    """
 // Q: 2015 is coming in 36 hours. What is the date one week from today in MM/DD/YYYY?
 
 public class Solution {
@@ -169,7 +232,7 @@ public class Solution {
 }
 
 
-// # Q: The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date today in MM/DD/YYYY?
+// Q: The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date today in MM/DD/YYYY?
 
 public class Solution {
     public static String solution() {
@@ -269,16 +332,19 @@ public class Solution {
 
 
 // Q: %s
-'''.strip() + '\n'
+""".strip()
+    + "\n"
+)
 
 
 # ------------------------------------------C++-------------------------------------------
 
 
-DATE_UNDERSTANDING_PROMPT_CPP = '''
-"""
-# Q: 2015 is coming in 36 hours. What is the date one week from today in MM/DD/YYYY?
-"""
+DATE_UNDERSTANDING_PROMPT_CPP = (
+    """
+
+// Q: 2015 is coming in 36 hours. What is the date one week from today in MM/DD/YYYY?
+
 
 int main() {
     using namespace std::chrono;
@@ -298,9 +364,9 @@ int main() {
     return 0;
 }
 
-"""
-# Q: The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date today in MM/DD/YYYY?
-"""
+
+// Q: The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date today in MM/DD/YYYY?
+
 
 int main() {
     using namespace std::chrono;
@@ -317,9 +383,9 @@ int main() {
 	return 0;
 }
 
-"""
-# Q: The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date 10 days ago in MM/DD/YYYY?
-"""
+
+// Q: The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date 10 days ago in MM/DD/YYYY?
+
 
 int main() {
     using namespace std::chrono;
@@ -339,9 +405,9 @@ int main() {
     return 0;
 }
 
-"""
-# Q: It is 4/19/1969 today. What is the date 24 hours later in MM/DD/YYYY?
-"""
+
+// Q: It is 4/19/1969 today. What is the date 24 hours later in MM/DD/YYYY?
+
 
 int main() {
     using namespace std::chrono;
@@ -360,9 +426,9 @@ int main() {
     return 0;
 }
 
-"""
-# Q: Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date 24 hours later in MM/DD/YYYY?
-"""
+
+// Q: Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date 24 hours later in MM/DD/YYYY?
+
 
 int main() {
     using namespace std::chrono;
@@ -381,9 +447,9 @@ int main() {
     return 0;
 }
 
-"""
-# Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date yesterday in MM/DD/YYYY?
-"""
+
+// Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date yesterday in MM/DD/YYYY?
+
 
 int main() {
     using namespace std::chrono;
@@ -403,18 +469,21 @@ int main() {
     return 0;
 }
 
-"""
-# Q: %s
-"""
-'''.strip() + '\n'
+
+// Q: %s
+
+""".strip()
+    + "\n"
+)
 
 
 # ------------------------------------------OCaml-------------------------------------------
 
-DATE_UNDERSTANDING_PROMPT_OCAML = '''
-"""
-# Q: 2015 is coming in 36 hours. What is the date one week from today in MM/DD/YYYY?
-"""
+DATE_UNDERSTANDING_PROMPT_OCAML = (
+    """
+
+(* Q: 2015 is coming in 36 hours. What is the date one week from today in MM/DD/YYYY? *)
+
 
 open Unix;;
 
@@ -453,9 +522,9 @@ future_date.tm_mday
 (future_date.tm_year + 1900)
 
 
-"""
-# Q: The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date today in MM/DD/YYYY?
-"""
+
+(* Q: The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date today in MM/DD/YYYY? *)
+
 
 open Unix;;
 
@@ -490,9 +559,9 @@ today_date.tm_mday
 (today_date.tm_year + 1900)
 
 
-"""
-# Q: The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date 10 days ago in MM/DD/YYYY?
-"""
+
+(* Q: The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date 10 days ago in MM/DD/YYYY? *)
+
 
 open Unix;;
 
@@ -531,9 +600,9 @@ earlier_date.tm_mday
 (earlier_date.tm_year + 1900)
 
 
-"""
-# Q: It is 4/19/1969 today. What is the date 24 hours later in MM/DD/YYYY?
-"""
+
+(* Q: It is 4/19/1969 today. What is the date 24 hours later in MM/DD/YYYY? *)
+
 
 open Unix;;
 
@@ -568,9 +637,9 @@ future_date.tm_mday
 (future_date.tm_year + 1900)
 
 
-"""
-# Q: Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date 24 hours later in MM/DD/YYYY?
-"""
+
+(* Q: Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date 24 hours later in MM/DD/YYYY? *)
+
 
 open Unix;;
 
@@ -605,9 +674,9 @@ future_date.tm_mday
 (future_date.tm_year + 1900)
 
 
-"""
-# Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date yesterday in MM/DD/YYYY?
-"""
+
+(* Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date yesterday in MM/DD/YYYY? *)
+
 
 open Unix;;
 
@@ -642,14 +711,19 @@ yesterday_date.tm_mday
 (yesterday_date.tm_year + 1900)
 
 
-"""
-# Q: %s
-"""
-'''.strip() + '\n'
+
+(* Q: %s *)
+
+""".strip()
+    + "\n"
+)
 
 
-
-
-DATE_UNDERSTANDING_PROMPTS = {'Direct': DATE_UNDERSTANDING_PROMPT_DIRECT, 'Python': DATE_UNDERSTANDING_PROMPT_PYTHON,
-							  'Java': DATE_UNDERSTANDING_PROMPT_JAVA, "Cpp": DATE_UNDERSTANDING_PROMPT_CPP,
-							  "Ocaml": DATE_UNDERSTANDING_PROMPT_OCAML}
+DATE_UNDERSTANDING_PROMPTS = {
+    "Direct": DATE_UNDERSTANDING_PROMPT_DIRECT,
+    "COT": DATE_UNDERSTANDING_PROMPT_COT,
+    "Python": DATE_UNDERSTANDING_PROMPT_PYTHON,
+    "Java": DATE_UNDERSTANDING_PROMPT_JAVA,
+    "Cpp": DATE_UNDERSTANDING_PROMPT_CPP,
+    "Ocaml": DATE_UNDERSTANDING_PROMPT_OCAML,
+}
