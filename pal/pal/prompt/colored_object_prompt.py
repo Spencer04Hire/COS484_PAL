@@ -15,14 +15,15 @@
 # ------------------------------------------Direct-------------------------------------------
 
 
-COLOR_OBJECT_PROMPT_DIRECT = """
+COLOR_OBJECT_PROMPT_DIRECT = (
+    """
 Q: On the nightstand, there is a red pencil, a purple mug, a burgundy keychain, a fuchsia teddy bear, a black plate, and a blue stress ball. What color is the stress ball?
 
 A:
 blue
 
 
-Q: Q: On the table, you see a bunch of objects arranged in a row: a purple paperclip, a pink stress ball, a brown keychain, a green scrunchiephone charger, a mauve fidget spinner, and a burgundy pen. What is the color of the object directly to the right of the stress ball?
+Q: On the table, you see a bunch of objects arranged in a row: a purple paperclip, a pink stress ball, a brown keychain, a green scrunchiephone charger, a mauve fidget spinner, and a burgundy pen. What is the color of the object directly to the right of the stress ball?
 
 A:
 brown
@@ -34,14 +35,86 @@ A:
 0
 
 
-# Q: %s
-""".strip() + '\n'
+Q: %s
+""".strip()
+    + "\n"
+)
+
+
+# ------------------------------------------COT-------------------------------------------
+
+
+COLOR_OBJECT_PROMPT_COT = (
+    """
+Q: On the nightstand, there is a red pencil, a purple mug, a burgundy keychain, a fuchsia teddy bear, a black plate, and a blue stress ball. What color is the stress ball?
+
+Reasoning:
+The sentence lists the items in this order:
+
+1. Red pencil
+2. Purple mug
+3. Burgundy keychain
+4. Fuchsia teddy bear
+5. Black plate
+6. Blue stress ball
+
+The stress ball is blue.
+
+A:
+blue
+
+
+Q: On the table, you see a bunch of objects arranged in a row: a purple paperclip, a pink stress ball, a brown keychain, a green scrunchiephone charger, a mauve fidget spinner, and a burgundy pen. What is the color of the object directly to the right of the stress ball?
+
+Reasoning:
+The sentence gives the objects in this order:
+
+1. Purple paperclip
+2. Pink stress ball
+3. Brown keychain
+4. Green scrunchiephone charger
+5. Mauve fidget spinner
+6. Burgundy pen
+
+From the list, the pink stress ball is item number 2.
+The object immediately after item 2 is item 3: brown keychain.
+The brown keychain is the object directly to the right of the stress ball, so the color of the object is brown.
+
+A:
+brown
+
+
+Q: On the nightstand, you see the following items arranged in a row: a teal plate, a burgundy keychain, a yellow scrunchiephone charger, an orange mug, a pink notebook, and a grey cup. How many non-orange items do you see to the left of the teal item?
+
+Reasoning:
+
+The items are arranged in the following order:
+
+1. Teal plate
+2. Burgundy keychain
+3. Yellow scrunchiephone charger
+4. Orange mug
+5. Pink notebook
+6. Grey cup
+
+The teal plate is the first item in the row.
+There are no items to the left of the teal plate.
+
+A:
+0
+
+
+Q: %s
+""".strip()
+    + "\n"
+)
 
 
 # ------------------------------------------Python-------------------------------------------
 
 
-COLOR_OBJECT_PROMPT_PYTHON = """
+COLOR_OBJECT_PROMPT_PYTHON = (
+    """
 # Q: On the nightstand, there is a red pencil, a purple mug, a burgundy keychain, a fuchsia teddy bear, a black plate, and a blue stress ball. What color is the stress ball?
 # Put objects into a dictionary for quick look up
 objects = {{}}
@@ -111,13 +184,16 @@ print(answer)
 
 
 # Q: %s
-""".strip() + '\n'
+""".strip()
+    + "\n"
+)
 
 
 # ------------------------------------------Java-------------------------------------------
 
 
-COLOR_OBJECT_PROMPT_JAVA = """
+COLOR_OBJECT_PROMPT_JAVA = (
+    """
 // Q: On the nightstand, there is a red pencil, a purple mug, a burgundy keychain, a fuchsia teddy bear, a black plate, and a blue stress ball. What color is the stress ball?
 
 public class Solution {
@@ -224,15 +300,18 @@ public class Solution {
 
 
 // Q: %s
-""".strip() + '\n'
+""".strip()
+    + "\n"
+)
 
 
 # ------------------------------------------C++-------------------------------------------
 
 
-COLOR_OBJECT_PROMPT_CPP = """
+COLOR_OBJECT_PROMPT_CPP = (
+    """
+// Q: On the nightstand, there is a red pencil, a purple mug, a burgundy keychain, a fuchsia teddy bear, a black plate, and a blue stress ball. What color is the stress ball?
 int main() {
-    // Q: On the nightstand, there is a red pencil, a purple mug, a burgundy keychain, a fuchsia teddy bear, a black plate, and a blue stress ball. What color is the stress ball?
 
     // Put objects into a dictionary for quick look up
     std::map<std::string, std::string> objects;
@@ -253,8 +332,8 @@ int main() {
 }
 
 
+// Q: On the table, you see a bunch of objects arranged in a row: a purple paperclip, a pink stress ball, a brown keychain, a green scrunchiephone charger, a mauve fidget spinner, and a burgundy pen. What is the color of the object directly to the right of the stress ball?
 int main() {
-    // Q: On the table, you see a bunch of objects arranged in a row: a purple paperclip, a pink stress ball, a brown keychain, a green scrunchiephone charger, a mauve fidget spinner, and a burgundy pen. What is the color of the object directly to the right of the stress ball?
 
     // Put objects into a list to record ordering
     std::vector<std::tuple<std::string, std::string>> objects;
@@ -286,8 +365,8 @@ int main() {
 }
 
 
+// Q: On the nightstand, you see the following items arranged in a row: a teal plate, a burgundy keychain, a yellow scrunchiephone charger, an orange mug, a pink notebook, and a grey cup. How many non-orange items do you see to the left of the teal item?
 int main() {
-    // Q: On the nightstand, you see the following items arranged in a row: a teal plate, a burgundy keychain, a yellow scrunchiephone charger, an orange mug, a pink notebook, and a grey cup. How many non-orange items do you see to the left of the teal item?
 
     // Put objects into a list to record ordering
     std::vector<std::tuple<std::string, std::string>> objects;
@@ -324,16 +403,18 @@ int main() {
 }
 
 
-# Q: %s
-""".strip() + '\n'
+// Q: %s
+""".strip()
+    + "\n"
+)
 
 
 # ------------------------------------------OCaml-------------------------------------------
 
 
-COLOR_OBJECT_PROMPT_OCAML = """
-
-Q: On the nightstand, there is a red pencil, a purple mug, a burgundy keychain, a fuchsia teddy bear, a black plate, and a blue stress ball. What color is the stress ball?
+COLOR_OBJECT_PROMPT_OCAML = (
+    """
+(* Q: On the nightstand, there is a red pencil, a purple mug, a burgundy keychain, a fuchsia teddy bear, a black plate, and a blue stress ball. What color is the stress ball? *)
 
 (* solution using OCaml: *)
 
@@ -350,7 +431,7 @@ print_string stress_ball_color
 
 
 
-Q: On the table, you see a bunch of objects arranged in a row: a purple paperclip, a pink stress ball, a brown keychain, a green scrunchiephone charger, a mauve fidget spinner, and a burgundy pen. What is the color of the object directly to the right of the stress ball?
+(* Q: On the table, you see a bunch of objects arranged in a row: a purple paperclip, a pink stress ball, a brown keychain, a green scrunchiephone charger, a mauve fidget spinner, and a burgundy pen. What is the color of the object directly to the right of the stress ball? *)
 
 (* solution using OCaml: *)
 
@@ -375,7 +456,7 @@ let result = find_color_right_of "stress ball" in
 print_string result
 
 
-Q: On the nightstand, you see the following items arranged in a row: a teal plate, a burgundy keychain, a yellow scrunchiephone charger, an orange mug, a pink notebook, and a grey cup. How many non-orange items do you see to the left of the teal item?
+(* Q: On the nightstand, you see the following items arranged in a row: a teal plate, a burgundy keychain, a yellow scrunchiephone charger, an orange mug, a pink notebook, and a grey cup. How many non-orange items do you see to the left of the teal item? *)
 
 (* solution using OCaml: *)
 
@@ -403,10 +484,17 @@ let result = count_non_orange_before "teal" objects in
 print_int result
 
 
-# Q: %s
-""".strip() + '\n'
+(* Q: %s *)
+""".strip()
+    + "\n"
+)
 
 
-COLOR_OBJECT_PROMPTS = {"Direct": COLOR_OBJECT_PROMPT_DIRECT, "Python": COLOR_OBJECT_PROMPT_PYTHON,
-						"Java": COLOR_OBJECT_PROMPT_JAVA, "Cpp": COLOR_OBJECT_PROMPT_CPP,
-						"Ocaml": COLOR_OBJECT_PROMPT_OCAML}
+COLOR_OBJECT_PROMPTS = {
+    "Direct": COLOR_OBJECT_PROMPT_DIRECT,
+    "COT": COLOR_OBJECT_PROMPT_COT,
+    "Python": COLOR_OBJECT_PROMPT_PYTHON,
+    "Java": COLOR_OBJECT_PROMPT_JAVA,
+    "Cpp": COLOR_OBJECT_PROMPT_CPP,
+    "Ocaml": COLOR_OBJECT_PROMPT_OCAML,
+}
