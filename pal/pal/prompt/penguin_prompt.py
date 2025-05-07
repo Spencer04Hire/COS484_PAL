@@ -15,8 +15,8 @@
 # ------------------------------------------Direct-------------------------------------------
 
 
-PENGUIN_PROMPT_DIRECT = '''
-"""
+PENGUIN_PROMPT_DIRECT = (
+    """
 Q: Here is a table where the first line is a header and each subsequent line is a penguin:
 name, age, height (cm), weight (kg) 
 Louis, 7, 50, 11
@@ -27,13 +27,11 @@ For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of B
 We now add a penguin to the table:
 James, 12, 90, 12
 How many penguins are less than 8 years old?
-"""
 
 A:
 2
 
 
-"""
 Q: Here is a table where the first line is a header and each subsequent line is a penguin:
 name, age, height (cm), weight (kg) 
 Louis, 7, 50, 11
@@ -42,13 +40,11 @@ Vincent, 9, 60, 11
 Gwen, 8, 70, 15
 For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of Bernard is 80 cm.
 Which is the youngest penguin?
-"""
 
 A:
 Bernard
 
 
-"""
 Q: Here is a table where the first line is a header and each subsequent line is a penguin:
 name, age, height (cm), weight (kg) 
 Louis, 7, 50, 11
@@ -57,21 +53,126 @@ Vincent, 9, 60, 11
 Gwen, 8, 70, 15
 For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of Bernard is 80 cm.
 What is the name of the second penguin sorted by alphabetic order?
-"""
 
 A:
 Gwen
 
 
-"""
 Q: %s
-"""
-'''.strip() + '\n'
+
+""".strip()
+    + "\n"
+)
+
+
+# ------------------------------------------COT-------------------------------------------
+
+
+PENGUIN_PROMPT_COT = (
+    """
+
+Q: Here is a table where the first line is a header and each subsequent line is a penguin:
+name, age, height (cm), weight (kg) 
+Louis, 7, 50, 11
+Bernard, 5, 80, 13
+Vincent, 9, 60, 11
+Gwen, 8, 70, 15
+For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of Bernard is 80 cm. 
+We now add a penguin to the table:
+James, 12, 90, 12
+How many penguins are less than 8 years old?
+
+Reasoning:
+We examine the age of each penguin:
+
+Louis is 7 years old, which is less than 8.
+
+Bernard is 5 years old, which is less than 8.
+
+Vincent is 9 years old, which is not less than 8.
+
+Gwen is 8 years old, which is not less than 8.
+
+James is 12 years old, which is not less than 8.
+
+Only Louis and Bernard are under 8 years old.
+
+Therefore, the number of penguins less than 8 years old is 2.
+
+A:
+2
+
+
+Q: Here is a table where the first line is a header and each subsequent line is a penguin:
+name, age, height (cm), weight (kg) 
+Louis, 7, 50, 11
+Bernard, 5, 80, 13
+Vincent, 9, 60, 11
+Gwen, 8, 70, 15
+For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of Bernard is 80 cm.
+Which is the youngest penguin?
+
+Reasoning:
+We are given the ages of the penguins:
+
+Louis: 7 years
+
+Bernard: 5 years
+
+Vincent: 9 years
+
+Gwen: 8 years
+
+The youngest penguin is the one with the smallest age.
+Bernard is 5 years old, which is the youngest among them.
+
+A:
+Bernard
+
+
+Q: Here is a table where the first line is a header and each subsequent line is a penguin:
+name, age, height (cm), weight (kg) 
+Louis, 7, 50, 11
+Bernard, 5, 80, 13
+Vincent, 9, 60, 11
+Gwen, 8, 70, 15
+For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of Bernard is 80 cm.
+What is the name of the second penguin sorted by alphabetic order?
+
+Reasoning:
+We need to sort the penguin names in alphabetical order and find the second one in that list.
+
+The names are:
+
+Louis
+Bernard
+Vincent
+Gwen
+
+Alphabetically, they are sorted as:
+
+Bernard
+Gwen
+Louis
+Vincent
+
+A:
+Gwen
+
+
+Q: %s
+
+Reasoning:
+""".strip()
+    + "\n"
+)
+
 
 # ------------------------------------------Python-------------------------------------------
 
 
-PENGUIN_PROMPT_PYTHON = '''
+PENGUIN_PROMPT_PYTHON = (
+    '''
 """
 Q: Here is a table where the first line is a header and each subsequent line is a penguin:
 name, age, height (cm), weight (kg) 
@@ -154,13 +255,16 @@ print(answer)
 """
 Q: %s
 """
-'''.strip() + '\n'
+'''.strip()
+    + "\n"
+)
 
 
 # ------------------------------------------Java-------------------------------------------
 
 
-PENGUIN_PROMPT_JAVA = '''
+PENGUIN_PROMPT_JAVA = (
+    '''
 """
 Q: Here is a table where the first line is a header and each subsequent line is a penguin:
 name, age, height (cm), weight (kg) 
@@ -173,7 +277,6 @@ We now add a penguin to the table:
 James, 12, 90, 12
 How many penguins are less than 8 years old?
 """
-
 
 public class Solution {
     public static int solution() {
@@ -218,7 +321,6 @@ For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of B
 Which is the youngest penguin?
 """
 
-
 public class Solution {
     public static String solution() {
         // Put the penguins into a list.
@@ -254,7 +356,6 @@ For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of B
 What is the name of the second penguin sorted by alphabetic order?
 """
 
-
 public class Solution {
     public static String solution() {
         // Put the penguins into a list.
@@ -281,13 +382,16 @@ public class Solution {
 """
 Q: %s
 """
-'''.strip() + '\n'
+'''.strip()
+    + "\n"
+)
 
 
 # ------------------------------------------C++-------------------------------------------
 
 
-PENGUIN_PROMPT_CPP = '''
+PENGUIN_PROMPT_CPP = (
+    '''
 """
 Q: Here is a table where the first line is a header and each subsequent line is a penguin:
 name, age, height (cm), weight (kg) 
@@ -403,12 +507,15 @@ int main() {
 """
 Q: %s
 """
-'''.strip() + '\n'
+'''.strip()
+    + "\n"
+)
 
 
 # ------------------------------------------OCaml-------------------------------------------
 
-PENGUIN_PROMPT_OCAML = '''
+PENGUIN_PROMPT_OCAML = (
+    '''
 """
 Q: Here is a table where the first line is a header and each subsequent line is a penguin:
 name, age, height (cm), weight (kg) 
@@ -448,7 +555,6 @@ For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of B
 Which is the youngest penguin?
 """
 
-
 (* Put the penguins into a list. *)
 let penguins = [
     ("Louis", 7, 50, 11);
@@ -479,7 +585,6 @@ For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of B
 What is the name of the second penguin sorted by alphabetic order?
 """
 
-
 (* Put the penguins into a list. *)
 let penguins = [
     ("Louis", 7, 50, 11);
@@ -503,11 +608,16 @@ print_string name
 """
 Q: %s
 """
-'''.strip() + '\n'
+'''.strip()
+    + "\n"
+)
 
 
-
-
-PENGUIN_PROMPTS = {"Direct": PENGUIN_PROMPT_DIRECT, "Python": PENGUIN_PROMPT_PYTHON,
-				   "Java": PENGUIN_PROMPT_JAVA, "Cpp": PENGUIN_PROMPT_CPP,
-				   "Ocaml": PENGUIN_PROMPT_OCAML}
+PENGUIN_PROMPTS = {
+    "Direct": PENGUIN_PROMPT_DIRECT,
+    "COT": PENGUIN_PROMPT_COT,
+    "Python": PENGUIN_PROMPT_PYTHON,
+    "Java": PENGUIN_PROMPT_JAVA,
+    "Cpp": PENGUIN_PROMPT_CPP,
+    "Ocaml": PENGUIN_PROMPT_OCAML,
+}
