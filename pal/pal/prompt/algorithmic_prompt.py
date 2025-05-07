@@ -16,7 +16,8 @@
 # ------------------------------------------Direct-------------------------------------------
 
 
-REPEAT_COPY_PROMPT_DIRECT = '''
+REPEAT_COPY_PROMPT_DIRECT = (
+    """
 Q: say java twice and data once, and then repeat all of this three times.
 
 A:
@@ -46,13 +47,79 @@ boolean boolean boolean correct boolean boolean boolean boolean boolean correct 
 Q: %s
 
 A:
-'''.strip() + '\n\n'
+""".strip()
+    + "\n\n"
+)
+
+
+# ------------------------------------------COT-------------------------------------------
+
+
+REPEAT_COPY_PROMPT_COT = (
+    """
+Q: say java twice and data once, and then repeat all of this three times.
+
+Reasoning:
+"say java twice and data once" creates the pattern: "java java data"
+The entire pattern "java java data" needs to be repeated three times.
+
+Repeating the pattern three times gives the final sequence: "java java data java java data java java data"
+
+A:
+java java data java java data java java data
+
+
+Q: ask a group of insects in what family? four times. after the fourth time say The happy family
+
+Reasoning:
+Repeating the question "a group of insects in what family?" four times gives:
+"a group of insects in what family? a group of insects in what family? a group of insects in what family? a group of insects in what family?"
+
+After the fourth time, we add "The happy family".
+
+So, the final sequence becomes: "a group of insects in what family? a group of insects in what family? a group of insects in what family? a group of insects in what family? The happy family".
+
+A:
+a group of insects in what family? a group of insects in what family? a group of insects in what family? a group of insects in what family? The happy family
+
+
+Q: Repeat the word duck four times, but halfway through also say quack
+
+Reasoning:
+Repeating "duck" four times gives us: "duck duck duck duck".
+Halfway through these four repetitions is after the second "duck"-that is, between the second and third repetitions.
+At that point, we insert the word "quack". So, the final sequence becomes: "duck duck quack duck duck".
+This keeps the total number of "duck" repetitions at four, with "quack" added in the middle.
+
+A:
+duck duck quack duck duck
+
+
+Q: Print boolean eleven times, but after the 3rd and 8th also say correct
+
+Reasoning:
+Repeating "boolean" eleven times gives us: "boolean boolean boolean boolean boolean boolean boolean boolean boolean boolean boolean".
+Between the 3rd and 4th repetitions, we insert the word "correct". We also insert "correct" between the 8th and 9th repetitions. 
+So, the final sequence becomes: "boolean boolean boolean correct boolean boolean boolean boolean boolean correct boolean boolean boolean".
+This keeps the total number of "boolean" repetitions at eleven, with "correct" added after the 3rd and 8th repetitions.
+
+A:
+boolean boolean boolean correct boolean boolean boolean boolean boolean correct boolean boolean boolean
+
+
+Q: %s
+
+Reasoning:
+""".strip()
+    + "\n\n"
+)
 
 
 # ------------------------------------------Python-------------------------------------------
 
 
-REPEAT_COPY_PROMPT_PYTHON = '''
+REPEAT_COPY_PROMPT_PYTHON = (
+    '''
 Q: say java twice and data once, and then repeat all of this three times.
 
 # solution using Python:
@@ -113,13 +180,16 @@ print(" ".join(result))
 Q: %s
 
 # solution using Python:
-'''.strip() + '\n\n'
+'''.strip()
+    + "\n\n"
+)
 
 
 # ------------------------------------------Java-------------------------------------------
 
 
-REPEAT_COPY_PROMPT_JAVA = '''
+REPEAT_COPY_PROMPT_JAVA = (
+    """
 Q: say java twice and data once, and then repeat all of this three times.
 
 // solution using Java:
@@ -222,13 +292,16 @@ public class Solution {
 Q: %s
 
 // solution using Java:
-'''.strip() + '\n\n'
+""".strip()
+    + "\n\n"
+)
 
 
 # ------------------------------------------C++-------------------------------------------
 
 
-REPEAT_COPY_PROMPT_CPP = '''
+REPEAT_COPY_PROMPT_CPP = (
+    """
 Q: say java twice and data once, and then repeat all of this three times.
 
 // solution using C++:
@@ -339,13 +412,16 @@ int main() {
 Q: %s
 
 // solution using C++:
-'''.strip() + '\n\n'
+""".strip()
+    + "\n\n"
+)
 
 
 # ------------------------------------------OCaml-------------------------------------------
 
 
-REPEAT_COPY_PROMPT_OCAML = '''
+REPEAT_COPY_PROMPT_OCAML = (
+    """
 Q: say java twice and data once, and then repeat all of this three times.
 
 (* solution using OCaml: *)
@@ -402,16 +478,26 @@ print_string (Buffer.contents result)
 
 Q: %s
 (* solution using OCaml: *)
-'''.strip() + '\n\n'
+""".strip()
+    + "\n\n"
+)
 
 
-REPEAT_COPY_PROMPTS = {'Direct': REPEAT_COPY_PROMPT_DIRECT, 'Python': REPEAT_COPY_PROMPT_PYTHON,
-					   'Java': REPEAT_COPY_PROMPT_JAVA, "Cpp": REPEAT_COPY_PROMPT_CPP,
-                       "Ocaml": REPEAT_COPY_PROMPT_OCAML }
+REPEAT_COPY_PROMPTS = {
+    "Direct": REPEAT_COPY_PROMPT_DIRECT,
+    "COT": REPEAT_COPY_PROMPT_COT,
+    "Python": REPEAT_COPY_PROMPT_PYTHON,
+    "Java": REPEAT_COPY_PROMPT_JAVA,
+    "Cpp": REPEAT_COPY_PROMPT_CPP,
+    "Ocaml": REPEAT_COPY_PROMPT_OCAML,
+}
+
 
 # ------------------------------------------Direct-------------------------------------------
 
-OBJECT_COUNTING_PROMPT_DIRECT = '''
+
+OBJECT_COUNTING_PROMPT_DIRECT = (
+    """
 Q: I have a drum, a flute, a clarinet, a violin, four accordions, a piano, a trombone, and a trumpet. How many musical instruments do I have?
 
 A:
@@ -442,13 +528,111 @@ A:
 Q: %s
 
 A:
-'''.strip() + '\n\n'
+""".strip()
+    + "\n\n"
+)
+
+
+# ------------------------------------------COT-------------------------------------------
+
+
+OBJECT_COUNTING_PROMPT_COT = (
+    """
+Q: I have a drum, a flute, a clarinet, a violin, four accordions, a piano, a trombone, and a trumpet. How many musical instruments do I have?
+
+Reasoning:
+To find the total number of musical instruments, I'll count each item individually:
+
+Drum (1)
+Flute (1)
+Clarinet (1)
+Violin (1)
+Accordions (4)
+Piano (1)
+Trombone (1)
+Trumpet (1)
+
+Adding all these up: 1 + 1 + 1 + 1 + 4 + 1 + 1 + 1 = 11
+You have 11 musical instruments in total.
+
+A:
+11
+
+
+Q: I have a chair, two ovens, and three tables. How many objects do I have?
+
+Reasoning:
+To find the total number of objects, I'll count each item individually:
+
+Chair (1)
+Ovens (2)
+Tables (3)
+
+Adding all these up: 1 + 2 + 3 = 6
+You have 6 objects in total.
+
+A:
+6
+
+
+Q: I have a chair, two potatoes, a cauliflower, a lettuce head, two tables, a cabbage, two onions, and three fridges. How many vegetables do I have?
+
+Reasoning:
+To answer this question, I need to identify which items are vegetables and count them.
+From the list, the vegetables are:
+
+Potatoes (2)
+Cauliflower (1)
+Lettuce head (1)
+Cabbage (1)
+Onions (2)
+
+The other items (chair, tables, and fridges) are not vegetables.
+Adding up all the vegetables: 2 + 1 + 1 + 1 + 2 = 7
+You have 7 vegetables in total.
+
+A:
+7
+
+
+Q: I have a raspberry, a cat, a rabbit, a mouse, a pig, two snails, a fish, two cows, a snake, a goat, and a duck. How many animals do I have?
+
+Reasoning:
+To answer this question, I need to identify which items are animals and count them.
+From your list, the animals are:
+
+Cat (1)
+Rabbit (1)
+Mouse (1)
+Pig (1)
+Snails (2)
+Fish (1)
+Cows (2)
+Snake (1)
+Goat (1)
+Duck (1)
+
+The raspberry is a fruit, not an animal.
+Adding up all the animals: 1 + 1 + 1 + 1 + 2 + 1 + 2 + 1 + 1 + 1 = 12
+You have 12 animals in total.
+
+A:
+12
+    
+
+Q: %s
+
+Reasoning:
+""".strip()
+    + "\n\n"
+)
 
 
 # ------------------------------------------Python-------------------------------------------
 
 
-OBJECT_COUNTING_PROMPT_PYTHON = '''
+OBJECT_COUNTING_PROMPT_PYTHON = (
+    '''
 Q: I have a drum, a flute, a clarinet, a violin, four accordions, a piano, a trombone, and a trumpet. How many musical instruments do I have?
 
 # solution using Python:
@@ -528,12 +712,15 @@ print(num_animals)
 Q: %s
 
 # solution using Python:
-'''.strip() + '\n\n'
+'''.strip()
+    + "\n\n"
+)
 
 
 # ------------------------------------------Java-------------------------------------------
 
-OBJECT_COUNTING_PROMPT_JAVA = '''
+OBJECT_COUNTING_PROMPT_JAVA = (
+    """
 Q: I have a drum, a flute, a clarinet, a violin, four accordions, a piano, a trombone, and a trumpet. How many musical instruments do I have?
 
 // solution using Java:
@@ -659,12 +846,15 @@ public class Solution {
 Q: %s
 
 # solution using Java:
-'''.strip() + '\n\n'
+""".strip()
+    + "\n\n"
+)
 
 # ------------------------------------------C++-------------------------------------------
 
 
-OBJECT_COUNTING_PROMPT_CPP = '''
+OBJECT_COUNTING_PROMPT_CPP = (
+    """
 Q: I have a drum, a flute, a clarinet, a violin, four accordions, a piano, a trombone, and a trumpet. How many musical instruments do I have?
 
 // solution using C++:
@@ -780,12 +970,15 @@ int main() {
 Q: %s
 
 // solution using C++:
-'''.strip() + '\n\n'
+""".strip()
+    + "\n\n"
+)
 
 
 # ------------------------------------------OCaml-------------------------------------------
 
-OBJECT_COUNTING_PROMPT_OCAML = '''
+OBJECT_COUNTING_PROMPT_OCAML = (
+    """
 Q: I have a drum, a flute, a clarinet, a violin, four accordions, a piano, a trombone, and a trumpet. How many musical instruments do I have?
 
 (* solution using OCaml: *)
@@ -861,9 +1054,16 @@ print_int num_animals
 Q: %s
 
 (* solution using OCaml: *)
-'''.strip() + '\n\n'
+""".strip()
+    + "\n\n"
+)
 
 
-OBJECT_COUNTING_PROMPTS = {"Direct": OBJECT_COUNTING_PROMPT_DIRECT, "Python": OBJECT_COUNTING_PROMPT_PYTHON,
-						   "Java": OBJECT_COUNTING_PROMPT_JAVA, "Cpp": OBJECT_COUNTING_PROMPT_CPP,
-						   "Ocaml": OBJECT_COUNTING_PROMPT_OCAML}
+OBJECT_COUNTING_PROMPTS = {
+    "Direct": OBJECT_COUNTING_PROMPT_DIRECT,
+    "COT": OBJECT_COUNTING_PROMPT_COT,
+    "Python": OBJECT_COUNTING_PROMPT_PYTHON,
+    "Java": OBJECT_COUNTING_PROMPT_JAVA,
+    "Cpp": OBJECT_COUNTING_PROMPT_CPP,
+    "Ocaml": OBJECT_COUNTING_PROMPT_OCAML,
+}
