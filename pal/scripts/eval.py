@@ -25,7 +25,6 @@ from pal.prompt import math_prompt, penguin_prompt, date_understanding_prompt, a
 from pal.core.runtime import RUNTIME_DICT
 
 DATASET_TO_PROMPT = {
-    # "aqua":
     "object_counting": algorithmic_prompt.OBJECT_COUNTING_PROMPTS,
     "penguins_in_a_table": penguin_prompt.PENGUIN_PROMPTS,
     "repeat_copy": algorithmic_prompt.REPEAT_COPY_PROMPTS,
@@ -34,7 +33,6 @@ DATASET_TO_PROMPT = {
     "gsm": math_prompt.MATH_PROMPTS,
     "gsmhardv2": math_prompt.MATH_PROMPTS,
     "svamp": math_prompt.MATH_PROMPTS,
-    # "asdiv": math_prompt.MATH_PROMPTS,
     "mawpssingleeq": math_prompt.MATH_PROMPTS,
     "mawpssingleop": math_prompt.MATH_PROMPTS,
     "mawpsaddsub": math_prompt.MATH_PROMPTS,
@@ -64,7 +62,6 @@ def get_json_examples(data_path):
 
 
 DATASET_TO_EXAMPLES = {
-    # "aqua":
     "object_counting": get_json_examples, 
     "penguins_in_a_table": get_json_examples,
     "repeat_copy": get_json_examples,
@@ -73,7 +70,6 @@ DATASET_TO_EXAMPLES = {
     "gsm": get_jsonl_examples,
     "gsmhardv2": get_jsonl_examples,
     "svamp": get_jsonl_examples,
-    # "asdiv": get_jsonl_examples,
     "mawpssingleeq": get_jsonl_examples,
     "mawpssingleop": get_jsonl_examples,
     "mawpsaddsub": get_jsonl_examples,
@@ -81,11 +77,12 @@ DATASET_TO_EXAMPLES = {
 }
 
 LANGUAGE_TO_PROMPT = {
+    "Direct": "You are a helpful assistant that can solve questions in a manner identical to the examples that you will be provided.",
+    "COT": "You are a helpful assistant that can solve questions in a manner identical to the examples that you will be provided.",
     "Python": "You are a helpful expert Python programmer that can only write Python code that solves questions in a manner identical to the examples that you will be provided. In your code, please print the final result to standard out on a single line.",
     "Java": "You are a helpful expert Java programmer that can only write Java code that solves questions in a manner identical to the examples that you will be provided. Name your class as 'Solution'. In your code, please print the final result to standard out on a single line.",
     "Cpp": "You are a helpful expert C++ programmer that can only write C++ code that solves questions in a manner identical to the examples that you will be provided. In your code, please print the final result to standard out on a single line.",
     "Ocaml": "You are a helpful expert OCaml programmer that can only write OCaml code that solves questions in a manner identical to the examples that you will be provided. In your code, please print the final result to standard out on a single line.",
-    "Direct": "You are a helpful assistant that can solve questions in a manner identical to the examples that you will be provided."
 }
 
 
@@ -148,7 +145,7 @@ def main():
                 except ValueError:
                     score = 1 if ans.lower() == str(x['target']).lower() else 0
                 
-            except Exception as e:
+            except Exception:
                 print(traceback.format_exc())
                 ans = ''
                 score = 0
@@ -163,7 +160,6 @@ def main():
             f.flush()
 
     print(f'Accuracy - {sum(scores) / len(scores)}')
-
 
 
 if __name__ == '__main__':

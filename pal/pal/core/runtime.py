@@ -276,9 +276,10 @@ class DirectRuntime(GenericRuntime):
 
 
 RUNTIME_DICT = {
+    "Direct": DirectRuntime,
+    "COT": DirectRuntime,
     "Python": PythonRuntime,
     "Java": JavaRuntime,
     "Ocaml": OcamlRuntime,
     "Cpp": CppRuntime,
-    "Direct": DirectRuntime
 }
