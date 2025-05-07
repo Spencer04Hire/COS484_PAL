@@ -1,7 +1,7 @@
 
 mkdir -p outputs
 
-for lang in Python Java Direct Cpp Ocaml; do
+for lang in Direct COT Python Java Cpp Ocaml; do
 
 	for dataset in object_counting penguins_in_a_table repeat_copy date_understanding reasoning_about_colored_objects gsm gsmhardv2 svamp mawpssingleeq mawpssingleop mawpsaddsub mawpsmultiarith; do
 		# -u to make it unbuffered
