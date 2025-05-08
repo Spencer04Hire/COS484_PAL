@@ -1,0 +1,746 @@
+  0%|          | 0/1319 [00:00<?, ?it/s]  0%|          | 1/1319 [00:08<3:17:36,  9.00s/it]  0%|          | 2/1319 [00:18<3:27:00,  9.43s/it]  0%|          | 3/1319 [01:07<9:57:31, 27.24s/it]  0%|          | 4/1319 [01:13<6:56:45, 19.02s/it]  0%|          | 5/1319 [01:21<5:25:05, 14.84s/it]  0%|          | 6/1319 [02:07<9:16:55, 25.45s/it]  1%|          | 7/1319 [02:10<6:39:38, 18.28s/it]File "llm_build/74ef5efe-2b71-11f0-8205-e1a5a23921f1/Solution.ml", line 5, characters 47-59:
+5 | let gb_downloaded_before_restart = file_size * percent_done in
+                                                   ^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+  1%|          | 8/1319 [03:12<11:45:12, 32.27s/it]File "llm_build/7f73c180-2b71-11f0-8205-e1a5a23921f1/Solution.ml", line 14, characters 53-70:
+14 | let time_fast_driving = time_driving_after_traffic - time_slow_driving in
+                                                          ^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+  1%|          | 9/1319 [03:30<10:04:52, 27.70s/it]  1%|          | 10/1319 [04:08<11:10:48, 30.75s/it]  1%|          | 11/1319 [04:14<8:26:59, 23.26s/it]   1%|          | 12/1319 [04:24<6:57:23, 19.16s/it]File "llm_build/ba9a3fe6-2b71-11f0-8205-e1a5a23921f1/Solution.ml", line 13, characters 0-3:
+13 | let result = years_until_profit 1 in
+     ^^^
+Error: Syntax error
+  1%|          | 13/1319 [05:09<9:51:24, 27.17s/it]  1%|          | 14/1319 [05:16<7:38:23, 21.08s/it]  1%|          | 15/1319 [05:20<5:47:29, 15.99s/it]File "llm_build/daa31b82-2b71-11f0-8205-e1a5a23921f1/Solution.ml", line 7, characters 38-65:
+7 | let jewelry_profit = (jewelry_cost * (jewelry_increase_percentage / 100.0)) in
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+  1%|          | 16/1319 [06:03<8:40:52, 23.98s/it]  1%|▏         | 17/1319 [06:06<6:26:47, 17.82s/it]  1%|▏         | 18/1319 [06:14<5:21:11, 14.81s/it]  1%|▏         | 19/1319 [06:20<4:25:00, 12.23s/it]  2%|▏         | 20/1319 [07:08<8:12:18, 22.74s/it]File "llm_build/06f5a1c8-2b72-11f0-8205-e1a5a23921f1/Solution.ml", line 9, characters 50-74:
+9 | let orange_drink_water = orange_drink_remaining * orange_drink_water_ratio in
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+  2%|▏         | 21/1319 [07:17<6:46:42, 18.80s/it]  2%|▏         | 22/1319 [07:20<5:01:25, 13.94s/it]File "llm_build/26f35f38-2b72-11f0-8205-e1a5a23921f1/Solution.ml", line 4, characters 4-25:
+4 | let customers_third_group = 3 in
+        ^^^^^^^^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable customers_third_group.
+  2%|▏         | 23/1319 [08:11<9:01:45, 25.08s/it]  2%|▏         | 24/1319 [08:17<6:57:35, 19.35s/it]  2%|▏         | 25/1319 [08:33<6:35:07, 18.32s/it]  2%|▏         | 26/1319 [09:10<8:39:22, 24.10s/it]  2%|▏         | 27/1319 [09:18<6:53:36, 19.21s/it]  2%|▏         | 28/1319 [09:25<5:29:49, 15.33s/it]  2%|▏         | 29/1319 [10:22<10:01:48, 27.99s/it]  2%|▏         | 30/1319 [11:06<11:41:07, 32.64s/it]File "llm_build/930f28be-2b72-11f0-8206-e1a5a23921f1/Solution.ml", line 6, characters 4-15:
+6 | let darrell_age = (total_age * ratio_darrell) / total_ratio in
+        ^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable darrell_age.
+  2%|▏         | 31/1319 [11:12<8:54:19, 24.89s/it]   2%|▏         | 32/1319 [11:17<6:42:21, 18.76s/it]  3%|▎         | 33/1319 [12:04<9:44:43, 27.28s/it]  3%|▎         | 34/1319 [12:15<7:57:26, 22.29s/it]  3%|▎         | 35/1319 [12:20<6:08:14, 17.21s/it]  3%|▎         | 36/1319 [12:24<4:45:55, 13.37s/it]  3%|▎         | 37/1319 [13:05<7:39:32, 21.51s/it]File "llm_build/dcf2b41e-2b72-11f0-8206-e1a5a23921f1/Solution.ml", line 10, characters 4-15:
+10 | let total_money = money_from_lego - money_spent_on_video_games + money_left in
+         ^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable total_money.
+  3%|▎         | 38/1319 [13:16<6:34:41, 18.49s/it]File "llm_build/e02b28aa-2b72-11f0-8206-e1a5a23921f1/Solution.ml", line 3, characters 4-17:
+3 | let days_per_week = 3 in
+        ^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable days_per_week.
+  3%|▎         | 39/1319 [13:22<5:10:38, 14.56s/it]  3%|▎         | 40/1319 [13:27<4:08:07, 11.64s/it]  3%|▎         | 41/1319 [14:05<7:00:21, 19.74s/it]  3%|▎         | 42/1319 [14:18<6:15:19, 17.63s/it]  3%|▎         | 43/1319 [14:22<4:50:01, 13.64s/it]File "llm_build/07048d86-2b73-11f0-8206-e1a5a23921f1/Solution.ml", line 4, characters 4-22:
+4 | let total_calories_bag = calories_per_serving * servings in
+        ^^^^^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable total_calories_bag.
+  3%|▎         | 44/1319 [14:27<3:52:44, 10.95s/it]  3%|▎         | 45/1319 [14:34<3:28:32,  9.82s/it]  3%|▎         | 46/1319 [15:22<7:28:26, 21.14s/it]  4%|▎         | 47/1319 [15:41<7:16:56, 20.61s/it]  4%|▎         | 48/1319 [16:07<7:53:40, 22.36s/it]  4%|▎         | 49/1319 [16:20<6:48:13, 19.29s/it]  4%|▍         | 50/1319 [16:24<5:13:01, 14.80s/it]  4%|▍         | 51/1319 [16:31<4:24:47, 12.53s/it]  4%|▍         | 52/1319 [17:05<6:36:59, 18.80s/it]  4%|▍         | 53/1319 [17:20<6:16:09, 17.83s/it]  4%|▍         | 54/1319 [17:32<5:41:10, 16.18s/it]  4%|▍         | 55/1319 [18:09<7:48:39, 22.25s/it]  4%|▍         | 56/1319 [18:23<6:54:33, 19.69s/it]  4%|▍         | 57/1319 [18:27<5:14:42, 14.96s/it]  4%|▍         | 58/1319 [18:31<4:08:58, 11.85s/it]  4%|▍         | 59/1319 [18:36<3:23:54,  9.71s/it]  5%|▍         | 60/1319 [19:07<5:37:34, 16.09s/it]  5%|▍         | 61/1319 [19:23<5:38:59, 16.17s/it]  5%|▍         | 62/1319 [19:36<5:16:38, 15.11s/it]File "llm_build/d2ed4032-2b73-11f0-8207-e1a5a23921f1/Solution.ml", line 9, characters 69-85:
+9 | let pension_increase = if years_entitled > 0 then (pension_initial * entitlement_rate * float_of_int years_entitled) else 0.0 in
+                                                                         ^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+  5%|▍         | 63/1319 [20:09<7:09:56, 20.54s/it]File "llm_build/db36c75e-2b73-11f0-8207-e1a5a23921f1/Solution.ml", line 7, characters 42-64:
+7 | let charge_second_half = monthly_charge * (1.0 -. discount_rate) * half_year in
+                                              ^^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+  5%|▍         | 64/1319 [20:23<6:27:58, 18.55s/it]  5%|▍         | 65/1319 [20:27<4:59:46, 14.34s/it]  5%|▌         | 66/1319 [21:09<7:50:17, 22.52s/it]  5%|▌         | 67/1319 [21:25<7:08:45, 20.55s/it]  5%|▌         | 68/1319 [21:30<5:28:56, 15.78s/it]  5%|▌         | 69/1319 [21:33<4:13:45, 12.18s/it]  5%|▌         | 70/1319 [21:36<3:13:27,  9.29s/it]  5%|▌         | 71/1319 [21:39<2:33:34,  7.38s/it]  5%|▌         | 72/1319 [22:27<6:44:18, 19.45s/it]  6%|▌         | 73/1319 [22:31<5:08:49, 14.87s/it]File "llm_build/3f6829fc-2b74-11f0-8207-e1a5a23921f1/Solution.ml", line 6, characters 34-47:
+6 | let total_interest = total_cost * interest_rate in
+                                      ^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+  6%|▌         | 74/1319 [23:11<7:46:57, 22.50s/it]  6%|▌         | 75/1319 [23:33<7:43:56, 22.38s/it]  6%|▌         | 76/1319 [24:10<9:15:53, 26.83s/it]  6%|▌         | 77/1319 [24:35<9:03:41, 26.27s/it]  6%|▌         | 78/1319 [25:07<9:40:04, 28.05s/it]  6%|▌         | 79/1319 [25:42<10:21:31, 30.07s/it]  6%|▌         | 80/1319 [25:46<7:34:53, 22.03s/it]   6%|▌         | 81/1319 [25:49<5:41:36, 16.56s/it]  6%|▌         | 82/1319 [26:09<6:01:52, 17.55s/it]  6%|▋         | 83/1319 [26:24<5:44:18, 16.71s/it]  6%|▋         | 84/1319 [26:27<4:20:54, 12.68s/it]  6%|▋         | 85/1319 [26:32<3:30:13, 10.22s/it]  7%|▋         | 86/1319 [26:37<2:57:36,  8.64s/it]  7%|▋         | 87/1319 [27:08<5:17:41, 15.47s/it]File "llm_build/de1da338-2b74-11f0-8208-e1a5a23921f1/Solution.ml", line 6, characters 55-81:
+6 | let salary_increase_per_year = annual_salary_initial * salary_increase_percentage in
+                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+  7%|▋         | 88/1319 [27:37<6:42:02, 19.60s/it]File "llm_build/fc1bc270-2b74-11f0-8208-e1a5a23921f1/Solution.ml", line 5, characters 4-21:
+5 | let total_copies_sold = harald_copies + marilyn_copies in
+        ^^^^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable total_copies_sold.
+  7%|▋         | 89/1319 [28:28<9:50:44, 28.82s/it]  7%|▋         | 90/1319 [28:37<7:53:36, 23.12s/it]  7%|▋         | 91/1319 [29:08<8:40:40, 25.44s/it]  7%|▋         | 92/1319 [29:24<7:39:45, 22.48s/it]  7%|▋         | 93/1319 [29:32<6:10:00, 18.11s/it]File "llm_build/25ed1234-2b75-11f0-8208-e1a5a23921f1/Solution.ml", line 4, characters 27-46:
+4 | let gerald_time_improved = gerald_time_initial *. 0.9 in
+                               ^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+  7%|▋         | 94/1319 [29:38<4:55:23, 14.47s/it]  7%|▋         | 95/1319 [29:40<3:43:04, 10.94s/it]  7%|▋         | 96/1319 [30:10<5:34:36, 16.42s/it]  7%|▋         | 97/1319 [30:32<6:09:21, 18.14s/it]  7%|▋         | 98/1319 [30:35<4:40:35, 13.79s/it]  8%|▊         | 99/1319 [30:40<3:44:11, 11.03s/it]  8%|▊         | 100/1319 [31:11<5:46:17, 17.04s/it]  8%|▊         | 101/1319 [31:42<7:10:23, 21.20s/it]  8%|▊         | 102/1319 [32:09<7:45:59, 22.97s/it]  8%|▊         | 103/1319 [32:42<8:44:46, 25.89s/it]  8%|▊         | 104/1319 [32:46<6:30:26, 19.28s/it]  8%|▊         | 105/1319 [33:17<7:41:14, 22.80s/it]  8%|▊         | 106/1319 [33:24<6:09:25, 18.27s/it]  8%|▊         | 107/1319 [33:41<5:57:13, 17.68s/it]File "llm_build/ba30760c-2b75-11f0-8209-e1a5a23921f1/Solution.ml", line 3, characters 25-28:
+3 | let thursday_hours = 1 + 0.5 in
+                             ^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+  8%|▊         | 108/1319 [33:46<4:44:54, 14.12s/it]  8%|▊         | 109/1319 [34:38<8:30:07, 25.30s/it]  8%|▊         | 110/1319 [34:43<6:27:07, 19.21s/it]  8%|▊         | 111/1319 [34:48<5:01:41, 14.98s/it]  8%|▊         | 112/1319 [34:55<4:10:19, 12.44s/it]  9%|▊         | 113/1319 [34:59<3:23:36, 10.13s/it]  9%|▊         | 114/1319 [35:02<2:40:32,  7.99s/it]  9%|▊         | 115/1319 [35:09<2:31:28,  7.55s/it]  9%|▉         | 116/1319 [35:17<2:36:35,  7.81s/it]  9%|▉         | 117/1319 [35:20<2:09:17,  6.45s/it]  9%|▉         | 118/1319 [36:12<6:37:11, 19.84s/it]  9%|▉         | 119/1319 [36:15<4:58:42, 14.94s/it]  9%|▉         | 120/1319 [36:29<4:51:39, 14.59s/it]  9%|▉         | 121/1319 [37:14<7:53:10, 23.70s/it]  9%|▉         | 122/1319 [37:21<6:12:57, 18.69s/it]  9%|▉         | 123/1319 [37:30<5:18:47, 15.99s/it]  9%|▉         | 124/1319 [38:14<8:01:19, 24.17s/it]  9%|▉         | 125/1319 [38:19<6:05:07, 18.35s/it] 10%|▉         | 126/1319 [38:22<4:36:54, 13.93s/it] 10%|▉         | 127/1319 [38:28<3:46:49, 11.42s/it] 10%|▉         | 128/1319 [39:13<7:11:16, 21.73s/it] 10%|▉         | 129/1319 [39:19<5:33:19, 16.81s/it] 10%|▉         | 130/1319 [39:24<4:23:02, 13.27s/it] 10%|▉         | 131/1319 [39:29<3:35:56, 10.91s/it] 10%|█         | 132/1319 [40:15<7:03:07, 21.39s/it] 10%|█         | 133/1319 [40:22<5:37:21, 17.07s/it] 10%|█         | 134/1319 [40:27<4:22:42, 13.30s/it] 10%|█         | 135/1319 [41:20<8:22:02, 25.44s/it] 10%|█         | 136/1319 [41:24<6:13:27, 18.94s/it] 10%|█         | 137/1319 [41:28<4:44:35, 14.45s/it] 10%|█         | 138/1319 [42:21<8:30:57, 25.96s/it] 11%|█         | 139/1319 [42:28<6:38:45, 20.28s/it] 11%|█         | 140/1319 [42:33<5:09:59, 15.78s/it] 11%|█         | 141/1319 [43:19<8:09:09, 24.91s/it]File "llm_build/1263aadc-2b77-11f0-820c-e1a5a23921f1/Solution.ml", line 3, characters 13-14:
+3 | let queens = x in
+                 ^
+Error: Unbound value "x"
+ 11%|█         | 142/1319 [43:24<6:08:59, 18.81s/it] 11%|█         | 143/1319 [43:27<4:34:19, 14.00s/it]File "llm_build/171ddc5a-2b77-11f0-820c-e1a5a23921f1/Solution.ml", line 11, characters 38-46:
+11 | let tax_amount = total_nonfood_cost * tax_rate in
+                                           ^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 11%|█         | 144/1319 [43:32<3:42:13, 11.35s/it] 11%|█         | 145/1319 [44:28<8:07:34, 24.92s/it] 11%|█         | 146/1319 [44:33<6:06:40, 18.76s/it] 11%|█         | 147/1319 [45:22<9:05:22, 27.92s/it]File "llm_build/5cbb574c-2b77-11f0-820e-e1a5a23921f1/Solution.ml", line 4, characters 4-20:
+4 | let bees_left_second = 2 * bees_left_first in
+        ^^^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable bees_left_second.
+ 11%|█         | 148/1319 [45:29<6:59:46, 21.51s/it] 11%|█▏        | 149/1319 [45:48<6:47:09, 20.88s/it] 11%|█▏        | 150/1319 [46:29<8:42:56, 26.84s/it] 11%|█▏        | 151/1319 [46:44<7:35:47, 23.41s/it] 12%|█▏        | 152/1319 [47:33<10:03:45, 31.04s/it] 12%|█▏        | 153/1319 [47:38<7:31:59, 23.26s/it]  12%|█▏        | 154/1319 [47:48<6:13:21, 19.23s/it] 12%|█▏        | 155/1319 [48:32<8:37:01, 26.65s/it] 12%|█▏        | 156/1319 [48:43<7:07:16, 22.04s/it] 12%|█▏        | 157/1319 [49:32<9:39:09, 29.90s/it] 12%|█▏        | 158/1319 [49:41<7:37:45, 23.66s/it]File "llm_build/f6505c90-2b77-11f0-8211-e1a5a23921f1/Solution.ml", line 8, characters 61-74:
+8 | let total_notebook_cost = float_of_int notebooks_quantity *. notebook_cost in
+                                                                 ^^^^^^^^^^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+ 12%|█▏        | 159/1319 [49:46<5:53:21, 18.28s/it] 12%|█▏        | 160/1319 [49:51<4:32:50, 14.12s/it] 12%|█▏        | 161/1319 [50:33<7:17:21, 22.66s/it] 12%|█▏        | 162/1319 [50:41<5:50:55, 18.20s/it]File "llm_build/19e9dbd6-2b78-11f0-8211-e1a5a23921f1/Solution.ml", line 7, characters 37-50:
+7 | let total_increase = initial_price * increase_rate * float_of_int num_increases in
+                                         ^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 12%|█▏        | 163/1319 [50:46<4:33:52, 14.21s/it] 12%|█▏        | 164/1319 [50:56<4:07:53, 12.88s/it] 13%|█▎        | 165/1319 [51:35<6:39:51, 20.79s/it] 13%|█▎        | 166/1319 [51:43<5:23:51, 16.85s/it] 13%|█▎        | 167/1319 [51:48<4:15:41, 13.32s/it] 13%|█▎        | 168/1319 [51:52<3:20:02, 10.43s/it] 13%|█▎        | 169/1319 [52:37<6:43:29, 21.05s/it] 13%|█▎        | 170/1319 [52:41<5:05:52, 15.97s/it] 13%|█▎        | 171/1319 [52:48<4:12:52, 13.22s/it] 13%|█▎        | 172/1319 [53:01<4:09:36, 13.06s/it] 13%|█▎        | 173/1319 [53:24<5:05:36, 16.00s/it] 13%|█▎        | 174/1319 [53:43<5:26:00, 17.08s/it] 13%|█▎        | 175/1319 [53:51<4:29:45, 14.15s/it]File "llm_build/8b4a6ebc-2b78-11f0-8213-e1a5a23921f1/Solution.ml", line 9, characters 29-81:
+9 | let total_revenue = profit + (price_per_glass *. float_of_int glasses_per_gallon) in
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 13%|█▎        | 176/1319 [53:56<3:40:32, 11.58s/it] 13%|█▎        | 177/1319 [54:23<5:04:58, 16.02s/it] 13%|█▎        | 178/1319 [54:49<6:00:36, 18.96s/it] 14%|█▎        | 179/1319 [54:52<4:32:54, 14.36s/it] 14%|█▎        | 180/1319 [54:59<3:49:06, 12.07s/it] 14%|█▎        | 181/1319 [55:51<7:35:01, 23.99s/it] 14%|█▍        | 182/1319 [55:55<5:44:20, 18.17s/it] 14%|█▍        | 183/1319 [55:59<4:20:06, 13.74s/it] 14%|█▍        | 184/1319 [56:32<6:11:42, 19.65s/it] 14%|█▍        | 185/1319 [56:58<6:49:11, 21.65s/it] 14%|█▍        | 186/1319 [57:02<5:06:36, 16.24s/it] 14%|█▍        | 187/1319 [57:31<6:16:14, 19.94s/it] 14%|█▍        | 188/1319 [57:44<5:37:05, 17.88s/it] 14%|█▍        | 189/1319 [57:55<5:00:42, 15.97s/it] 14%|█▍        | 190/1319 [58:01<4:01:11, 12.82s/it] 14%|█▍        | 191/1319 [58:04<3:08:26, 10.02s/it] 15%|█▍        | 192/1319 [58:24<4:05:41, 13.08s/it] 15%|█▍        | 193/1319 [58:45<4:50:11, 15.46s/it] 15%|█▍        | 194/1319 [58:52<3:57:39, 12.68s/it] 15%|█▍        | 195/1319 [58:58<3:23:22, 10.86s/it]File "llm_build/43124c2c-2b79-11f0-8219-e1a5a23921f1/Solution.ml", line 4, characters 15-26:
+4 | let pen_cost = pencil_cost + eraser_cost in
+                   ^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 15%|█▍        | 196/1319 [59:05<2:58:27,  9.53s/it] 15%|█▍        | 197/1319 [59:24<3:53:01, 12.46s/it] 15%|█▌        | 198/1319 [59:57<5:48:51, 18.67s/it] 15%|█▌        | 199/1319 [1:00:06<4:53:45, 15.74s/it] 15%|█▌        | 200/1319 [1:00:26<5:15:00, 16.89s/it] 15%|█▌        | 201/1319 [1:00:58<6:39:55, 21.46s/it]File "llm_build/8a52e664-2b79-11f0-821a-e1a5a23921f1/Solution.ml", line 6, characters 54-70:
+6 | let salary_after_raise = weekly_salary_initial * (1 + raise_percentage) in
+                                                          ^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 15%|█▌        | 202/1319 [1:01:04<5:15:57, 16.97s/it] 15%|█▌        | 203/1319 [1:01:08<4:00:27, 12.93s/it] 15%|█▌        | 204/1319 [1:01:15<3:26:35, 11.12s/it] 16%|█▌        | 205/1319 [1:02:01<6:45:29, 21.84s/it] 16%|█▌        | 206/1319 [1:02:20<6:27:29, 20.89s/it] 16%|█▌        | 207/1319 [1:02:26<5:03:08, 16.36s/it] 16%|█▌        | 208/1319 [1:03:02<6:54:42, 22.40s/it] 16%|█▌        | 209/1319 [1:03:08<5:20:46, 17.34s/it] 16%|█▌        | 210/1319 [1:03:24<5:12:13, 16.89s/it] 16%|█▌        | 211/1319 [1:03:52<6:12:28, 20.17s/it] 16%|█▌        | 212/1319 [1:03:58<4:54:15, 15.95s/it] 16%|█▌        | 213/1319 [1:04:02<3:47:16, 12.33s/it] 16%|█▌        | 214/1319 [1:04:07<3:11:28, 10.40s/it]File "llm_build/ff36fcfe-2b79-11f0-821d-e1a5a23921f1/Solution.ml", line 8, characters 23-37:
+8 | let big_pool_now = 4 * small_pool_now in
+                           ^^^^^^^^^^^^^^
+Error: This expression has type "string" but an expression was expected of type
+         "int"
+ 16%|█▋        | 215/1319 [1:04:20<3:24:51, 11.13s/it] 16%|█▋        | 216/1319 [1:04:24<2:45:10,  8.98s/it] 16%|█▋        | 217/1319 [1:05:05<5:39:02, 18.46s/it] 17%|█▋        | 218/1319 [1:05:08<4:13:52, 13.84s/it] 17%|█▋        | 219/1319 [1:05:14<3:33:37, 11.65s/it] 17%|█▋        | 220/1319 [1:05:27<3:39:40, 11.99s/it] 17%|█▋        | 221/1319 [1:05:50<4:37:09, 15.14s/it] 17%|█▋        | 222/1319 [1:05:53<3:29:33, 11.46s/it] 17%|█▋        | 223/1319 [1:05:55<2:39:07,  8.71s/it] 17%|█▋        | 224/1319 [1:05:58<2:08:35,  7.05s/it] 17%|█▋        | 225/1319 [1:06:02<1:52:34,  6.17s/it] 17%|█▋        | 226/1319 [1:06:05<1:31:33,  5.03s/it] 17%|█▋        | 227/1319 [1:06:11<1:37:23,  5.35s/it] 17%|█▋        | 228/1319 [1:06:19<1:55:13,  6.34s/it] 17%|█▋        | 229/1319 [1:06:30<2:17:57,  7.59s/it] 17%|█▋        | 230/1319 [1:07:03<4:38:58, 15.37s/it]File "llm_build/62c857cc-2b7a-11f0-821e-e1a5a23921f1/Solution.ml", line 8, characters 34-42:
+8 | let tax_amount = total_car_cost * tax_rate in
+                                      ^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 18%|█▊        | 231/1319 [1:07:07<3:36:54, 11.96s/it] 18%|█▊        | 232/1319 [1:07:11<2:51:45,  9.48s/it] 18%|█▊        | 233/1319 [1:07:13<2:13:32,  7.38s/it] 18%|█▊        | 234/1319 [1:07:17<1:52:16,  6.21s/it] 18%|█▊        | 235/1319 [1:07:28<2:16:14,  7.54s/it] 18%|█▊        | 236/1319 [1:07:47<3:20:33, 11.11s/it] 18%|█▊        | 237/1319 [1:08:04<3:49:30, 12.73s/it] 18%|█▊        | 238/1319 [1:08:07<2:57:17,  9.84s/it] 18%|█▊        | 239/1319 [1:08:10<2:21:42,  7.87s/it] 18%|█▊        | 240/1319 [1:08:15<2:06:07,  7.01s/it] 18%|█▊        | 241/1319 [1:08:18<1:43:06,  5.74s/it] 18%|█▊        | 242/1319 [1:08:25<1:53:45,  6.34s/it] 18%|█▊        | 243/1319 [1:09:15<5:47:59, 19.40s/it] 18%|█▊        | 244/1319 [1:09:21<4:31:08, 15.13s/it] 19%|█▊        | 245/1319 [1:09:29<3:56:55, 13.24s/it] 19%|█▊        | 246/1319 [1:10:15<6:53:05, 23.10s/it]File "llm_build/d60c1d22-2b7a-11f0-821f-e1a5a23921f1/Solution.ml", line 8, characters 50-58:
+8 | let total_cost_after_discount = total_cost * (1 - discount) in
+                                                      ^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 19%|█▊        | 247/1319 [1:10:21<5:17:09, 17.75s/it] 19%|█▉        | 248/1319 [1:10:26<4:11:56, 14.11s/it] 19%|█▉        | 249/1319 [1:10:49<4:55:44, 16.58s/it] 19%|█▉        | 250/1319 [1:11:15<5:45:12, 19.38s/it] 19%|█▉        | 251/1319 [1:11:21<4:33:44, 15.38s/it] 19%|█▉        | 252/1319 [1:11:23<3:23:34, 11.45s/it] 19%|█▉        | 253/1319 [1:11:28<2:50:47,  9.61s/it] 19%|█▉        | 254/1319 [1:11:32<2:19:16,  7.85s/it] 19%|█▉        | 255/1319 [1:11:38<2:07:30,  7.19s/it] 19%|█▉        | 256/1319 [1:11:48<2:25:48,  8.23s/it] 19%|█▉        | 257/1319 [1:12:15<4:03:44, 13.77s/it] 20%|█▉        | 258/1319 [1:12:19<3:12:33, 10.89s/it] 20%|█▉        | 259/1319 [1:12:22<2:31:32,  8.58s/it] 20%|█▉        | 260/1319 [1:12:31<2:34:14,  8.74s/it] 20%|█▉        | 261/1319 [1:12:37<2:16:16,  7.73s/it] 20%|█▉        | 262/1319 [1:13:14<4:52:08, 16.58s/it] 20%|█▉        | 263/1319 [1:13:19<3:49:03, 13.01s/it] 20%|██        | 264/1319 [1:13:26<3:16:13, 11.16s/it] 20%|██        | 265/1319 [1:14:12<6:24:27, 21.89s/it]File "llm_build/64cceb90-2b7b-11f0-8222-e1a5a23921f1/Solution.ml", line 6, characters 36-60:
+6 | let brokerage_fee = selling_price * brokerage_fee_percentage in
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 20%|██        | 266/1319 [1:14:20<5:09:34, 17.64s/it] 20%|██        | 267/1319 [1:14:31<4:33:12, 15.58s/it] 20%|██        | 268/1319 [1:14:36<3:37:58, 12.44s/it] 20%|██        | 269/1319 [1:15:19<6:15:18, 21.45s/it] 20%|██        | 270/1319 [1:15:25<4:57:31, 17.02s/it] 21%|██        | 271/1319 [1:15:30<3:50:21, 13.19s/it] 21%|██        | 272/1319 [1:15:33<3:00:38, 10.35s/it]File "llm_build/9455a208-2b7b-11f0-8222-e1a5a23921f1/Solution.ml", line 5, characters 17-27:
+5 | let total_cost = cocoa_cost + laundry_cost + pasta_cost in
+                     ^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 21%|██        | 273/1319 [1:15:40<2:41:27,  9.26s/it] 21%|██        | 274/1319 [1:15:52<2:55:15, 10.06s/it] 21%|██        | 275/1319 [1:16:19<4:26:34, 15.32s/it] 21%|██        | 276/1319 [1:16:29<3:54:35, 13.50s/it] 21%|██        | 277/1319 [1:16:38<3:30:59, 12.15s/it] 21%|██        | 278/1319 [1:17:22<6:19:28, 21.87s/it] 21%|██        | 279/1319 [1:17:26<4:45:09, 16.45s/it]File "llm_build/d562a55c-2b7b-11f0-8222-e1a5a23921f1/Solution.ml", line 6, characters 4-12:
+6 | let equation = ruby_age_future = 3 * sam_age_future in
+        ^^^^^^^^
+Warning 26 [unused-var]: unused variable equation.
+ 21%|██        | 280/1319 [1:17:29<3:35:05, 12.42s/it] 21%|██▏       | 281/1319 [1:17:36<3:06:10, 10.76s/it] 21%|██▏       | 282/1319 [1:17:42<2:40:33,  9.29s/it] 21%|██▏       | 283/1319 [1:18:24<5:31:38, 19.21s/it]File "llm_build/fbac8d22-2b7b-11f0-8222-e1a5a23921f1/Solution.ml", line 8, characters 31-47:
+8 | let beads_used = int_of_float (remaining_length /. sterling_silver_bead_length) in
+                                   ^^^^^^^^^^^^^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+ 22%|██▏       | 284/1319 [1:18:33<4:39:12, 16.19s/it] 22%|██▏       | 285/1319 [1:18:47<4:27:46, 15.54s/it] 22%|██▏       | 286/1319 [1:19:24<6:16:00, 21.84s/it] 22%|██▏       | 287/1319 [1:19:32<5:06:07, 17.80s/it] 22%|██▏       | 288/1319 [1:19:38<4:04:10, 14.21s/it] 22%|██▏       | 289/1319 [1:19:42<3:11:16, 11.14s/it] 22%|██▏       | 290/1319 [1:20:28<6:08:02, 21.46s/it] 22%|██▏       | 291/1319 [1:20:34<4:51:45, 17.03s/it] 22%|██▏       | 292/1319 [1:20:41<3:55:46, 13.77s/it] 22%|██▏       | 293/1319 [1:20:45<3:09:50, 11.10s/it] 22%|██▏       | 294/1319 [1:20:52<2:48:25,  9.86s/it] 22%|██▏       | 295/1319 [1:21:23<4:37:19, 16.25s/it] 22%|██▏       | 296/1319 [1:21:30<3:46:53, 13.31s/it] 23%|██▎       | 297/1319 [1:21:41<3:35:08, 12.63s/it] 23%|██▎       | 298/1319 [1:21:48<3:04:13, 10.83s/it] 23%|██▎       | 299/1319 [1:21:52<2:31:16,  8.90s/it] 23%|██▎       | 300/1319 [1:22:39<5:44:51, 20.31s/it] 23%|██▎       | 301/1319 [1:22:43<4:20:19, 15.34s/it] 23%|██▎       | 302/1319 [1:22:49<3:35:39, 12.72s/it] 23%|██▎       | 303/1319 [1:22:56<3:07:13, 11.06s/it] 23%|██▎       | 304/1319 [1:23:04<2:49:16, 10.01s/it] 23%|██▎       | 305/1319 [1:23:25<3:45:05, 13.32s/it] 23%|██▎       | 306/1319 [1:23:28<2:50:08, 10.08s/it] 23%|██▎       | 307/1319 [1:23:51<3:55:32, 13.97s/it] 23%|██▎       | 308/1319 [1:23:56<3:10:50, 11.33s/it]File "llm_build/c19e4138-2b7c-11f0-8225-e1a5a23921f1/Solution.ml", line 10, characters 26-45:
+10 | let total_milk_savings = (milk_original_price - milk_discounted_price) * packets_of_milk in
+                               ^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 23%|██▎       | 309/1319 [1:24:05<3:02:14, 10.83s/it] 24%|██▎       | 310/1319 [1:24:38<4:54:05, 17.49s/it] 24%|██▎       | 311/1319 [1:24:49<4:17:43, 15.34s/it] 24%|██▎       | 312/1319 [1:25:10<4:46:31, 17.07s/it] 24%|██▎       | 313/1319 [1:25:37<5:35:25, 20.00s/it] 24%|██▍       | 314/1319 [1:25:41<4:18:13, 15.42s/it]File "llm_build/fd5ff612-2b7c-11f0-8225-e1a5a23921f1/Solution.ml", line 3, characters 22-23:
+3 | let defense_players = d in
+                          ^
+Error: Unbound value "d"
+ 24%|██▍       | 315/1319 [1:25:46<3:21:48, 12.06s/it] 24%|██▍       | 316/1319 [1:25:55<3:05:58, 11.13s/it] 24%|██▍       | 317/1319 [1:26:03<2:50:41, 10.22s/it] 24%|██▍       | 318/1319 [1:26:41<5:12:20, 18.72s/it] 24%|██▍       | 319/1319 [1:26:45<3:58:06, 14.29s/it]File "llm_build/235aa556-2b7d-11f0-8225-e1a5a23921f1/Solution.ml", line 5, characters 4-15:
+5 | let total_ratio = ratio_poles + ratio_wires in
+        ^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable total_ratio.
+ 24%|██▍       | 320/1319 [1:26:49<3:07:19, 11.25s/it] 24%|██▍       | 321/1319 [1:26:53<2:28:16,  8.91s/it] 24%|██▍       | 322/1319 [1:26:55<1:53:47,  6.85s/it] 24%|██▍       | 323/1319 [1:27:01<1:52:07,  6.75s/it] 25%|██▍       | 324/1319 [1:27:10<2:00:20,  7.26s/it] 25%|██▍       | 325/1319 [1:27:40<3:52:35, 14.04s/it] 25%|██▍       | 326/1319 [1:27:49<3:27:51, 12.56s/it] 25%|██▍       | 327/1319 [1:28:00<3:19:39, 12.08s/it] 25%|██▍       | 328/1319 [1:28:31<4:55:32, 17.89s/it] 25%|██▍       | 329/1319 [1:28:47<4:44:53, 17.27s/it] 25%|██▌       | 330/1319 [1:28:53<3:50:44, 14.00s/it] 25%|██▌       | 331/1319 [1:29:02<3:24:44, 12.43s/it]File "llm_build/7afbbfb6-2b7d-11f0-8226-e1a5a23921f1/Solution.ml", line 6, characters 44-67:
+6 | let job_a_net_income = job_a_total_income * (1.0 -. job_a_tax_rate) in
+                                                ^^^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 25%|██▌       | 332/1319 [1:29:16<3:33:15, 12.96s/it] 25%|██▌       | 333/1319 [1:29:43<4:38:29, 16.95s/it] 25%|██▌       | 334/1319 [1:29:52<4:02:51, 14.79s/it] 25%|██▌       | 335/1319 [1:29:58<3:15:04, 11.89s/it] 25%|██▌       | 336/1319 [1:30:07<3:01:09, 11.06s/it]File "llm_build/b2d4ce64-2b7d-11f0-8226-e1a5a23921f1/Solution.ml", line 6, characters 56-59:
+6 | let price_after_first_year = price_per_share_initial * (1.0 + price_increase_percentage) in
+                                                            ^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 26%|██▌       | 337/1319 [1:30:50<5:40:02, 20.78s/it] 26%|██▌       | 338/1319 [1:30:56<4:26:40, 16.31s/it]File "llm_build/b84dc30a-2b7d-11f0-8226-e1a5a23921f1/Solution.ml", line 3, characters 4-14:
+3 | let group_size = 2 in
+        ^^^^^^^^^^
+Warning 26 [unused-var]: unused variable group_size.
+ 26%|██▌       | 339/1319 [1:30:59<3:22:44, 12.41s/it] 26%|██▌       | 340/1319 [1:31:05<2:50:26, 10.45s/it]File "llm_build/c374d926-2b7d-11f0-8226-e1a5a23921f1/Solution.ml", line 8, characters 4-14:
+8 | let balls_lost = balls_dropped - balls_caught in
+        ^^^^^^^^^^
+Warning 26 [unused-var]: unused variable balls_lost.
+ 26%|██▌       | 341/1319 [1:31:18<3:02:00, 11.17s/it] 26%|██▌       | 342/1319 [1:31:51<4:49:41, 17.79s/it] 26%|██▌       | 343/1319 [1:31:57<3:51:19, 14.22s/it] 26%|██▌       | 344/1319 [1:32:06<3:23:33, 12.53s/it] 26%|██▌       | 345/1319 [1:32:10<2:45:09, 10.17s/it] 26%|██▌       | 346/1319 [1:32:18<2:32:11,  9.39s/it] 26%|██▋       | 347/1319 [1:32:29<2:39:33,  9.85s/it] 26%|██▋       | 348/1319 [1:32:49<3:27:02, 12.79s/it] 26%|██▋       | 349/1319 [1:32:54<2:52:22, 10.66s/it] 27%|██▋       | 350/1319 [1:33:01<2:33:13,  9.49s/it]File "llm_build/064a8a20-2b7e-11f0-8228-e1a5a23921f1/Solution.ml", line 7, characters 47-61:
+7 | let total_hours = yoga_class + cooking_class + cheese_tasting + museum_tour + errands in
+                                                   ^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 27%|██▋       | 351/1319 [1:33:10<2:31:24,  9.38s/it] 27%|██▋       | 352/1319 [1:33:16<2:12:28,  8.22s/it]File "llm_build/0b9529b8-2b7e-11f0-8228-e1a5a23921f1/Solution.ml", line 6, characters 4-14:
+6 | let money_left = money_initial - money_spent in
+        ^^^^^^^^^^
+Warning 26 [unused-var]: unused variable money_left.
+ 27%|██▋       | 353/1319 [1:33:19<1:48:57,  6.77s/it]File "llm_build/118bfba8-2b7e-11f0-8228-e1a5a23921f1/Solution.ml", line 7, characters 41-44:
+7 | let total_time_spent = total_show_time / 0.3 in
+                                             ^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 27%|██▋       | 354/1319 [1:33:29<2:04:28,  7.74s/it] 27%|██▋       | 355/1319 [1:33:55<3:32:57, 13.25s/it] 27%|██▋       | 356/1319 [1:34:00<2:52:11, 10.73s/it] 27%|██▋       | 357/1319 [1:34:07<2:36:19,  9.75s/it] 27%|██▋       | 358/1319 [1:34:39<4:19:06, 16.18s/it]File "llm_build/49785098-2b7e-11f0-8229-e1a5a23921f1/Solution.ml", line 6, characters 26-46:
+6 | let money_saved_per_day = pocket_money_per_day -. total_lollipop_cost_per_day in
+                              ^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+ 27%|██▋       | 359/1319 [1:35:03<4:57:26, 18.59s/it] 27%|██▋       | 360/1319 [1:35:19<4:46:59, 17.96s/it] 27%|██▋       | 361/1319 [1:35:22<3:31:22, 13.24s/it] 27%|██▋       | 362/1319 [1:35:28<2:59:52, 11.28s/it] 28%|██▊       | 363/1319 [1:36:03<4:51:23, 18.29s/it] 28%|██▊       | 364/1319 [1:36:08<3:45:42, 14.18s/it]File "llm_build/737898e4-2b7e-11f0-822c-e1a5a23921f1/Solution.ml", line 5, characters 4-16:
+5 | let girls_absent = 5 in
+        ^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable girls_absent.
+ 28%|██▊       | 365/1319 [1:36:13<3:05:34, 11.67s/it] 28%|██▊       | 366/1319 [1:36:20<2:39:26, 10.04s/it] 28%|██▊       | 367/1319 [1:36:26<2:20:33,  8.86s/it] 28%|██▊       | 368/1319 [1:36:30<1:57:49,  7.43s/it] 28%|██▊       | 369/1319 [1:37:04<4:06:41, 15.58s/it] 28%|██▊       | 370/1319 [1:37:12<3:27:50, 13.14s/it] 28%|██▊       | 371/1319 [1:37:15<2:41:21, 10.21s/it] 28%|██▊       | 372/1319 [1:37:21<2:20:55,  8.93s/it] 28%|██▊       | 373/1319 [1:37:26<2:03:39,  7.84s/it] 28%|██▊       | 374/1319 [1:37:40<2:29:45,  9.51s/it] 28%|██▊       | 375/1319 [1:38:11<4:10:09, 15.90s/it] 29%|██▊       | 376/1319 [1:38:15<3:15:23, 12.43s/it] 29%|██▊       | 377/1319 [1:38:20<2:42:18, 10.34s/it] 29%|██▊       | 378/1319 [1:38:26<2:19:48,  8.91s/it] 29%|██▊       | 379/1319 [1:38:32<2:05:57,  8.04s/it] 29%|██▉       | 380/1319 [1:39:11<4:30:18, 17.27s/it]File "llm_build/dfca367e-2b7e-11f0-822e-e1a5a23921f1/Solution.ml", line 5, characters 60-73:
+5 | let total_amount_due = borrowed_amount + (borrowed_amount * interest_rate) in
+                                                                ^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 29%|██▉       | 381/1319 [1:39:15<3:28:45, 13.35s/it] 29%|██▉       | 382/1319 [1:39:18<2:39:40, 10.22s/it] 29%|██▉       | 383/1319 [1:39:23<2:13:20,  8.55s/it] 29%|██▉       | 384/1319 [1:39:29<2:02:34,  7.87s/it] 29%|██▉       | 385/1319 [1:39:31<1:35:46,  6.15s/it] 29%|██▉       | 386/1319 [1:39:41<1:52:12,  7.22s/it] 29%|██▉       | 387/1319 [1:39:55<2:22:56,  9.20s/it] 29%|██▉       | 388/1319 [1:40:13<3:06:55, 12.05s/it] 29%|██▉       | 389/1319 [1:40:17<2:28:35,  9.59s/it] 30%|██▉       | 390/1319 [1:40:23<2:10:31,  8.43s/it] 30%|██▉       | 391/1319 [1:40:27<1:49:25,  7.08s/it] 30%|██▉       | 392/1319 [1:40:34<1:51:39,  7.23s/it]File "llm_build/1270f900-2b7f-11f0-8230-e1a5a23921f1/Solution.ml", line 8, characters 32-52:
+8 | let discounted_streaming_cost = total_streaming_cost *. (1.0 -. bundling_discount) in
+                                    ^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+ 30%|██▉       | 393/1319 [1:40:40<1:44:27,  6.77s/it] 30%|██▉       | 394/1319 [1:40:52<2:09:30,  8.40s/it] 30%|██▉       | 395/1319 [1:41:14<3:11:16, 12.42s/it] 30%|███       | 396/1319 [1:41:19<2:36:27, 10.17s/it] 30%|███       | 397/1319 [1:41:23<2:08:56,  8.39s/it] 30%|███       | 398/1319 [1:41:29<1:56:04,  7.56s/it] 30%|███       | 399/1319 [1:41:33<1:38:37,  6.43s/it] 30%|███       | 400/1319 [1:41:48<2:20:17,  9.16s/it] 30%|███       | 401/1319 [1:41:52<1:56:02,  7.58s/it] 30%|███       | 402/1319 [1:42:16<3:10:11, 12.44s/it] 31%|███       | 403/1319 [1:42:20<2:30:52,  9.88s/it]File "llm_build/52dbc5b0-2b7f-11f0-8231-e1a5a23921f1/Solution.ml", line 6, characters 4-20:
+6 | let hours_used_final = hours_used_initial - hours_reduced in
+        ^^^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable hours_used_final.
+ 31%|███       | 404/1319 [1:42:28<2:23:50,  9.43s/it] 31%|███       | 405/1319 [1:42:33<2:00:36,  7.92s/it] 31%|███       | 406/1319 [1:42:38<1:48:29,  7.13s/it] 31%|███       | 407/1319 [1:42:42<1:35:13,  6.26s/it] 31%|███       | 408/1319 [1:43:22<4:07:32, 16.30s/it] 31%|███       | 409/1319 [1:43:32<3:39:51, 14.50s/it] 31%|███       | 410/1319 [1:43:40<3:09:00, 12.48s/it]File "llm_build/812f6f8e-2b7f-11f0-8233-e1a5a23921f1/Solution.ml", line 9, characters 25-46:
+9 | let magnets_total_cost = magnets_cost_per_unit * float_of_int magnets_quantity in
+                             ^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 31%|███       | 411/1319 [1:43:46<2:39:29, 10.54s/it]File "llm_build/85261250-2b7f-11f0-8233-e1a5a23921f1/Solution.ml", line 6, characters 50-58:
+6 | let discounted_cost = total_fireworks_cost * (1 - discount) in
+                                                      ^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 31%|███       | 412/1319 [1:43:52<2:21:38,  9.37s/it] 31%|███▏      | 413/1319 [1:44:16<3:25:37, 13.62s/it]File "llm_build/9760ab92-2b7f-11f0-8233-e1a5a23921f1/Solution.ml", line 6, characters 69-83:
+6 | let wet_dog_candles = int_of_float ((wet_dog_percentage /. 100.0) *. float_of_float dangerous_candles) in
+                                                                         ^^^^^^^^^^^^^^
+Error: Unbound value "float_of_float"
+ 31%|███▏      | 414/1319 [1:44:23<2:55:45, 11.65s/it] 31%|███▏      | 415/1319 [1:44:31<2:36:53, 10.41s/it]File "llm_build/a2e0b426-2b7f-11f0-8233-e1a5a23921f1/Solution.ml", line 13, characters 4-19:
+13 | let combined_apples = total_joanne_apples + total_sister_apples in
+         ^^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable combined_apples.
+ 32%|███▏      | 416/1319 [1:44:42<2:42:52, 10.82s/it] 32%|███▏      | 417/1319 [1:44:49<2:24:03,  9.58s/it] 32%|███▏      | 418/1319 [1:44:58<2:18:53,  9.25s/it] 32%|███▏      | 419/1319 [1:45:20<3:16:08, 13.08s/it] 32%|███▏      | 420/1319 [1:45:26<2:46:38, 11.12s/it] 32%|███▏      | 421/1319 [1:45:31<2:17:40,  9.20s/it] 32%|███▏      | 422/1319 [1:45:35<1:52:49,  7.55s/it] 32%|███▏      | 423/1319 [1:45:40<1:42:02,  6.83s/it]File "llm_build/ca172962-2b7f-11f0-8237-e1a5a23921f1/Solution.ml", line 6, characters 4-20:
+6 | let savings_tattered = total_savings - savings_jogger in
+        ^^^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable savings_tattered.
+ 32%|███▏      | 424/1319 [1:45:48<1:49:20,  7.33s/it] 32%|███▏      | 425/1319 [1:45:56<1:49:39,  7.36s/it] 32%|███▏      | 426/1319 [1:46:19<2:59:59, 12.09s/it] 32%|███▏      | 427/1319 [1:46:23<2:22:59,  9.62s/it]File "llm_build/e2203648-2b7f-11f0-8237-e1a5a23921f1/Solution.ml", line 6, characters 24-36:
+6 | let cards_sold_needed = total_needed /. card_price in
+                            ^^^^^^^^^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+ 32%|███▏      | 428/1319 [1:46:28<2:06:15,  8.50s/it] 33%|███▎      | 429/1319 [1:46:34<1:51:34,  7.52s/it] 33%|███▎      | 430/1319 [1:46:37<1:32:38,  6.25s/it] 33%|███▎      | 431/1319 [1:46:43<1:29:56,  6.08s/it] 33%|███▎      | 432/1319 [1:46:47<1:23:20,  5.64s/it] 33%|███▎      | 433/1319 [1:46:52<1:20:53,  5.48s/it] 33%|███▎      | 434/1319 [1:47:28<3:33:03, 14.44s/it]File "llm_build/0853165a-2b80-11f0-8237-e1a5a23921f1/Solution.ml", line 7, characters 4-20:
+7 | let money_left_cents = total_money_cents - money_spent_on_chips in
+        ^^^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable money_left_cents.
+ 33%|███▎      | 435/1319 [1:47:33<2:50:19, 11.56s/it] 33%|███▎      | 436/1319 [1:47:36<2:12:49,  9.03s/it] 33%|███▎      | 437/1319 [1:47:39<1:46:26,  7.24s/it] 33%|███▎      | 438/1319 [1:47:44<1:35:29,  6.50s/it] 33%|███▎      | 439/1319 [1:48:24<4:03:04, 16.57s/it] 33%|███▎      | 440/1319 [1:48:32<3:25:17, 14.01s/it] 33%|███▎      | 441/1319 [1:48:35<2:37:03, 10.73s/it] 34%|███▎      | 442/1319 [1:49:22<5:15:26, 21.58s/it] 34%|███▎      | 443/1319 [1:49:27<4:02:31, 16.61s/it] 34%|███▎      | 444/1319 [1:49:33<3:18:13, 13.59s/it] 34%|███▎      | 445/1319 [1:49:36<2:30:51, 10.36s/it]File "llm_build/557969fc-2b80-11f0-823a-e1a5a23921f1/Solution.ml", line 5, characters 21-30:
+5 | let distance_miles = speed_mph *. time_hours in
+                         ^^^^^^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+ 34%|███▍      | 446/1319 [1:49:42<2:11:37,  9.05s/it] 34%|███▍      | 447/1319 [1:49:47<1:54:57,  7.91s/it] 34%|███▍      | 448/1319 [1:49:52<1:41:26,  6.99s/it] 34%|███▍      | 449/1319 [1:49:56<1:30:07,  6.22s/it] 34%|███▍      | 450/1319 [1:50:22<2:53:20, 11.97s/it] 34%|███▍      | 451/1319 [1:50:30<2:36:40, 10.83s/it] 34%|███▍      | 452/1319 [1:50:35<2:10:34,  9.04s/it] 34%|███▍      | 453/1319 [1:50:43<2:08:12,  8.88s/it] 34%|███▍      | 454/1319 [1:50:52<2:08:01,  8.88s/it] 34%|███▍      | 455/1319 [1:50:56<1:47:16,  7.45s/it] 35%|███▍      | 456/1319 [1:51:24<3:14:49, 13.55s/it] 35%|███▍      | 457/1319 [1:51:28<2:34:32, 10.76s/it] 35%|███▍      | 458/1319 [1:51:36<2:21:38,  9.87s/it] 35%|███▍      | 459/1319 [1:51:42<2:04:38,  8.70s/it] 35%|███▍      | 460/1319 [1:51:49<1:57:48,  8.23s/it] 35%|███▍      | 461/1319 [1:51:58<2:00:00,  8.39s/it] 35%|███▌      | 462/1319 [1:52:05<1:54:21,  8.01s/it] 35%|███▌      | 463/1319 [1:52:20<2:21:10,  9.90s/it] 35%|███▌      | 464/1319 [1:52:26<2:05:23,  8.80s/it] 35%|███▌      | 465/1319 [1:52:33<1:57:58,  8.29s/it] 35%|███▌      | 466/1319 [1:52:40<1:52:58,  7.95s/it] 35%|███▌      | 467/1319 [1:52:47<1:48:46,  7.66s/it] 35%|███▌      | 468/1319 [1:52:54<1:47:21,  7.57s/it] 36%|███▌      | 469/1319 [1:52:58<1:29:24,  6.31s/it] 36%|███▌      | 470/1319 [1:53:03<1:24:02,  5.94s/it] 36%|███▌      | 471/1319 [1:53:08<1:21:06,  5.74s/it] 36%|███▌      | 472/1319 [1:53:35<2:52:35, 12.23s/it] 36%|███▌      | 473/1319 [1:53:39<2:15:03,  9.58s/it] 36%|███▌      | 474/1319 [1:53:47<2:10:33,  9.27s/it] 36%|███▌      | 475/1319 [1:53:55<2:02:46,  8.73s/it] 36%|███▌      | 476/1319 [1:54:00<1:48:15,  7.71s/it] 36%|███▌      | 477/1319 [1:54:04<1:29:56,  6.41s/it] 36%|███▌      | 478/1319 [1:54:08<1:20:57,  5.78s/it] 36%|███▋      | 479/1319 [1:54:13<1:16:31,  5.47s/it]File "llm_build/fd888664-2b80-11f0-8243-e1a5a23921f1/Solution.ml", line 7, characters 27-53:
+7 | let hotel_price_increase = hotel_normal_price_per_day *. hotel_increase_percentage in
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+ 36%|███▋      | 480/1319 [1:54:24<1:41:12,  7.24s/it] 36%|███▋      | 481/1319 [1:54:31<1:40:55,  7.23s/it] 37%|███▋      | 482/1319 [1:54:36<1:32:17,  6.62s/it] 37%|███▋      | 483/1319 [1:54:40<1:19:26,  5.70s/it] 37%|███▋      | 484/1319 [1:54:46<1:22:37,  5.94s/it] 37%|███▋      | 485/1319 [1:54:50<1:11:51,  5.17s/it] 37%|███▋      | 486/1319 [1:54:52<59:01,  4.25s/it]   37%|███▋      | 487/1319 [1:54:55<52:51,  3.81s/it] 37%|███▋      | 488/1319 [1:55:03<1:10:24,  5.08s/it] 37%|███▋      | 489/1319 [1:55:09<1:15:12,  5.44s/it] 37%|███▋      | 490/1319 [1:55:17<1:27:30,  6.33s/it] 37%|███▋      | 491/1319 [1:55:21<1:15:25,  5.47s/it] 37%|███▋      | 492/1319 [1:55:41<2:16:14,  9.88s/it] 37%|███▋      | 493/1319 [1:55:44<1:47:08,  7.78s/it] 37%|███▋      | 494/1319 [1:55:50<1:39:10,  7.21s/it] 38%|███▊      | 495/1319 [1:56:01<1:54:45,  8.36s/it] 38%|███▊      | 496/1319 [1:56:07<1:43:42,  7.56s/it]File "llm_build/3c6d5db4-2b81-11f0-8249-e1a5a23921f1/Solution.ml", line 3, characters 4-20:
+3 | let brett_age_future = brett_age + 4 in
+        ^^^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable brett_age_future.
+ 38%|███▊      | 497/1319 [1:56:10<1:24:39,  6.18s/it] 38%|███▊      | 498/1319 [1:56:18<1:34:09,  6.88s/it] 38%|███▊      | 499/1319 [1:56:23<1:27:38,  6.41s/it] 38%|███▊      | 500/1319 [1:56:48<2:40:20, 11.75s/it] 38%|███▊      | 501/1319 [1:56:50<2:02:53,  9.01s/it] 38%|███▊      | 502/1319 [1:56:54<1:40:02,  7.35s/it] 38%|███▊      | 503/1319 [1:57:11<2:21:56, 10.44s/it] 38%|███▊      | 504/1319 [1:57:14<1:49:53,  8.09s/it] 38%|███▊      | 505/1319 [1:57:24<1:56:46,  8.61s/it]File "llm_build/7b0151d4-2b81-11f0-824c-e1a5a23921f1/Solution.ml", line 29, characters 0-3:
+29 | let result = max_sticks in
+     ^^^
+Error: Syntax error
+ 38%|███▊      | 506/1319 [1:57:54<3:26:36, 15.25s/it] 38%|███▊      | 507/1319 [1:57:59<2:44:18, 12.14s/it] 39%|███▊      | 508/1319 [1:58:03<2:11:30,  9.73s/it] 39%|███▊      | 509/1319 [1:58:07<1:46:50,  7.91s/it] 39%|███▊      | 510/1319 [1:58:22<2:14:08,  9.95s/it] 39%|███▊      | 511/1319 [1:58:26<1:52:12,  8.33s/it] 39%|███▉      | 512/1319 [1:58:29<1:29:07,  6.63s/it] 39%|███▉      | 513/1319 [1:58:34<1:22:33,  6.15s/it] 39%|███▉      | 514/1319 [1:58:43<1:32:54,  6.93s/it] 39%|███▉      | 515/1319 [1:58:45<1:13:34,  5.49s/it] 39%|███▉      | 516/1319 [1:59:01<1:57:29,  8.78s/it] 39%|███▉      | 517/1319 [1:59:07<1:43:40,  7.76s/it] 39%|███▉      | 518/1319 [1:59:11<1:28:32,  6.63s/it] 39%|███▉      | 519/1319 [1:59:20<1:39:02,  7.43s/it] 39%|███▉      | 520/1319 [1:59:24<1:24:07,  6.32s/it] 39%|███▉      | 521/1319 [1:59:30<1:23:55,  6.31s/it] 40%|███▉      | 522/1319 [1:59:34<1:15:28,  5.68s/it] 40%|███▉      | 523/1319 [1:59:39<1:09:48,  5.26s/it] 40%|███▉      | 524/1319 [1:59:43<1:07:09,  5.07s/it] 40%|███▉      | 525/1319 [1:59:52<1:21:20,  6.15s/it] 40%|███▉      | 526/1319 [1:59:56<1:14:55,  5.67s/it] 40%|███▉      | 527/1319 [2:00:03<1:18:50,  5.97s/it]File "llm_build/cac15818-2b81-11f0-8250-e1a5a23921f1/Solution.ml", line 5, characters 50-78:
+5 | let total_days_for_one_person = days_per_person / fraction_of_house_per_person in
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 40%|████      | 528/1319 [2:00:08<1:15:30,  5.73s/it] 40%|████      | 529/1319 [2:00:16<1:22:17,  6.25s/it] 40%|████      | 530/1319 [2:00:19<1:11:32,  5.44s/it] 40%|████      | 531/1319 [2:00:23<1:05:47,  5.01s/it] 40%|████      | 532/1319 [2:00:30<1:13:21,  5.59s/it] 40%|████      | 533/1319 [2:00:36<1:15:29,  5.76s/it] 40%|████      | 534/1319 [2:00:40<1:05:04,  4.97s/it] 41%|████      | 535/1319 [2:00:52<1:32:41,  7.09s/it] 41%|████      | 536/1319 [2:00:54<1:14:54,  5.74s/it] 41%|████      | 537/1319 [2:01:01<1:17:51,  5.97s/it] 41%|████      | 538/1319 [2:01:05<1:10:01,  5.38s/it] 41%|████      | 539/1319 [2:01:13<1:21:06,  6.24s/it] 41%|████      | 540/1319 [2:01:17<1:12:48,  5.61s/it] 41%|████      | 541/1319 [2:01:22<1:10:58,  5.47s/it]File "llm_build/ff3d23a6-2b81-11f0-8251-e1a5a23921f1/Solution.ml", line 8, characters 4-17:
+8 | let total_savings = total_savings_first_half + total_savings_second_half in
+        ^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable total_savings.
+ 41%|████      | 542/1319 [2:01:36<1:44:26,  8.07s/it] 41%|████      | 543/1319 [2:01:40<1:29:14,  6.90s/it] 41%|████      | 544/1319 [2:01:44<1:15:40,  5.86s/it] 41%|████▏     | 545/1319 [2:01:46<1:00:39,  4.70s/it] 41%|████▏     | 546/1319 [2:01:50<57:08,  4.43s/it]   41%|████▏     | 547/1319 [2:01:53<53:53,  4.19s/it]File "llm_build/0b305372-2b82-11f0-8251-e1a5a23921f1/Solution.ml", line 5, characters 44-63:
+5 | let families_notified = families_initial * (families_per_family ** (round - 1)) in
+                                                ^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+ 42%|████▏     | 548/1319 [2:01:56<49:19,  3.84s/it] 42%|████▏     | 549/1319 [2:02:00<46:47,  3.65s/it] 42%|████▏     | 550/1319 [2:02:03<44:31,  3.47s/it] 42%|████▏     | 551/1319 [2:02:10<57:47,  4.51s/it]File "llm_build/18f0bc04-2b82-11f0-8252-e1a5a23921f1/Solution.ml", line 15, characters 12-18:
+15 | print_float result
+                 ^^^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+ 42%|████▏     | 552/1319 [2:02:19<1:18:11,  6.12s/it]File "llm_build/1ba21c72-2b82-11f0-8252-e1a5a23921f1/Solution.ml", line 7, characters 35-56:
+7 | let commission_first = threshold * commission_rate_first in
+                                       ^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 42%|████▏     | 553/1319 [2:02:24<1:11:55,  5.63s/it] 42%|████▏     | 554/1319 [2:02:31<1:15:35,  5.93s/it] 42%|████▏     | 555/1319 [2:02:34<1:06:42,  5.24s/it] 42%|████▏     | 556/1319 [2:02:38<1:02:13,  4.89s/it] 42%|████▏     | 557/1319 [2:02:43<1:00:00,  4.72s/it] 42%|████▏     | 558/1319 [2:02:47<58:16,  4.59s/it]   42%|████▏     | 559/1319 [2:02:50<51:15,  4.05s/it] 42%|████▏     | 560/1319 [2:02:53<46:55,  3.71s/it] 43%|████▎     | 561/1319 [2:02:57<49:47,  3.94s/it] 43%|████▎     | 562/1319 [2:03:00<44:23,  3.52s/it] 43%|████▎     | 563/1319 [2:03:05<49:41,  3.94s/it] 43%|████▎     | 564/1319 [2:03:09<50:36,  4.02s/it]File "llm_build/38e111a8-2b82-11f0-8252-e1a5a23921f1/Solution.ml", line 7, characters 42-66:
+7 | let pages_read_first_week = int_of_float (total_minutes_first_week /. minutes_per_page) in
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+ 43%|████▎     | 565/1319 [2:03:13<51:27,  4.10s/it] 43%|████▎     | 566/1319 [2:03:21<1:04:20,  5.13s/it] 43%|████▎     | 567/1319 [2:03:24<56:38,  4.52s/it]  File "llm_build/440c1776-2b82-11f0-8252-e1a5a23921f1/Solution.ml", line 5, characters 20-39:
+5 | let total_payment = first_tooth_payment + (next_three_teeth_payment *. 3.0) + (last_two_teeth_payment *. 2.0) in
+                        ^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 43%|████▎     | 568/1319 [2:03:32<1:10:00,  5.59s/it] 43%|████▎     | 569/1319 [2:03:35<1:02:31,  5.00s/it] 43%|████▎     | 570/1319 [2:03:41<1:03:30,  5.09s/it] 43%|████▎     | 571/1319 [2:03:48<1:11:35,  5.74s/it] 43%|████▎     | 572/1319 [2:03:53<1:08:30,  5.50s/it] 43%|████▎     | 573/1319 [2:04:22<2:37:53, 12.70s/it] 44%|████▎     | 574/1319 [2:04:25<2:00:34,  9.71s/it] 44%|████▎     | 575/1319 [2:04:33<1:52:48,  9.10s/it] 44%|████▎     | 576/1319 [2:04:41<1:47:38,  8.69s/it] 44%|████▎     | 577/1319 [2:04:47<1:37:48,  7.91s/it] 44%|████▍     | 578/1319 [2:04:51<1:23:03,  6.72s/it] 44%|████▍     | 579/1319 [2:04:54<1:12:03,  5.84s/it] 44%|████▍     | 580/1319 [2:04:56<58:18,  4.73s/it]   44%|████▍     | 581/1319 [2:05:00<54:33,  4.44s/it] 44%|████▍     | 582/1319 [2:05:06<1:00:03,  4.89s/it] 44%|████▍     | 583/1319 [2:05:10<55:46,  4.55s/it]   44%|████▍     | 584/1319 [2:05:16<1:00:50,  4.97s/it]File "llm_build/86b79a00-2b82-11f0-8256-e1a5a23921f1/Solution.ml", line 8, characters 36-49:
+8 | let discount_amount = total_price * discount_rate in
+                                        ^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 44%|████▍     | 585/1319 [2:05:24<1:10:54,  5.80s/it] 44%|████▍     | 586/1319 [2:05:34<1:29:16,  7.31s/it] 45%|████▍     | 587/1319 [2:05:41<1:25:49,  7.04s/it] 45%|████▍     | 588/1319 [2:05:46<1:18:00,  6.40s/it] 45%|████▍     | 589/1319 [2:05:50<1:09:38,  5.72s/it] 45%|████▍     | 590/1319 [2:05:56<1:09:23,  5.71s/it] 45%|████▍     | 591/1319 [2:06:00<1:03:27,  5.23s/it] 45%|████▍     | 592/1319 [2:06:06<1:07:20,  5.56s/it] 45%|████▍     | 593/1319 [2:06:17<1:28:15,  7.29s/it] 45%|████▌     | 594/1319 [2:06:24<1:27:24,  7.23s/it] 45%|████▌     | 595/1319 [2:06:28<1:13:45,  6.11s/it] 45%|████▌     | 596/1319 [2:06:30<59:13,  4.92s/it]   45%|████▌     | 597/1319 [2:06:34<56:02,  4.66s/it]File "llm_build/b32123ae-2b82-11f0-8256-e1a5a23921f1/Solution.ml", line 5, characters 4-15:
+5 | let total_angle = smallest_angle + second_angle + largest_angle in
+        ^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable total_angle.
+ 45%|████▌     | 598/1319 [2:06:38<53:39,  4.47s/it] 45%|████▌     | 599/1319 [2:06:43<53:34,  4.46s/it] 45%|████▌     | 600/1319 [2:06:47<52:50,  4.41s/it] 46%|████▌     | 601/1319 [2:06:53<58:48,  4.91s/it] 46%|████▌     | 602/1319 [2:06:59<1:02:11,  5.20s/it] 46%|████▌     | 603/1319 [2:07:02<54:41,  4.58s/it]   46%|████▌     | 604/1319 [2:07:13<1:18:36,  6.60s/it] 46%|████▌     | 605/1319 [2:07:18<1:11:13,  5.99s/it]File "llm_build/cf2d1e86-2b82-11f0-8257-e1a5a23921f1/Solution.ml", line 11, characters 4-14:
+11 | let total_cups = total_cups_first + total_cups_second in
+         ^^^^^^^^^^
+Warning 26 [unused-var]: unused variable total_cups.
+ 46%|████▌     | 606/1319 [2:07:25<1:15:54,  6.39s/it] 46%|████▌     | 607/1319 [2:07:30<1:10:59,  5.98s/it] 46%|████▌     | 608/1319 [2:07:34<1:02:41,  5.29s/it]File "llm_build/d7099648-2b82-11f0-8257-e1a5a23921f1/Solution.ml", line 7, characters 29-40:
+7 | let total_discounted_price = total_price *. (1.0 -. discount) in
+                                 ^^^^^^^^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+ 46%|████▌     | 609/1319 [2:07:38<59:43,  5.05s/it]  File "llm_build/df32eea0-2b82-11f0-8257-e1a5a23921f1/Solution.ml", line 6, characters 26-42:
+6 | let total_butter_needed = butter_per_dozen * float_of_int total_dozens in
+                              ^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 46%|████▌     | 610/1319 [2:07:52<1:30:15,  7.64s/it] 46%|████▋     | 611/1319 [2:08:01<1:33:41,  7.94s/it] 46%|████▋     | 612/1319 [2:08:06<1:22:49,  7.03s/it] 46%|████▋     | 613/1319 [2:08:10<1:11:50,  6.11s/it] 47%|████▋     | 614/1319 [2:08:20<1:28:07,  7.50s/it]File "llm_build/f2a018e6-2b82-11f0-8257-e1a5a23921f1/Solution.ml", line 8, characters 33-48:
+8 | let total_cost = total_gallons * cost_per_gallon in
+                                     ^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 47%|████▋     | 615/1319 [2:08:25<1:16:54,  6.55s/it] 47%|████▋     | 616/1319 [2:08:36<1:32:23,  7.89s/it] 47%|████▋     | 617/1319 [2:08:38<1:13:35,  6.29s/it] 47%|████▋     | 618/1319 [2:08:41<1:02:33,  5.35s/it] 47%|████▋     | 619/1319 [2:08:46<58:27,  5.01s/it]   47%|████▋     | 620/1319 [2:08:53<1:06:15,  5.69s/it] 47%|████▋     | 621/1319 [2:08:58<1:04:15,  5.52s/it] 47%|████▋     | 622/1319 [2:09:04<1:07:22,  5.80s/it] 47%|████▋     | 623/1319 [2:09:13<1:16:07,  6.56s/it] 47%|████▋     | 624/1319 [2:09:14<59:03,  5.10s/it]   47%|████▋     | 625/1319 [2:09:25<1:17:08,  6.67s/it] 47%|████▋     | 626/1319 [2:09:29<1:07:18,  5.83s/it] 48%|████▊     | 627/1319 [2:09:32<57:17,  4.97s/it]   48%|████▊     | 628/1319 [2:09:35<51:27,  4.47s/it] 48%|████▊     | 629/1319 [2:09:41<58:11,  5.06s/it]File "llm_build/22d85aa0-2b83-11f0-8258-e1a5a23921f1/Solution.ml", line 8, characters 37-59:
+8 | let acquisition_cost = total_sales * acquisition_percentage in
+                                         ^^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 48%|████▊     | 630/1319 [2:09:46<55:03,  4.79s/it] 48%|████▊     | 631/1319 [2:09:51<57:10,  4.99s/it] 48%|████▊     | 632/1319 [2:09:54<51:33,  4.50s/it] 48%|████▊     | 633/1319 [2:09:58<48:15,  4.22s/it] 48%|████▊     | 634/1319 [2:10:00<42:20,  3.71s/it] 48%|████▊     | 635/1319 [2:10:05<44:26,  3.90s/it] 48%|████▊     | 636/1319 [2:10:09<44:53,  3.94s/it] 48%|████▊     | 637/1319 [2:10:11<39:41,  3.49s/it] 48%|████▊     | 638/1319 [2:10:19<53:44,  4.74s/it] 48%|████▊     | 639/1319 [2:10:27<1:03:39,  5.62s/it] 49%|████▊     | 640/1319 [2:10:30<56:33,  5.00s/it]   49%|████▊     | 641/1319 [2:10:37<1:03:42,  5.64s/it]File "llm_build/461ef1a4-2b83-11f0-8258-e1a5a23921f1/Solution.ml", line 5, characters 37-53:
+5 | let monthly_raise = salary_initial * raise_percentage in
+                                         ^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 49%|████▊     | 642/1319 [2:10:45<1:09:52,  6.19s/it] 49%|████▊     | 643/1319 [2:10:51<1:10:55,  6.29s/it] 49%|████▉     | 644/1319 [2:10:56<1:05:26,  5.82s/it] 49%|████▉     | 645/1319 [2:11:01<1:03:43,  5.67s/it] 49%|████▉     | 646/1319 [2:11:05<56:31,  5.04s/it]  File "llm_build/5446a542-2b83-11f0-8258-e1a5a23921f1/Solution.ml", line 6, characters 21-32:
+6 | let alisa_distance = alisa_speed *. alisa_time in
+                         ^^^^^^^^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+ 49%|████▉     | 647/1319 [2:11:08<51:38,  4.61s/it] 49%|████▉     | 648/1319 [2:11:14<53:15,  4.76s/it] 49%|████▉     | 649/1319 [2:11:21<1:00:55,  5.46s/it] 49%|████▉     | 650/1319 [2:11:25<56:05,  5.03s/it]  File "llm_build/6319565a-2b83-11f0-8258-e1a5a23921f1/Solution.ml", line 10, characters 55-74:
+10 | let discount_amount_wednesday = total_cost_wednesday * discount_percentage in
+                                                            ^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 49%|████▉     | 651/1319 [2:11:33<1:08:02,  6.11s/it] 49%|████▉     | 652/1319 [2:11:37<1:00:30,  5.44s/it] 50%|████▉     | 653/1319 [2:11:42<58:33,  5.28s/it]   50%|████▉     | 654/1319 [2:11:46<53:53,  4.86s/it] 50%|████▉     | 655/1319 [2:11:49<48:19,  4.37s/it] 50%|████▉     | 656/1319 [2:11:54<49:50,  4.51s/it] 50%|████▉     | 657/1319 [2:11:58<49:28,  4.48s/it] 50%|████▉     | 658/1319 [2:12:03<48:34,  4.41s/it] 50%|████▉     | 659/1319 [2:12:08<52:20,  4.76s/it] 50%|█████     | 660/1319 [2:12:15<58:56,  5.37s/it]File "llm_build/820e4372-2b83-11f0-8258-e1a5a23921f1/Solution.ml", line 10, characters 4-17:
+10 | let legs_equation = 4 * (total_heads - y) + 2 * y in
+         ^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable legs_equation.
+ 50%|█████     | 661/1319 [2:12:25<1:14:49,  6.82s/it] 50%|█████     | 662/1319 [2:12:30<1:08:26,  6.25s/it] 50%|█████     | 663/1319 [2:12:34<1:01:16,  5.60s/it] 50%|█████     | 664/1319 [2:12:37<51:42,  4.74s/it]  File "llm_build/8b3168e4-2b83-11f0-8258-e1a5a23921f1/Solution.ml", line 7, characters 36-53:
+7 | let recipes_learned = int_of_float (total_class_hours /. hours_per_recipe) in
+                                        ^^^^^^^^^^^^^^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+ 50%|█████     | 665/1319 [2:12:41<47:52,  4.39s/it] 50%|█████     | 666/1319 [2:12:45<47:11,  4.34s/it] 51%|█████     | 667/1319 [2:12:48<42:53,  3.95s/it] 51%|█████     | 668/1319 [2:12:53<47:50,  4.41s/it] 51%|█████     | 669/1319 [2:12:57<45:59,  4.25s/it]File "llm_build/9d4531be-2b83-11f0-8258-e1a5a23921f1/Solution.ml", line 8, characters 27-42:
+8 | let total_salt = muffins * salt_per_muffin in
+                               ^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 51%|█████     | 670/1319 [2:13:11<1:16:44,  7.09s/it] 51%|█████     | 671/1319 [2:13:15<1:07:26,  6.24s/it] 51%|█████     | 672/1319 [2:13:21<1:06:38,  6.18s/it]File "llm_build/a5a8cf8c-2b83-11f0-8258-e1a5a23921f1/Solution.ml", line 5, characters 4-24:
+5 | let neutral_days_initial = total_days - good_days_initial - bad_days_initial in
+        ^^^^^^^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable neutral_days_initial.
+ 51%|█████     | 673/1319 [2:13:25<58:48,  5.46s/it]   51%|█████     | 674/1319 [2:13:29<52:59,  4.93s/it] 51%|█████     | 675/1319 [2:13:31<45:55,  4.28s/it]File "llm_build/ae2f4cc6-2b83-11f0-8258-e1a5a23921f1/Solution.ml", line 2, characters 4-16:
+2 | let toys_initial = 4 in
+        ^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable toys_initial.
+ 51%|█████▏    | 676/1319 [2:13:39<57:20,  5.35s/it] 51%|█████▏    | 677/1319 [2:13:45<56:59,  5.33s/it] 51%|█████▏    | 678/1319 [2:13:53<1:05:58,  6.17s/it] 51%|█████▏    | 679/1319 [2:13:56<55:54,  5.24s/it]   52%|█████▏    | 680/1319 [2:13:58<46:30,  4.37s/it] 52%|█████▏    | 681/1319 [2:14:01<42:59,  4.04s/it] 52%|█████▏    | 682/1319 [2:14:06<44:32,  4.20s/it]File "llm_build/c0b8d380-2b83-11f0-8258-e1a5a23921f1/Solution.ml", line 6, characters 46-49:
+6 | let original_length = length_with_extension / 1.5 in
+                                                  ^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 52%|█████▏    | 683/1319 [2:14:10<45:14,  4.27s/it] 52%|█████▏    | 684/1319 [2:14:16<49:20,  4.66s/it] 52%|█████▏    | 685/1319 [2:14:19<44:43,  4.23s/it] 52%|█████▏    | 686/1319 [2:14:24<47:29,  4.50s/it] 52%|█████▏    | 687/1319 [2:14:31<55:31,  5.27s/it] 52%|█████▏    | 688/1319 [2:14:34<46:03,  4.38s/it] 52%|█████▏    | 689/1319 [2:14:37<44:03,  4.20s/it] 52%|█████▏    | 690/1319 [2:14:44<51:14,  4.89s/it] 52%|█████▏    | 691/1319 [2:14:48<47:34,  4.55s/it] 52%|█████▏    | 692/1319 [2:14:59<1:09:31,  6.65s/it] 53%|█████▎    | 693/1319 [2:15:06<1:10:21,  6.74s/it] 53%|█████▎    | 694/1319 [2:15:10<1:00:33,  5.81s/it] 53%|█████▎    | 695/1319 [2:15:16<1:00:21,  5.80s/it] 53%|█████▎    | 696/1319 [2:15:20<54:58,  5.29s/it]   53%|█████▎    | 697/1319 [2:15:26<57:35,  5.56s/it] 53%|█████▎    | 698/1319 [2:15:31<56:13,  5.43s/it] 53%|█████▎    | 699/1319 [2:15:34<48:15,  4.67s/it] 53%|█████▎    | 700/1319 [2:15:38<46:41,  4.53s/it] 53%|█████▎    | 701/1319 [2:15:45<52:30,  5.10s/it] 53%|█████▎    | 702/1319 [2:15:53<1:01:26,  5.97s/it] 53%|█████▎    | 703/1319 [2:15:57<56:10,  5.47s/it]   53%|█████▎    | 704/1319 [2:16:02<55:52,  5.45s/it] 53%|█████▎    | 705/1319 [2:16:05<47:41,  4.66s/it] 54%|█████▎    | 706/1319 [2:16:08<43:12,  4.23s/it]File "llm_build/099c8254-2b84-11f0-8259-e1a5a23921f1/Solution.ml", line 4, characters 4-20:
+4 | let remaining_amount = goal_amount - amount_raised in
+        ^^^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable remaining_amount.
+ 54%|█████▎    | 707/1319 [2:16:13<43:29,  4.26s/it] 54%|█████▎    | 708/1319 [2:16:16<40:48,  4.01s/it] 54%|█████▍    | 709/1319 [2:16:18<35:44,  3.52s/it] 54%|█████▍    | 710/1319 [2:16:29<56:38,  5.58s/it] 54%|█████▍    | 711/1319 [2:16:37<1:05:40,  6.48s/it] 54%|█████▍    | 712/1319 [2:16:42<58:42,  5.80s/it]   54%|█████▍    | 713/1319 [2:16:47<56:36,  5.60s/it] 54%|█████▍    | 714/1319 [2:16:50<48:56,  4.85s/it]File "llm_build/22215f3e-2b84-11f0-8259-e1a5a23921f1/Solution.ml", line 5, characters 25-43:
+5 | let total_cost_picking = cost_to_go_picking + (cost_per_pound_picking *. float_of_int pounds_picked) in
+                             ^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 54%|█████▍    | 715/1319 [2:16:54<45:58,  4.57s/it]File "llm_build/241950c6-2b84-11f0-8259-e1a5a23921f1/Solution.ml", line 5, characters 63-88:
+5 | let new_price_per_computer = initial_price_per_computer * (1 + price_increase_percentage) in
+                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 54%|█████▍    | 716/1319 [2:16:57<42:05,  4.19s/it] 54%|█████▍    | 717/1319 [2:17:02<45:27,  4.53s/it] 54%|█████▍    | 718/1319 [2:17:07<46:41,  4.66s/it] 55%|█████▍    | 719/1319 [2:17:12<45:00,  4.50s/it]File "llm_build/2f0479e8-2b84-11f0-8259-e1a5a23921f1/Solution.ml", line 2, characters 4-17:
+2 | let sacks_initial = 20 in
+        ^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable sacks_initial.
+ 55%|█████▍    | 720/1319 [2:17:15<43:08,  4.32s/it] 55%|█████▍    | 721/1319 [2:17:19<40:25,  4.06s/it] 55%|█████▍    | 722/1319 [2:17:27<51:38,  5.19s/it] 55%|█████▍    | 723/1319 [2:17:31<49:25,  4.98s/it] 55%|█████▍    | 724/1319 [2:17:37<51:13,  5.17s/it] 55%|█████▍    | 725/1319 [2:17:48<1:08:41,  6.94s/it] 55%|█████▌    | 726/1319 [2:17:50<54:52,  5.55s/it]   55%|█████▌    | 727/1319 [2:17:58<1:01:25,  6.23s/it] 55%|█████▌    | 728/1319 [2:18:05<1:04:24,  6.54s/it] 55%|█████▌    | 729/1319 [2:18:12<1:04:56,  6.60s/it] 55%|█████▌    | 730/1319 [2:18:15<55:31,  5.66s/it]   55%|█████▌    | 731/1319 [2:18:19<49:45,  5.08s/it] 55%|█████▌    | 732/1319 [2:18:25<50:54,  5.20s/it] 56%|█████▌    | 733/1319 [2:18:27<43:40,  4.47s/it] 56%|█████▌    | 734/1319 [2:18:33<47:02,  4.82s/it] 56%|█████▌    | 735/1319 [2:18:37<45:24,  4.66s/it] 56%|█████▌    | 736/1319 [2:18:43<46:53,  4.83s/it] 56%|█████▌    | 737/1319 [2:18:48<48:51,  5.04s/it]File "llm_build/6b70cf80-2b84-11f0-8259-e1a5a23921f1/Solution.ml", line 9, characters 121-138:
+9 | let water_used = (giant_cubes_made * giant_cube_ounces) + (medium_cubes_made * medium_cube_ounces) + (small_cubes_made * small_cube_ounces) in
+                                                                                                                             ^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 56%|█████▌    | 738/1319 [2:18:57<59:24,  6.13s/it] 56%|█████▌    | 739/1319 [2:18:59<48:45,  5.04s/it] 56%|█████▌    | 740/1319 [2:19:04<48:16,  5.00s/it] 56%|█████▌    | 741/1319 [2:19:11<52:48,  5.48s/it] 56%|█████▋    | 742/1319 [2:19:18<56:28,  5.87s/it] 56%|█████▋    | 743/1319 [2:19:21<49:48,  5.19s/it] 56%|█████▋    | 744/1319 [2:19:27<50:53,  5.31s/it] 56%|█████▋    | 745/1319 [2:19:31<48:11,  5.04s/it] 57%|█████▋    | 746/1319 [2:19:38<53:18,  5.58s/it] 57%|█████▋    | 747/1319 [2:19:43<51:39,  5.42s/it] 57%|█████▋    | 748/1319 [2:19:50<56:36,  5.95s/it] 57%|█████▋    | 749/1319 [2:19:53<48:25,  5.10s/it]File "llm_build/8f586796-2b84-11f0-8259-e1a5a23921f1/Solution.ml", line 2, characters 4-18:
+2 | let students_total = 54 in
+        ^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable students_total.
+ 57%|█████▋    | 750/1319 [2:19:57<44:19,  4.67s/it] 57%|█████▋    | 751/1319 [2:20:03<48:46,  5.15s/it] 57%|█████▋    | 752/1319 [2:20:09<49:23,  5.23s/it] 57%|█████▋    | 753/1319 [2:20:14<49:48,  5.28s/it] 57%|█████▋    | 754/1319 [2:20:17<43:15,  4.59s/it]File "llm_build/a0305998-2b84-11f0-8259-e1a5a23921f1/Solution.ml", line 10, characters 4-28:
+10 | let small_stickers_remaining = small_stickers_initial - small_stickers_traded in
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable small_stickers_remaining.
+ 57%|█████▋    | 755/1319 [2:20:25<53:17,  5.67s/it] 57%|█████▋    | 756/1319 [2:20:29<46:18,  4.94s/it]File "llm_build/a470554e-2b84-11f0-8259-e1a5a23921f1/Solution.ml", line 3, characters 20-21:
+3 | let votes_against = x in
+                        ^
+Error: Unbound value "x"
+ 57%|█████▋    | 757/1319 [2:20:32<43:20,  4.63s/it] 57%|█████▋    | 758/1319 [2:20:38<46:28,  4.97s/it] 58%|█████▊    | 759/1319 [2:20:41<39:46,  4.26s/it] 58%|█████▊    | 760/1319 [2:20:44<35:50,  3.85s/it] 58%|█████▊    | 761/1319 [2:20:50<42:42,  4.59s/it] 58%|█████▊    | 762/1319 [2:20:56<46:14,  4.98s/it] 58%|█████▊    | 763/1319 [2:21:10<1:12:21,  7.81s/it] 58%|█████▊    | 764/1319 [2:21:14<1:00:01,  6.49s/it] 58%|█████▊    | 765/1319 [2:21:19<57:42,  6.25s/it]   58%|█████▊    | 766/1319 [2:21:22<48:38,  5.28s/it] 58%|█████▊    | 767/1319 [2:21:25<41:25,  4.50s/it] 58%|█████▊    | 768/1319 [2:21:28<36:08,  3.94s/it] 58%|█████▊    | 769/1319 [2:21:32<35:58,  3.92s/it] 58%|█████▊    | 770/1319 [2:21:36<37:24,  4.09s/it] 58%|█████▊    | 771/1319 [2:21:43<46:15,  5.06s/it] 59%|█████▊    | 772/1319 [2:21:49<47:41,  5.23s/it] 59%|█████▊    | 773/1319 [2:21:55<49:10,  5.40s/it] 59%|█████▊    | 774/1319 [2:21:59<46:08,  5.08s/it] 59%|█████▉    | 775/1319 [2:22:05<47:55,  5.29s/it] 59%|█████▉    | 776/1319 [2:22:09<43:36,  4.82s/it] 59%|█████▉    | 777/1319 [2:22:12<40:38,  4.50s/it] 59%|█████▉    | 778/1319 [2:22:22<52:51,  5.86s/it] 59%|█████▉    | 779/1319 [2:22:26<49:37,  5.51s/it] 59%|█████▉    | 780/1319 [2:22:32<51:34,  5.74s/it] 59%|█████▉    | 781/1319 [2:22:39<54:20,  6.06s/it] 59%|█████▉    | 782/1319 [2:22:42<45:51,  5.12s/it] 59%|█████▉    | 783/1319 [2:22:47<43:39,  4.89s/it]File "llm_build/fbc26d78-2b84-11f0-8259-e1a5a23921f1/Solution.ml", line 20, characters 0-3:
+20 | let white_fish_bought = find_white_fish_bought 0 in
+     ^^^
+Error: Syntax error
+ 59%|█████▉    | 784/1319 [2:22:59<1:03:38,  7.14s/it] 60%|█████▉    | 785/1319 [2:23:05<1:00:51,  6.84s/it]File "llm_build/0721e8a6-2b85-11f0-8259-e1a5a23921f1/Solution.ml", line 7, characters 4-24:
+7 | let total_twenties_value = twenties_initial * value_of_twenties in
+        ^^^^^^^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable total_twenties_value.
+ 60%|█████▉    | 786/1319 [2:23:18<1:17:01,  8.67s/it] 60%|█████▉    | 787/1319 [2:23:23<1:06:33,  7.51s/it] 60%|█████▉    | 788/1319 [2:23:26<54:27,  6.15s/it]   60%|█████▉    | 789/1319 [2:23:30<50:12,  5.68s/it] 60%|█████▉    | 790/1319 [2:23:34<45:38,  5.18s/it] 60%|█████▉    | 791/1319 [2:23:47<1:06:06,  7.51s/it] 60%|██████    | 792/1319 [2:23:50<54:21,  6.19s/it]   60%|██████    | 793/1319 [2:23:54<47:16,  5.39s/it] 60%|██████    | 794/1319 [2:24:01<50:36,  5.78s/it] 60%|██████    | 795/1319 [2:24:03<42:00,  4.81s/it] 60%|██████    | 796/1319 [2:24:07<38:14,  4.39s/it] 60%|██████    | 797/1319 [2:24:10<35:43,  4.11s/it] 61%|██████    | 798/1319 [2:24:13<33:38,  3.88s/it]File "llm_build/2c011fa2-2b85-11f0-8259-e1a5a23921f1/Solution.ml", line 5, characters 28-49:
+5 | let sally_starting_salary = billy_starting_salary + 0.50 in
+                                ^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 61%|██████    | 799/1319 [2:24:20<40:18,  4.65s/it] 61%|██████    | 800/1319 [2:24:23<35:02,  4.05s/it] 61%|██████    | 801/1319 [2:24:25<31:08,  3.61s/it] 61%|██████    | 802/1319 [2:24:34<43:40,  5.07s/it]File "llm_build/3aa99c64-2b85-11f0-8259-e1a5a23921f1/Solution.ml", line 9, characters 65-81:
+9 | let goats_to_buy = total_goats_needed - (total_stuffed_animals * percentage_goats |> int_of_float) in
+                                                                     ^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 61%|██████    | 803/1319 [2:24:44<58:36,  6.82s/it]File "llm_build/3f16df96-2b85-11f0-8259-e1a5a23921f1/Solution.ml", line 9, characters 25-47:
+9 | let total_hours_played = hours_played_two_weeks + hours_played_one_week in
+                             ^^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 61%|██████    | 804/1319 [2:24:52<1:00:05,  7.00s/it] 61%|██████    | 805/1319 [2:24:56<53:13,  6.21s/it]  File "llm_build/440e6d8e-2b85-11f0-8259-e1a5a23921f1/Solution.ml", line 6, characters 32-50:
+6 | let premium_cost = total_cost * premium_percentage in
+                                    ^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 61%|██████    | 806/1319 [2:25:00<47:20,  5.54s/it] 61%|██████    | 807/1319 [2:25:06<46:54,  5.50s/it] 61%|██████▏   | 808/1319 [2:25:09<41:40,  4.89s/it]File "llm_build/4d441c82-2b85-11f0-8259-e1a5a23921f1/Solution.ml", line 4, characters 59-62:
+4 | let amount_drunk_by_1_5_students = students_drinking_1_5 * 1.5 in
+                                                               ^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 61%|██████▏   | 809/1319 [2:25:16<45:50,  5.39s/it] 61%|██████▏   | 810/1319 [2:25:19<39:43,  4.68s/it] 61%|██████▏   | 811/1319 [2:25:26<46:24,  5.48s/it] 62%|██████▏   | 812/1319 [2:25:39<1:06:20,  7.85s/it]File "llm_build/6200029e-2b85-11f0-8259-e1a5a23921f1/Solution.ml", line 18, characters 4-17:
+18 | let total_flowers = 
+         ^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable total_flowers.
+ 62%|██████▏   | 813/1319 [2:25:51<1:14:18,  8.81s/it] 62%|██████▏   | 814/1319 [2:25:54<1:01:02,  7.25s/it] 62%|██████▏   | 815/1319 [2:26:01<1:00:38,  7.22s/it]File "llm_build/6a5b8e2c-2b85-11f0-8259-e1a5a23921f1/Solution.ml", line 2, characters 4-16:
+2 | let total_ounces = 10 in
+        ^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable total_ounces.
+
+File "llm_build/6a5b8e2c-2b85-11f0-8259-e1a5a23921f1/Solution.ml", line 8, characters 4-14:
+8 | let total_used = zest_and_fragrance + salt + sugar + oil in
+        ^^^^^^^^^^
+Warning 26 [unused-var]: unused variable total_used.
+ 62%|██████▏   | 816/1319 [2:26:05<50:33,  6.03s/it]   62%|██████▏   | 817/1319 [2:26:10<47:55,  5.73s/it] 62%|██████▏   | 818/1319 [2:26:13<42:06,  5.04s/it] 62%|██████▏   | 819/1319 [2:26:17<38:36,  4.63s/it] 62%|██████▏   | 820/1319 [2:26:20<36:21,  4.37s/it] 62%|██████▏   | 821/1319 [2:26:24<33:38,  4.05s/it] 62%|██████▏   | 822/1319 [2:26:27<32:37,  3.94s/it] 62%|██████▏   | 823/1319 [2:26:30<29:26,  3.56s/it] 62%|██████▏   | 824/1319 [2:26:34<30:11,  3.66s/it] 63%|██████▎   | 825/1319 [2:26:37<28:57,  3.52s/it]File "llm_build/80346fe8-2b85-11f0-8259-e1a5a23921f1/Solution.ml", line 3, characters 16-17:
+3 | let pj_cards =  x in
+                    ^
+Error: Unbound value "x"
+ 63%|██████▎   | 826/1319 [2:26:41<30:05,  3.66s/it] 63%|██████▎   | 827/1319 [2:26:46<33:07,  4.04s/it] 63%|██████▎   | 828/1319 [2:26:51<34:39,  4.24s/it] 63%|██████▎   | 829/1319 [2:26:58<41:08,  5.04s/it] 63%|██████▎   | 830/1319 [2:27:04<45:12,  5.55s/it] 63%|██████▎   | 831/1319 [2:27:14<55:43,  6.85s/it] 63%|██████▎   | 832/1319 [2:27:20<52:24,  6.46s/it]File "llm_build/989a28de-2b85-11f0-8259-e1a5a23921f1/Solution.ml", line 3, characters 22-33:
+3 | let anthony_savings = eva_savings + 10.0 in
+                          ^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 63%|██████▎   | 833/1319 [2:27:22<42:03,  5.19s/it] 63%|██████▎   | 834/1319 [2:27:30<49:44,  6.15s/it] 63%|██████▎   | 835/1319 [2:27:34<42:08,  5.22s/it]File "llm_build/a19309ba-2b85-11f0-8259-e1a5a23921f1/Solution.ml", line 7, characters 47-59:
+7 | let time_for_turtles = (total_kangaroo_speed / turtle_speed) * travel_time_kangaroos / kangaroo_count in
+                                                   ^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 63%|██████▎   | 836/1319 [2:27:37<38:10,  4.74s/it] 63%|██████▎   | 837/1319 [2:27:40<32:19,  4.02s/it] 64%|██████▎   | 838/1319 [2:27:44<32:52,  4.10s/it] 64%|██████▎   | 839/1319 [2:27:49<35:33,  4.45s/it] 64%|██████▎   | 840/1319 [2:27:52<31:46,  3.98s/it]File "llm_build/ae015d82-2b85-11f0-8259-e1a5a23921f1/Solution.ml", line 6, characters 17-33:
+6 | let total_used = glue_stick1_used + glue_stick2_used + glue_stick3_used in
+                     ^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 64%|██████▍   | 841/1319 [2:27:58<36:42,  4.61s/it] 64%|██████▍   | 842/1319 [2:28:01<33:31,  4.22s/it] 64%|██████▍   | 843/1319 [2:28:04<30:27,  3.84s/it] 64%|██████▍   | 844/1319 [2:28:08<30:12,  3.82s/it] 64%|██████▍   | 845/1319 [2:28:30<1:13:24,  9.29s/it] 64%|██████▍   | 846/1319 [2:28:33<58:35,  7.43s/it]  File "llm_build/c58a182c-2b85-11f0-8259-e1a5a23921f1/Solution.ml", line 8, characters 4-19:
+8 | let total_time_used = intermission_time + (total_time_per_group * (concert_duration_minutes / total_time_per_group)) in
+        ^^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable total_time_used.
+ 64%|██████▍   | 847/1319 [2:28:37<51:04,  6.49s/it] 64%|██████▍   | 848/1319 [2:28:41<42:57,  5.47s/it] 64%|██████▍   | 849/1319 [2:28:45<40:40,  5.19s/it] 64%|██████▍   | 850/1319 [2:28:47<33:39,  4.31s/it] 65%|██████▍   | 851/1319 [2:28:54<38:19,  4.91s/it] 65%|██████▍   | 852/1319 [2:29:00<40:29,  5.20s/it] 65%|██████▍   | 853/1319 [2:29:03<36:53,  4.75s/it] 65%|██████▍   | 854/1319 [2:29:08<37:18,  4.81s/it] 65%|██████▍   | 855/1319 [2:29:11<32:32,  4.21s/it]File "llm_build/dc5b8eb4-2b85-11f0-8259-e1a5a23921f1/Solution.ml", line 2, characters 14-15:
+2 | let my_age =  x in
+                  ^
+Error: Unbound value "x"
+ 65%|██████▍   | 856/1319 [2:29:16<33:42,  4.37s/it] 65%|██████▍   | 857/1319 [2:29:20<34:05,  4.43s/it] 65%|██████▌   | 858/1319 [2:29:24<33:06,  4.31s/it]File "llm_build/e40ea0e2-2b85-11f0-8259-e1a5a23921f1/Solution.ml", line 14, characters 0-3:
+14 | let result = total_infected in
+     ^^^
+Error: Syntax error
+ 65%|██████▌   | 859/1319 [2:29:29<33:05,  4.32s/it] 65%|██████▌   | 860/1319 [2:29:37<41:12,  5.39s/it] 65%|██████▌   | 861/1319 [2:29:39<34:50,  4.56s/it]File "llm_build/f445a80c-2b85-11f0-8259-e1a5a23921f1/Solution.ml", line 6, characters 4-23:
+6 | let claire_total_badges = claire_badges_per_month * months_in_a_year in
+        ^^^^^^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable claire_total_badges.
+ 65%|██████▌   | 862/1319 [2:29:56<1:02:27,  8.20s/it] 65%|██████▌   | 863/1319 [2:30:10<1:14:54,  9.86s/it] 66%|██████▌   | 864/1319 [2:30:12<58:16,  7.68s/it]   66%|██████▌   | 865/1319 [2:30:20<58:41,  7.76s/it] 66%|██████▌   | 866/1319 [2:30:22<45:38,  6.04s/it] 66%|██████▌   | 867/1319 [2:30:24<35:22,  4.70s/it] 66%|██████▌   | 868/1319 [2:30:27<30:56,  4.12s/it] 66%|██████▌   | 869/1319 [2:30:32<33:41,  4.49s/it] 66%|██████▌   | 870/1319 [2:30:34<28:42,  3.84s/it] 66%|██████▌   | 871/1319 [2:30:38<28:01,  3.75s/it] 66%|██████▌   | 872/1319 [2:30:42<28:58,  3.89s/it] 66%|██████▌   | 873/1319 [2:30:48<32:39,  4.39s/it] 66%|██████▋   | 874/1319 [2:30:50<28:13,  3.80s/it] 66%|██████▋   | 875/1319 [2:30:52<23:38,  3.20s/it] 66%|██████▋   | 876/1319 [2:30:55<22:53,  3.10s/it] 66%|██████▋   | 877/1319 [2:31:00<27:06,  3.68s/it] 67%|██████▋   | 878/1319 [2:31:04<29:25,  4.00s/it] 67%|██████▋   | 879/1319 [2:31:06<24:54,  3.40s/it] 67%|██████▋   | 880/1319 [2:31:13<32:55,  4.50s/it]File "llm_build/25005ce4-2b86-11f0-825b-e1a5a23921f1/Solution.ml", line 6, characters 34-56:
+6 | let total_expense = rope_length * buying_price_per_meter in
+                                      ^^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 67%|██████▋   | 881/1319 [2:31:18<32:08,  4.40s/it] 67%|██████▋   | 882/1319 [2:31:22<31:41,  4.35s/it] 67%|██████▋   | 883/1319 [2:31:30<39:45,  5.47s/it] 67%|██████▋   | 884/1319 [2:31:33<35:17,  4.87s/it] 67%|██████▋   | 885/1319 [2:31:36<30:23,  4.20s/it] 67%|██████▋   | 886/1319 [2:31:42<34:10,  4.73s/it] 67%|██████▋   | 887/1319 [2:31:47<33:56,  4.71s/it] 67%|██████▋   | 888/1319 [2:31:49<28:57,  4.03s/it] 67%|██████▋   | 889/1319 [2:31:52<26:45,  3.73s/it] 67%|██████▋   | 890/1319 [2:31:55<25:35,  3.58s/it] 68%|██████▊   | 891/1319 [2:32:01<29:38,  4.16s/it] 68%|██████▊   | 892/1319 [2:32:04<27:05,  3.81s/it] 68%|██████▊   | 893/1319 [2:32:08<27:51,  3.92s/it] 68%|██████▊   | 894/1319 [2:32:11<26:09,  3.69s/it] 68%|██████▊   | 895/1319 [2:32:18<33:01,  4.67s/it] 68%|██████▊   | 896/1319 [2:32:22<31:00,  4.40s/it] 68%|██████▊   | 897/1319 [2:32:25<28:10,  4.01s/it] 68%|██████▊   | 898/1319 [2:32:27<24:17,  3.46s/it] 68%|██████▊   | 899/1319 [2:32:32<26:24,  3.77s/it] 68%|██████▊   | 900/1319 [2:32:34<23:46,  3.40s/it] 68%|██████▊   | 901/1319 [2:32:44<36:25,  5.23s/it] 68%|██████▊   | 902/1319 [2:32:53<44:41,  6.43s/it] 68%|██████▊   | 903/1319 [2:32:57<40:11,  5.80s/it]File "llm_build/68972d0c-2b86-11f0-825c-e1a5a23921f1/Solution.ml", line 7, characters 77-81:
+7 | let material_for_large_masks = (large_masks_needed / large_masks_per_yard) * 2.25 in
+                                                                                 ^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 69%|██████▊   | 904/1319 [2:33:11<56:29,  8.17s/it] 69%|██████▊   | 905/1319 [2:33:15<47:46,  6.92s/it] 69%|██████▊   | 906/1319 [2:33:19<42:14,  6.14s/it] 69%|██████▉   | 907/1319 [2:33:24<38:52,  5.66s/it] 69%|██████▉   | 908/1319 [2:33:27<32:32,  4.75s/it] 69%|██████▉   | 909/1319 [2:33:30<30:00,  4.39s/it] 69%|██████▉   | 910/1319 [2:33:37<35:53,  5.27s/it] 69%|██████▉   | 911/1319 [2:33:43<35:50,  5.27s/it] 69%|██████▉   | 912/1319 [2:33:49<38:42,  5.71s/it] 69%|██████▉   | 913/1319 [2:33:53<34:12,  5.06s/it] 69%|██████▉   | 914/1319 [2:33:59<36:24,  5.39s/it] 69%|██████▉   | 915/1319 [2:34:03<33:34,  4.99s/it] 69%|██████▉   | 916/1319 [2:34:07<31:01,  4.62s/it]File "llm_build/8ce05d1e-2b86-11f0-825c-e1a5a23921f1/Solution.ml", line 5, characters 43-62:
+5 | let balloons_cost = (dozen_balloons / 2) * balloons_cost_per_2 in
+                                               ^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 70%|██████▉   | 917/1319 [2:34:12<31:42,  4.73s/it] 70%|██████▉   | 918/1319 [2:34:15<27:53,  4.17s/it] 70%|██████▉   | 919/1319 [2:34:18<25:09,  3.77s/it]File "llm_build/93a1dcb8-2b86-11f0-825c-e1a5a23921f1/Solution.ml", line 7, characters 38-57:
+7 | let total_revenue = total_lollipops * lollipop_price_sold in
+                                          ^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 70%|██████▉   | 920/1319 [2:34:23<28:47,  4.33s/it] 70%|██████▉   | 921/1319 [2:34:27<28:07,  4.24s/it] 70%|██████▉   | 922/1319 [2:34:34<33:27,  5.06s/it] 70%|██████▉   | 923/1319 [2:34:38<30:52,  4.68s/it] 70%|███████   | 924/1319 [2:34:41<26:57,  4.09s/it] 70%|███████   | 925/1319 [2:34:45<26:50,  4.09s/it] 70%|███████   | 926/1319 [2:34:48<25:32,  3.90s/it] 70%|███████   | 927/1319 [2:35:03<45:44,  7.00s/it] 70%|███████   | 928/1319 [2:35:08<42:18,  6.49s/it] 70%|███████   | 929/1319 [2:35:14<40:34,  6.24s/it] 71%|███████   | 930/1319 [2:35:16<33:04,  5.10s/it] 71%|███████   | 931/1319 [2:35:19<29:46,  4.60s/it] 71%|███████   | 932/1319 [2:35:26<32:46,  5.08s/it] 71%|███████   | 933/1319 [2:35:30<32:10,  5.00s/it] 71%|███████   | 934/1319 [2:35:36<33:40,  5.25s/it] 71%|███████   | 935/1319 [2:35:39<29:38,  4.63s/it] 71%|███████   | 936/1319 [2:35:44<29:01,  4.55s/it] 71%|███████   | 937/1319 [2:35:49<29:29,  4.63s/it] 71%|███████   | 938/1319 [2:35:51<25:22,  4.00s/it] 71%|███████   | 939/1319 [2:35:57<28:05,  4.44s/it] 71%|███████▏  | 940/1319 [2:36:01<28:48,  4.56s/it] 71%|███████▏  | 941/1319 [2:36:04<25:40,  4.07s/it] 71%|███████▏  | 942/1319 [2:36:08<25:30,  4.06s/it] 71%|███████▏  | 943/1319 [2:36:13<25:53,  4.13s/it]File "llm_build/d994e6c0-2b86-11f0-825c-e1a5a23921f1/Solution.ml", line 5, characters 27-34:
+5 | let cds_discounted_price = cd_cost *. (1.0 -. discount) in
+                               ^^^^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+ 72%|███████▏  | 944/1319 [2:36:21<32:55,  5.27s/it] 72%|███████▏  | 945/1319 [2:36:26<32:52,  5.27s/it] 72%|███████▏  | 946/1319 [2:36:31<31:41,  5.10s/it] 72%|███████▏  | 947/1319 [2:36:32<25:16,  4.08s/it] 72%|███████▏  | 948/1319 [2:36:41<33:33,  5.43s/it] 72%|███████▏  | 949/1319 [2:36:46<33:23,  5.41s/it] 72%|███████▏  | 950/1319 [2:36:50<30:52,  5.02s/it] 72%|███████▏  | 951/1319 [2:36:54<28:13,  4.60s/it]File "llm_build/ef4ad89e-2b86-11f0-825c-e1a5a23921f1/Solution.ml", line 4, characters 32-46:
+4 | let total_pages = int_of_float (pages_per_inch *. thickness_inches) in
+                                    ^^^^^^^^^^^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+ 72%|███████▏  | 952/1319 [2:36:57<25:19,  4.14s/it] 72%|███████▏  | 953/1319 [2:37:02<26:17,  4.31s/it] 72%|███████▏  | 954/1319 [2:37:08<29:10,  4.80s/it] 72%|███████▏  | 955/1319 [2:37:10<25:23,  4.18s/it] 72%|███████▏  | 956/1319 [2:37:16<27:23,  4.53s/it] 73%|███████▎  | 957/1319 [2:37:19<24:33,  4.07s/it] 73%|███████▎  | 958/1319 [2:37:22<23:04,  3.84s/it] 73%|███████▎  | 959/1319 [2:37:25<20:36,  3.44s/it] 73%|███████▎  | 960/1319 [2:37:29<22:39,  3.79s/it] 73%|███████▎  | 961/1319 [2:37:40<35:36,  5.97s/it] 73%|███████▎  | 962/1319 [2:37:43<29:53,  5.02s/it] 73%|███████▎  | 963/1319 [2:37:46<25:36,  4.32s/it]File "llm_build/0e16d7c8-2b87-11f0-825d-e1a5a23921f1/Solution.ml", line 5, characters 4-16:
+5 | let alex_pokemon = stan_pokemon + 5 in
+        ^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable alex_pokemon.
+ 73%|███████▎  | 964/1319 [2:37:49<23:13,  3.93s/it] 73%|███████▎  | 965/1319 [2:37:52<22:43,  3.85s/it] 73%|███████▎  | 966/1319 [2:38:15<55:03,  9.36s/it] 73%|███████▎  | 967/1319 [2:38:21<49:58,  8.52s/it] 73%|███████▎  | 968/1319 [2:38:23<38:54,  6.65s/it] 73%|███████▎  | 969/1319 [2:38:31<39:53,  6.84s/it] 74%|███████▎  | 970/1319 [2:38:34<32:58,  5.67s/it] 74%|███████▎  | 971/1319 [2:38:36<26:27,  4.56s/it] 74%|███████▎  | 972/1319 [2:38:40<26:22,  4.56s/it] 74%|███████▍  | 973/1319 [2:38:44<24:56,  4.33s/it] 74%|███████▍  | 974/1319 [2:38:48<23:57,  4.17s/it] 74%|███████▍  | 975/1319 [2:38:53<25:51,  4.51s/it] 74%|███████▍  | 976/1319 [2:38:55<21:55,  3.84s/it] 74%|███████▍  | 977/1319 [2:39:08<37:04,  6.50s/it] 74%|███████▍  | 978/1319 [2:39:11<30:57,  5.45s/it]File "llm_build/46c14e5a-2b87-11f0-825d-e1a5a23921f1/Solution.ml", line 4, characters 37-62:
+4 | let red_car_price = blue_car_price * (1.0 -. red_car_discount) in
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 74%|███████▍  | 979/1319 [2:39:24<43:13,  7.63s/it] 74%|███████▍  | 980/1319 [2:39:28<36:40,  6.49s/it] 74%|███████▍  | 981/1319 [2:39:33<35:32,  6.31s/it] 74%|███████▍  | 982/1319 [2:39:38<32:56,  5.87s/it] 75%|███████▍  | 983/1319 [2:39:54<48:59,  8.75s/it] 75%|███████▍  | 984/1319 [2:39:59<42:55,  7.69s/it]File "llm_build/5edb729a-2b87-11f0-825d-e1a5a23921f1/Solution.ml", line 5, characters 28-40:
+5 | let total_space_per_plant = flower_width + space_between in
+                                ^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 75%|███████▍  | 985/1319 [2:40:04<38:38,  6.94s/it] 75%|███████▍  | 986/1319 [2:40:09<35:13,  6.35s/it] 75%|███████▍  | 987/1319 [2:40:34<1:05:27, 11.83s/it]File "llm_build/738aa044-2b87-11f0-825d-e1a5a23921f1/Solution.ml", line 10, characters 24-46:
+10 | let total_weight_used = total_sunflower_weight +. total_carnation_weight in
+                             ^^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+ 75%|███████▍  | 988/1319 [2:40:39<54:09,  9.82s/it]   75%|███████▍  | 989/1319 [2:40:42<42:55,  7.80s/it] 75%|███████▌  | 990/1319 [2:40:46<35:47,  6.53s/it] 75%|███████▌  | 991/1319 [2:40:52<35:22,  6.47s/it] 75%|███████▌  | 992/1319 [2:40:57<32:13,  5.91s/it] 75%|███████▌  | 993/1319 [2:41:02<31:59,  5.89s/it] 75%|███████▌  | 994/1319 [2:41:11<36:26,  6.73s/it] 75%|███████▌  | 995/1319 [2:41:23<45:17,  8.39s/it] 76%|███████▌  | 996/1319 [2:41:33<47:06,  8.75s/it]File "llm_build/9650b88e-2b87-11f0-825d-e1a5a23921f1/Solution.ml", line 7, characters 4-14:
+7 | let helene_age = 2 * average_age in
+        ^^^^^^^^^^
+Warning 26 [unused-var]: unused variable helene_age.
+ 76%|███████▌  | 997/1319 [2:41:37<39:54,  7.44s/it] 76%|███████▌  | 998/1319 [2:41:46<42:07,  7.87s/it] 76%|███████▌  | 999/1319 [2:41:51<37:48,  7.09s/it] 76%|███████▌  | 1000/1319 [2:41:57<35:18,  6.64s/it] 76%|███████▌  | 1001/1319 [2:42:02<32:48,  6.19s/it] 76%|███████▌  | 1002/1319 [2:42:13<39:54,  7.55s/it]File "llm_build/af790ca8-2b87-11f0-825d-e1a5a23921f1/Solution.ml", line 4, characters 18-28:
+4 | let total_boxes = lisa_boxes + peter_boxes in
+                      ^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 76%|███████▌  | 1003/1319 [2:42:19<38:13,  7.26s/it] 76%|███████▌  | 1004/1319 [2:42:25<36:12,  6.90s/it] 76%|███████▌  | 1005/1319 [2:42:29<30:51,  5.90s/it] 76%|███████▋  | 1006/1319 [2:42:35<31:10,  5.97s/it] 76%|███████▋  | 1007/1319 [2:42:42<32:59,  6.35s/it] 76%|███████▋  | 1008/1319 [2:42:47<30:35,  5.90s/it] 76%|███████▋  | 1009/1319 [2:42:58<37:12,  7.20s/it] 77%|███████▋  | 1010/1319 [2:43:02<33:04,  6.42s/it] 77%|███████▋  | 1011/1319 [2:43:05<27:52,  5.43s/it] 77%|███████▋  | 1012/1319 [2:43:15<33:43,  6.59s/it] 77%|███████▋  | 1013/1319 [2:43:29<45:30,  8.92s/it] 77%|███████▋  | 1014/1319 [2:43:36<42:12,  8.30s/it]File "llm_build/e2583c0c-2b87-11f0-825d-e1a5a23921f1/Solution.ml", line 15, characters 2-45:
+15 |   (float_of_int peaches_bought *. peach_cost) +
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 77%|███████▋  | 1015/1319 [2:43:45<43:09,  8.52s/it]File "llm_build/e4d0b9aa-2b87-11f0-825d-e1a5a23921f1/Solution.ml", line 6, characters 4-16:
+6 | let total_pieces = packs_initial * pieces_per_pack in
+        ^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable total_pieces.
+ 77%|███████▋  | 1016/1319 [2:43:49<36:25,  7.21s/it] 77%|███████▋  | 1017/1319 [2:43:56<35:22,  7.03s/it]File "llm_build/eae8a6fe-2b87-11f0-825d-e1a5a23921f1/Solution.ml", line 9, characters 4-10:
+9 | let result = (selfies_total, portraits_total) in
+        ^^^^^^
+Warning 26 [unused-var]: unused variable result.
+ 77%|███████▋  | 1018/1319 [2:43:59<30:07,  6.01s/it] 77%|███████▋  | 1019/1319 [2:44:02<25:54,  5.18s/it] 77%|███████▋  | 1020/1319 [2:44:11<30:52,  6.19s/it] 77%|███████▋  | 1021/1319 [2:44:16<29:24,  5.92s/it] 77%|███████▋  | 1022/1319 [2:44:27<35:42,  7.21s/it]File "llm_build/00a662c4-2b88-11f0-825d-e1a5a23921f1/Solution.ml", line 5, characters 33-34:
+5 | let large_stuffed_animals_sold = x in
+                                     ^
+Error: Unbound value "x"
+ 78%|███████▊  | 1023/1319 [2:44:36<38:26,  7.79s/it] 78%|███████▊  | 1024/1319 [2:44:44<38:58,  7.93s/it] 78%|███████▊  | 1025/1319 [2:44:48<32:33,  6.65s/it] 78%|███████▊  | 1026/1319 [2:44:54<31:52,  6.53s/it] 78%|███████▊  | 1027/1319 [2:44:58<27:49,  5.72s/it]File "llm_build/11e8cff4-2b88-11f0-825d-e1a5a23921f1/Solution.ml", line 4, characters 4-23:
+4 | let package2_sandwiches = 4 in
+        ^^^^^^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable package2_sandwiches.
+
+File "llm_build/11e8cff4-2b88-11f0-825d-e1a5a23921f1/Solution.ml", line 5, characters 4-18:
+5 | let package2_price = 6 in
+        ^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable package2_price.
+ 78%|███████▊  | 1028/1319 [2:45:05<29:34,  6.10s/it] 78%|███████▊  | 1029/1319 [2:45:08<26:15,  5.43s/it] 78%|███████▊  | 1030/1319 [2:45:23<39:23,  8.18s/it]File "llm_build/25da5514-2b88-11f0-825d-e1a5a23921f1/Solution.ml", line 11, characters 42-45:
+11 | let chance_homework_without_substitute = (1.0 - chance_extension_class) * (1.0 - chance_extension_personal) in
+                                               ^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 78%|███████▊  | 1031/1319 [2:45:38<49:04, 10.22s/it] 78%|███████▊  | 1032/1319 [2:45:43<40:52,  8.55s/it] 78%|███████▊  | 1033/1319 [2:45:45<32:22,  6.79s/it] 78%|███████▊  | 1034/1319 [2:45:54<34:28,  7.26s/it] 78%|███████▊  | 1035/1319 [2:46:00<32:52,  6.94s/it] 79%|███████▊  | 1036/1319 [2:46:12<39:42,  8.42s/it] 79%|███████▊  | 1037/1319 [2:46:19<38:02,  8.09s/it] 79%|███████▊  | 1038/1319 [2:46:30<41:09,  8.79s/it] 79%|███████▉  | 1039/1319 [2:46:34<35:04,  7.52s/it] 79%|███████▉  | 1040/1319 [2:46:42<36:06,  7.77s/it] 79%|███████▉  | 1041/1319 [2:46:48<32:43,  7.06s/it] 79%|███████▉  | 1042/1319 [2:46:58<37:04,  8.03s/it]File "llm_build/5b1e1dbe-2b88-11f0-825d-e1a5a23921f1/Solution.ml", line 4, characters 22-25:
+4 | let loss_third_race = 1.5 * float_of_int win_second_race in
+                          ^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 79%|███████▉  | 1043/1319 [2:47:07<38:37,  8.40s/it] 79%|███████▉  | 1044/1319 [2:47:10<30:35,  6.67s/it] 79%|███████▉  | 1045/1319 [2:47:15<28:06,  6.16s/it] 79%|███████▉  | 1046/1319 [2:47:18<22:59,  5.05s/it]File "llm_build/6324cddc-2b88-11f0-825d-e1a5a23921f1/Solution.ml", line 7, characters 25-35:
+7 | let total_hours_worked = total_days *. fraction_of_day in
+                             ^^^^^^^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+ 79%|███████▉  | 1047/1319 [2:47:21<20:38,  4.55s/it]File "llm_build/657e78a8-2b88-11f0-825d-e1a5a23921f1/Solution.ml", line 7, characters 31-33:
+7 | let result = (* solve for x *) in
+                                   ^^
+Error: Syntax error
+ 79%|███████▉  | 1048/1319 [2:47:25<19:44,  4.37s/it] 80%|███████▉  | 1049/1319 [2:47:28<17:47,  3.95s/it] 80%|███████▉  | 1050/1319 [2:47:33<19:51,  4.43s/it] 80%|███████▉  | 1051/1319 [2:47:41<23:42,  5.31s/it] 80%|███████▉  | 1052/1319 [2:47:44<21:12,  4.77s/it] 80%|███████▉  | 1053/1319 [2:47:51<24:15,  5.47s/it] 80%|███████▉  | 1054/1319 [2:48:03<32:32,  7.37s/it] 80%|███████▉  | 1055/1319 [2:48:10<31:26,  7.15s/it]File "llm_build/83c5ddc4-2b88-11f0-825d-e1a5a23921f1/Solution.ml", line 4, characters 29-48:
+4 | let increased_cost_monthly = normal_cost_monthly *. (1.0 +. increase_percentage) in
+                                 ^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+ 80%|████████  | 1056/1319 [2:48:16<29:38,  6.76s/it] 80%|████████  | 1057/1319 [2:48:25<32:33,  7.46s/it] 80%|████████  | 1058/1319 [2:48:28<26:22,  6.06s/it] 80%|████████  | 1059/1319 [2:48:34<26:58,  6.23s/it] 80%|████████  | 1060/1319 [2:48:40<26:21,  6.10s/it]File "llm_build/978e9940-2b88-11f0-825d-e1a5a23921f1/Solution.ml", line 4, characters 4-16:
+4 | let total_slices = pizzas * slices_per_pizza in
+        ^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable total_slices.
+ 80%|████████  | 1061/1319 [2:48:49<29:50,  6.94s/it] 81%|████████  | 1062/1319 [2:48:52<24:28,  5.71s/it]File "llm_build/9f894410-2b88-11f0-825d-e1a5a23921f1/Solution.ml", line 10, characters 17-36:
+10 | let visit_cost = visit_rate_per_hour *. visit_duration_hours in
+                      ^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+ 81%|████████  | 1063/1319 [2:49:02<30:32,  7.16s/it] 81%|████████  | 1064/1319 [2:49:08<28:44,  6.76s/it] 81%|████████  | 1065/1319 [2:49:15<29:28,  6.96s/it] 81%|████████  | 1066/1319 [2:49:30<38:51,  9.22s/it]File "llm_build/b61c8700-2b88-11f0-825d-e1a5a23921f1/Solution.ml", line 5, characters 54-68:
+5 | let football_team_pizzas_eaten = int_of_float (0.8 *. float_of_float football_team_pizzas) in
+                                                          ^^^^^^^^^^^^^^
+Error: Unbound value "float_of_float"
+ 81%|████████  | 1067/1319 [2:49:40<39:52,  9.49s/it] 81%|████████  | 1068/1319 [2:49:46<35:05,  8.39s/it] 81%|████████  | 1069/1319 [2:49:50<29:24,  7.06s/it] 81%|████████  | 1070/1319 [2:49:55<27:02,  6.52s/it] 81%|████████  | 1071/1319 [2:50:04<30:23,  7.35s/it] 81%|████████▏ | 1072/1319 [2:50:11<29:06,  7.07s/it] 81%|████████▏ | 1073/1319 [2:50:14<24:18,  5.93s/it] 81%|████████▏ | 1074/1319 [2:50:22<27:07,  6.64s/it] 82%|████████▏ | 1075/1319 [2:50:26<23:05,  5.68s/it]File "llm_build/d47c8682-2b88-11f0-825d-e1a5a23921f1/Solution.ml", line 7, characters 24-28:
+7 | let quarters = change / 0.25 in
+                            ^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 82%|████████▏ | 1076/1319 [2:50:31<22:26,  5.54s/it] 82%|████████▏ | 1077/1319 [2:50:36<21:45,  5.39s/it] 82%|████████▏ | 1078/1319 [2:50:42<22:10,  5.52s/it] 82%|████████▏ | 1079/1319 [2:50:50<24:46,  6.19s/it] 82%|████████▏ | 1080/1319 [2:50:59<28:49,  7.24s/it] 82%|████████▏ | 1081/1319 [2:51:12<35:27,  8.94s/it] 82%|████████▏ | 1082/1319 [2:51:15<27:52,  7.06s/it] 82%|████████▏ | 1083/1319 [2:51:19<23:55,  6.08s/it]File "llm_build/f4f9085e-2b88-11f0-825d-e1a5a23921f1/Solution.ml", line 6, characters 38-53:
+6 | let cost_individual = total_bananas * cost_per_banana in
+                                          ^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 82%|████████▏ | 1084/1319 [2:51:26<24:40,  6.30s/it] 82%|████████▏ | 1085/1319 [2:51:28<20:38,  5.29s/it] 82%|████████▏ | 1086/1319 [2:51:31<17:24,  4.48s/it] 82%|████████▏ | 1087/1319 [2:51:45<28:14,  7.30s/it] 82%|████████▏ | 1088/1319 [2:52:04<41:05, 10.67s/it] 83%|████████▎ | 1089/1319 [2:52:09<35:30,  9.26s/it] 83%|████████▎ | 1090/1319 [2:52:17<33:10,  8.69s/it] 83%|████████▎ | 1091/1319 [2:52:20<27:16,  7.18s/it] 83%|████████▎ | 1092/1319 [2:52:23<21:38,  5.72s/it] 83%|████████▎ | 1093/1319 [2:52:30<23:30,  6.24s/it] 83%|████████▎ | 1094/1319 [2:52:34<20:47,  5.54s/it] 83%|████████▎ | 1095/1319 [2:52:50<31:52,  8.54s/it] 83%|████████▎ | 1096/1319 [2:52:55<28:07,  7.57s/it] 83%|████████▎ | 1097/1319 [2:53:00<25:00,  6.76s/it] 83%|████████▎ | 1098/1319 [2:53:04<21:35,  5.86s/it] 83%|████████▎ | 1099/1319 [2:53:10<21:37,  5.90s/it] 83%|████████▎ | 1100/1319 [2:53:14<19:33,  5.36s/it] 83%|████████▎ | 1101/1319 [2:53:17<17:05,  4.71s/it]File "llm_build/3b31c0a4-2b89-11f0-825e-e1a5a23921f1/Solution.ml", line 5, characters 34-45:
+5 | let ahito_miles = total_miles -. (amber_miles + micah_miles) in
+                                      ^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 84%|████████▎ | 1102/1319 [2:53:23<18:54,  5.23s/it]File "llm_build/3dcecdfc-2b89-11f0-825e-e1a5a23921f1/Solution.ml", line 9, characters 27-42:
+9 | let balance_after_return = initial_balance - return_item_cost in
+                               ^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 84%|████████▎ | 1103/1319 [2:53:28<17:54,  4.97s/it]File "llm_build/419cc268-2b89-11f0-825e-e1a5a23921f1/Solution.ml", line 8, characters 36-59:
+8 | let total_jellyfish = int_of_float (jellyfish_changed_color /. fraction_changed_color /. fraction_large) in
+                                        ^^^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+ 84%|████████▎ | 1104/1319 [2:53:34<19:20,  5.40s/it] 84%|████████▍ | 1105/1319 [2:53:36<15:40,  4.40s/it] 84%|████████▍ | 1106/1319 [2:53:40<15:03,  4.24s/it] 84%|████████▍ | 1107/1319 [2:53:43<13:47,  3.90s/it] 84%|████████▍ | 1108/1319 [2:53:46<12:07,  3.45s/it] 84%|████████▍ | 1109/1319 [2:53:50<13:25,  3.84s/it] 84%|████████▍ | 1110/1319 [2:53:58<16:57,  4.87s/it] 84%|████████▍ | 1111/1319 [2:54:04<18:08,  5.23s/it] 84%|████████▍ | 1112/1319 [2:54:09<17:45,  5.15s/it] 84%|████████▍ | 1113/1319 [2:54:12<15:42,  4.57s/it] 84%|████████▍ | 1114/1319 [2:54:17<16:20,  4.78s/it] 85%|████████▍ | 1115/1319 [2:54:21<15:49,  4.66s/it] 85%|████████▍ | 1116/1319 [2:54:34<23:15,  6.87s/it] 85%|████████▍ | 1117/1319 [2:54:36<18:43,  5.56s/it]File "llm_build/6800f622-2b89-11f0-825e-e1a5a23921f1/Solution.ml", line 5, characters 4-21:
+5 | let blinks_per_minute = blinks_initial / time_initial_minutes in
+        ^^^^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable blinks_per_minute.
+ 85%|████████▍ | 1118/1319 [2:54:39<15:34,  4.65s/it] 85%|████████▍ | 1119/1319 [2:54:46<18:27,  5.54s/it] 85%|████████▍ | 1120/1319 [2:54:50<16:30,  4.98s/it] 85%|████████▍ | 1121/1319 [2:54:54<15:40,  4.75s/it] 85%|████████▌ | 1122/1319 [2:54:58<14:26,  4.40s/it] 85%|████████▌ | 1123/1319 [2:55:03<15:41,  4.81s/it] 85%|████████▌ | 1124/1319 [2:55:10<17:39,  5.43s/it] 85%|████████▌ | 1125/1319 [2:55:15<16:38,  5.15s/it] 85%|████████▌ | 1126/1319 [2:55:20<16:41,  5.19s/it] 85%|████████▌ | 1127/1319 [2:55:25<15:53,  4.97s/it]File "llm_build/860adff2-2b89-11f0-825e-e1a5a23921f1/Solution.ml", line 4, characters 24-28:
+4 | let fastest_car_speed = 1.25 * second_fastest_car_speed in
+                            ^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 86%|████████▌ | 1128/1319 [2:55:29<15:18,  4.81s/it] 86%|████████▌ | 1129/1319 [2:55:35<16:09,  5.10s/it] 86%|████████▌ | 1130/1319 [2:55:39<15:43,  4.99s/it] 86%|████████▌ | 1131/1319 [2:55:45<15:43,  5.02s/it] 86%|████████▌ | 1132/1319 [2:55:56<21:52,  7.02s/it] 86%|████████▌ | 1133/1319 [2:55:59<17:58,  5.80s/it] 86%|████████▌ | 1134/1319 [2:56:04<16:33,  5.37s/it] 86%|████████▌ | 1135/1319 [2:56:07<14:28,  4.72s/it] 86%|████████▌ | 1136/1319 [2:56:12<14:41,  4.82s/it] 86%|████████▌ | 1137/1319 [2:56:15<13:19,  4.39s/it] 86%|████████▋ | 1138/1319 [2:56:19<12:28,  4.14s/it] 86%|████████▋ | 1139/1319 [2:56:23<12:25,  4.14s/it]File "llm_build/a8708d76-2b89-11f0-825e-e1a5a23921f1/Solution.ml", line 8, characters 51-64:
+8 | let discount_amount = total_cost_before_discount * discount_rate in
+                                                       ^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 86%|████████▋ | 1140/1319 [2:56:27<11:59,  4.02s/it] 87%|████████▋ | 1141/1319 [2:56:29<10:49,  3.65s/it] 87%|████████▋ | 1142/1319 [2:56:33<10:52,  3.69s/it] 87%|████████▋ | 1143/1319 [2:56:39<12:56,  4.41s/it] 87%|████████▋ | 1144/1319 [2:56:41<10:28,  3.59s/it] 87%|████████▋ | 1145/1319 [2:56:45<10:55,  3.77s/it] 87%|████████▋ | 1146/1319 [2:56:56<17:10,  5.95s/it] 87%|████████▋ | 1147/1319 [2:57:00<14:48,  5.17s/it] 87%|████████▋ | 1148/1319 [2:57:12<21:08,  7.42s/it] 87%|████████▋ | 1149/1319 [2:57:14<16:18,  5.76s/it] 87%|████████▋ | 1150/1319 [2:57:18<14:45,  5.24s/it] 87%|████████▋ | 1151/1319 [2:57:20<11:58,  4.28s/it] 87%|████████▋ | 1152/1319 [2:57:25<11:59,  4.31s/it] 87%|████████▋ | 1153/1319 [2:57:28<10:53,  3.94s/it] 87%|████████▋ | 1154/1319 [2:57:33<12:19,  4.48s/it] 88%|████████▊ | 1155/1319 [2:57:38<12:37,  4.62s/it] 88%|████████▊ | 1156/1319 [2:57:41<10:52,  4.00s/it] 88%|████████▊ | 1157/1319 [2:57:45<10:48,  4.01s/it] 88%|████████▊ | 1158/1319 [2:57:49<10:41,  3.99s/it] 88%|████████▊ | 1159/1319 [2:57:53<10:50,  4.06s/it] 88%|████████▊ | 1160/1319 [2:57:58<11:05,  4.19s/it] 88%|████████▊ | 1161/1319 [2:58:01<10:28,  3.98s/it] 88%|████████▊ | 1162/1319 [2:58:07<12:04,  4.62s/it] 88%|████████▊ | 1163/1319 [2:58:11<11:03,  4.26s/it] 88%|████████▊ | 1164/1319 [2:58:12<08:50,  3.43s/it] 88%|████████▊ | 1165/1319 [2:58:16<08:58,  3.49s/it] 88%|████████▊ | 1166/1319 [2:58:22<10:56,  4.29s/it] 88%|████████▊ | 1167/1319 [2:58:27<11:53,  4.69s/it] 89%|████████▊ | 1168/1319 [2:58:31<10:44,  4.27s/it]File "llm_build/f5420d50-2b89-11f0-825e-e1a5a23921f1/Solution.ml", line 5, characters 4-16:
+5 | let total_length = red_rope_length + blue_rope_length + yellow_rope_length in
+        ^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable total_length.
+ 89%|████████▊ | 1169/1319 [2:58:36<11:02,  4.42s/it] 89%|████████▊ | 1170/1319 [2:58:40<11:09,  4.49s/it] 89%|████████▉ | 1171/1319 [2:58:43<10:01,  4.07s/it] 89%|████████▉ | 1172/1319 [2:58:46<09:15,  3.78s/it] 89%|████████▉ | 1173/1319 [2:58:51<09:41,  3.98s/it] 89%|████████▉ | 1174/1319 [2:58:55<09:28,  3.92s/it] 89%|████████▉ | 1175/1319 [2:59:01<11:13,  4.67s/it] 89%|████████▉ | 1176/1319 [2:59:11<14:37,  6.14s/it] 89%|████████▉ | 1177/1319 [2:59:16<13:59,  5.91s/it] 89%|████████▉ | 1178/1319 [2:59:25<15:52,  6.76s/it] 89%|████████▉ | 1179/1319 [2:59:27<12:41,  5.44s/it] 89%|████████▉ | 1180/1319 [2:59:31<11:21,  4.91s/it] 90%|████████▉ | 1181/1319 [2:59:34<10:24,  4.53s/it]File "llm_build/19a06110-2b8a-11f0-825e-e1a5a23921f1/Solution.ml", line 4, characters 4-25:
+4 | let colin_age_in_25_years = colin_age_now + 25 in
+        ^^^^^^^^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable colin_age_in_25_years.
+
+File "llm_build/19a06110-2b8a-11f0-825e-e1a5a23921f1/Solution.ml", line 5, characters 4-25:
+5 | let wendy_age_in_25_years = wendy_age_now + 25 in
+        ^^^^^^^^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable wendy_age_in_25_years.
+ 90%|████████▉ | 1182/1319 [2:59:37<08:43,  3.82s/it] 90%|████████▉ | 1183/1319 [2:59:41<08:54,  3.93s/it]File "llm_build/22a4efe2-2b8a-11f0-825e-e1a5a23921f1/Solution.ml", line 8, characters 4-23:
+8 | let total_apples_picked = initial_apples + apples_fallen_first + apples_fallen_second in
+        ^^^^^^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable total_apples_picked.
+ 90%|████████▉ | 1184/1319 [2:59:52<13:34,  6.04s/it] 90%|████████▉ | 1185/1319 [2:59:55<11:31,  5.16s/it] 90%|████████▉ | 1186/1319 [3:00:00<11:39,  5.26s/it] 90%|████████▉ | 1187/1319 [3:00:03<10:09,  4.62s/it] 90%|█████████ | 1188/1319 [3:00:11<11:54,  5.45s/it] 90%|█████████ | 1189/1319 [3:00:17<12:07,  5.59s/it]File "llm_build/352f7ab0-2b8a-11f0-825e-e1a5a23921f1/Solution.ml", line 2, characters 4-15:
+2 | let doxa_slices = 8 in
+        ^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable doxa_slices.
+ 90%|█████████ | 1190/1319 [3:00:23<12:19,  5.73s/it] 90%|█████████ | 1191/1319 [3:00:29<12:47,  5.99s/it] 90%|█████████ | 1192/1319 [3:00:33<10:51,  5.13s/it] 90%|█████████ | 1193/1319 [3:00:45<15:36,  7.43s/it]File "llm_build/45eb3b96-2b8a-11f0-825e-e1a5a23921f1/Solution.ml", line 13, characters 2-56:
+13 |   (dishwasher_earnings *. float_of_int dishwasher_times) +
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 91%|█████████ | 1194/1319 [3:00:51<14:17,  6.86s/it] 91%|█████████ | 1195/1319 [3:00:54<11:50,  5.73s/it] 91%|█████████ | 1196/1319 [3:00:59<11:28,  5.59s/it] 91%|█████████ | 1197/1319 [3:01:02<09:29,  4.67s/it] 91%|█████████ | 1198/1319 [3:01:08<10:17,  5.10s/it] 91%|█████████ | 1199/1319 [3:01:13<10:29,  5.24s/it] 91%|█████████ | 1200/1319 [3:01:19<10:32,  5.31s/it] 91%|█████████ | 1201/1319 [3:01:21<08:31,  4.34s/it] 91%|█████████ | 1202/1319 [3:01:28<10:10,  5.21s/it] 91%|█████████ | 1203/1319 [3:01:33<09:45,  5.05s/it] 91%|█████████▏| 1204/1319 [3:01:36<08:33,  4.46s/it] 91%|█████████▏| 1205/1319 [3:01:42<09:10,  4.83s/it] 91%|█████████▏| 1206/1319 [3:01:49<10:45,  5.71s/it] 92%|█████████▏| 1207/1319 [3:01:54<09:44,  5.22s/it] 92%|█████████▏| 1208/1319 [3:02:02<11:23,  6.16s/it] 92%|█████████▏| 1209/1319 [3:02:04<09:04,  4.95s/it] 92%|█████████▏| 1210/1319 [3:02:30<20:32, 11.30s/it] 92%|█████████▏| 1211/1319 [3:02:33<15:36,  8.67s/it] 92%|█████████▏| 1212/1319 [3:02:36<12:27,  6.98s/it] 92%|█████████▏| 1213/1319 [3:02:39<10:16,  5.82s/it]File "llm_build/88a681c0-2b8a-11f0-825f-e1a5a23921f1/Solution.ml", line 7, characters 39-52:
+7 | let total_interest = borrowed_amount * interest_rate in
+                                           ^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 92%|█████████▏| 1214/1319 [3:02:43<09:14,  5.28s/it] 92%|█████████▏| 1215/1319 [3:02:46<08:19,  4.81s/it] 92%|█████████▏| 1216/1319 [3:02:54<09:28,  5.52s/it] 92%|█████████▏| 1217/1319 [3:03:11<15:17,  8.99s/it]File "llm_build/9c95ea72-2b8a-11f0-825f-e1a5a23921f1/Solution.ml", line 9, characters 31-79:
+9 | let cost_increase_factor = 1 + (float_of_int cost_increase_percentage /. 100.0) in
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 92%|█████████▏| 1218/1319 [3:03:16<13:21,  7.94s/it] 92%|█████████▏| 1219/1319 [3:03:21<11:48,  7.09s/it] 92%|█████████▏| 1220/1319 [3:03:25<09:54,  6.01s/it] 93%|█████████▎| 1221/1319 [3:03:35<11:55,  7.30s/it] 93%|█████████▎| 1222/1319 [3:03:43<12:07,  7.50s/it] 93%|█████████▎| 1223/1319 [3:03:46<09:39,  6.04s/it]File "llm_build/b18d16c6-2b8a-11f0-825f-e1a5a23921f1/Solution.ml", line 11, characters 17-29:
+11 | let total_cost = initial_cost + reduced_cost in
+                      ^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 93%|█████████▎| 1224/1319 [3:03:51<09:23,  5.93s/it] 93%|█████████▎| 1225/1319 [3:03:55<07:58,  5.09s/it] 93%|█████████▎| 1226/1319 [3:03:57<06:49,  4.40s/it]File "llm_build/b913151c-2b8a-11f0-825f-e1a5a23921f1/Solution.ml", line 9, characters 43-56:
+9 | let discount_amount = total_service_cost * discount_rate in
+                                               ^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 93%|█████████▎| 1227/1319 [3:04:04<07:48,  5.09s/it] 93%|█████████▎| 1228/1319 [3:04:13<09:40,  6.38s/it] 93%|█████████▎| 1229/1319 [3:04:16<07:47,  5.19s/it] 93%|█████████▎| 1230/1319 [3:04:19<06:42,  4.52s/it]File "llm_build/c45c1e00-2b8a-11f0-825f-e1a5a23921f1/Solution.ml", line 4, characters 40-56:
+4 | let veteran_rate = standard_rate * (1 - veteran_discount) in
+                                            ^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 93%|█████████▎| 1231/1319 [3:04:23<06:28,  4.41s/it] 93%|█████████▎| 1232/1319 [3:04:26<05:42,  3.94s/it] 93%|█████████▎| 1233/1319 [3:04:45<12:10,  8.50s/it] 94%|█████████▎| 1234/1319 [3:04:50<10:28,  7.40s/it] 94%|█████████▎| 1235/1319 [3:04:52<08:07,  5.81s/it] 94%|█████████▎| 1236/1319 [3:05:05<11:16,  8.15s/it] 94%|█████████▍| 1237/1319 [3:05:11<09:51,  7.22s/it] 94%|█████████▍| 1238/1319 [3:05:14<08:01,  5.95s/it] 94%|█████████▍| 1239/1319 [3:05:39<15:35, 11.69s/it] 94%|█████████▍| 1240/1319 [3:05:45<13:16, 10.08s/it] 94%|█████████▍| 1241/1319 [3:05:49<10:56,  8.41s/it]File "llm_build/fd5416e0-2b8a-11f0-8260-e1a5a23921f1/Solution.ml", line 9, characters 20-49:
+9 | let total_revenue = float_of_int (total_eggs / 3) * selling_price_per_3_eggs in
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 94%|█████████▍| 1242/1319 [3:05:59<11:04,  8.63s/it] 94%|█████████▍| 1243/1319 [3:06:03<09:23,  7.41s/it] 94%|█████████▍| 1244/1319 [3:06:07<07:44,  6.20s/it] 94%|█████████▍| 1245/1319 [3:06:13<07:38,  6.19s/it] 94%|█████████▍| 1246/1319 [3:06:16<06:36,  5.44s/it] 95%|█████████▍| 1247/1319 [3:06:19<05:27,  4.54s/it] 95%|█████████▍| 1248/1319 [3:06:27<06:30,  5.50s/it] 95%|█████████▍| 1249/1319 [3:06:35<07:33,  6.48s/it] 95%|█████████▍| 1250/1319 [3:06:46<08:51,  7.71s/it] 95%|█████████▍| 1251/1319 [3:06:49<07:20,  6.48s/it] 95%|█████████▍| 1252/1319 [3:06:54<06:24,  5.74s/it] 95%|█████████▍| 1253/1319 [3:06:56<05:13,  4.75s/it] 95%|█████████▌| 1254/1319 [3:07:01<05:18,  4.90s/it] 95%|█████████▌| 1255/1319 [3:07:04<04:38,  4.34s/it] 95%|█████████▌| 1256/1319 [3:07:07<04:10,  3.98s/it] 95%|█████████▌| 1257/1319 [3:07:10<03:42,  3.59s/it] 95%|█████████▌| 1258/1319 [3:07:14<03:47,  3.73s/it] 95%|█████████▌| 1259/1319 [3:07:17<03:20,  3.34s/it] 96%|█████████▌| 1260/1319 [3:07:22<03:58,  4.05s/it] 96%|█████████▌| 1261/1319 [3:07:25<03:40,  3.80s/it] 96%|█████████▌| 1262/1319 [3:07:29<03:37,  3.82s/it] 96%|█████████▌| 1263/1319 [3:07:33<03:30,  3.76s/it] 96%|█████████▌| 1264/1319 [3:07:43<05:11,  5.67s/it] 96%|█████████▌| 1265/1319 [3:07:47<04:43,  5.26s/it] 96%|█████████▌| 1266/1319 [3:07:51<04:16,  4.84s/it] 96%|█████████▌| 1267/1319 [3:07:56<04:07,  4.77s/it] 96%|█████████▌| 1268/1319 [3:08:00<03:47,  4.47s/it] 96%|█████████▌| 1269/1319 [3:08:04<03:39,  4.38s/it] 96%|█████████▋| 1270/1319 [3:08:06<03:09,  3.87s/it]File "llm_build/4bcb104e-2b8b-11f0-8260-e1a5a23921f1/Solution.ml", line 4, characters 41-69:
+4 | let value_after_year_1 = initial_value * (1.0 -. depreciation_year_1) in
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error: This expression has type "float" but an expression was expected of type
+         "int"
+ 96%|█████████▋| 1271/1319 [3:08:10<03:03,  3.83s/it] 96%|█████████▋| 1272/1319 [3:08:14<03:01,  3.86s/it] 97%|█████████▋| 1273/1319 [3:08:19<03:13,  4.20s/it] 97%|█████████▋| 1274/1319 [3:08:23<03:06,  4.15s/it] 97%|█████████▋| 1275/1319 [3:08:28<03:09,  4.31s/it] 97%|█████████▋| 1276/1319 [3:08:31<02:47,  3.89s/it] 97%|█████████▋| 1277/1319 [3:08:34<02:37,  3.76s/it] 97%|█████████▋| 1278/1319 [3:08:36<02:11,  3.22s/it] 97%|█████████▋| 1279/1319 [3:08:40<02:15,  3.38s/it] 97%|█████████▋| 1280/1319 [3:08:44<02:21,  3.64s/it] 97%|█████████▋| 1281/1319 [3:08:46<02:01,  3.20s/it] 97%|█████████▋| 1282/1319 [3:08:49<01:56,  3.16s/it] 97%|█████████▋| 1283/1319 [3:08:54<02:05,  3.47s/it] 97%|█████████▋| 1284/1319 [3:08:58<02:08,  3.66s/it] 97%|█████████▋| 1285/1319 [3:09:03<02:21,  4.15s/it] 97%|█████████▋| 1286/1319 [3:09:11<02:52,  5.23s/it] 98%|█████████▊| 1287/1319 [3:09:16<02:44,  5.13s/it] 98%|█████████▊| 1288/1319 [3:09:19<02:19,  4.50s/it] 98%|█████████▊| 1289/1319 [3:09:22<02:06,  4.22s/it] 98%|█████████▊| 1290/1319 [3:09:40<04:00,  8.30s/it] 98%|█████████▊| 1291/1319 [3:09:43<03:04,  6.60s/it] 98%|█████████▊| 1292/1319 [3:09:46<02:29,  5.53s/it]File "llm_build/86402f5c-2b8b-11f0-8260-e1a5a23921f1/Solution.ml", line 1, characters 0-2:
+1 | (* Jackie grew 3" over the summer. She is now 2" shorter than Anne, who is twice the size of Albert. If Albert is 36" tall, how tall was Jackie before summer? *)
+    ^^
+Error: This comment contains an unterminated string literal
+File "llm_build/86402f5c-2b8b-11f0-8260-e1a5a23921f1/Solution.ml", line 1, characters 116-117:
+1 | (* Jackie grew 3" over the summer. She is now 2" shorter than Anne, who is twice the size of Albert. If Albert is 36" tall, how tall was Jackie before summer? *)
+                                                                                                                        ^
+  String literal begins here
+ 98%|█████████▊| 1293/1319 [3:09:48<02:00,  4.63s/it] 98%|█████████▊| 1294/1319 [3:09:51<01:42,  4.08s/it]File "llm_build/8a64f0cc-2b8b-11f0-8260-e1a5a23921f1/Solution.ml", line 5, characters 42-55:
+5 | let total_t_shirt_cost = t_shirt_price + (t_shirt_price *. discount_t_shirt) in
+                                              ^^^^^^^^^^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+ 98%|█████████▊| 1295/1319 [3:09:55<01:38,  4.11s/it]File "llm_build/8e078c08-2b8b-11f0-8260-e1a5a23921f1/Solution.ml", line 9, characters 17-32:
+9 | let money_left = total_allowance -. total_ice_cream_cost in
+                     ^^^^^^^^^^^^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+ 98%|█████████▊| 1296/1319 [3:10:01<01:48,  4.70s/it] 98%|█████████▊| 1297/1319 [3:10:06<01:41,  4.60s/it]File "llm_build/9436b3a6-2b8b-11f0-8260-e1a5a23921f1/Solution.ml", line 11, characters 26-30:
+11 | let total_passion_fruit = jars *. passion_fruit_per_jar in
+                               ^^^^
+Error: This expression has type "int" but an expression was expected of type
+         "float"
+ 98%|█████████▊| 1298/1319 [3:10:12<01:45,  5.03s/it] 98%|█████████▊| 1299/1319 [3:10:14<01:26,  4.30s/it] 99%|█████████▊| 1300/1319 [3:10:18<01:19,  4.20s/it] 99%|█████████▊| 1301/1319 [3:10:22<01:11,  3.98s/it]File "llm_build/a675f8e2-2b8b-11f0-8260-e1a5a23921f1/Solution.ml", line 6, characters 4-23:
+6 | let cookies_eaten_snack = 3 in
+        ^^^^^^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable cookies_eaten_snack.
+ 99%|█████████▊| 1302/1319 [3:10:42<02:32,  8.96s/it] 99%|█████████▉| 1303/1319 [3:10:46<01:55,  7.25s/it] 99%|█████████▉| 1304/1319 [3:10:51<01:40,  6.69s/it] 99%|█████████▉| 1305/1319 [3:10:54<01:19,  5.65s/it] 99%|█████████▉| 1306/1319 [3:11:00<01:12,  5.61s/it]File "llm_build/b531d626-2b8b-11f0-8260-e1a5a23921f1/Solution.ml", line 10, characters 4-24:
+10 | let total_items_gathered = test_tubes_gathered + beakers_gathered + petri_dishes_gathered in
+         ^^^^^^^^^^^^^^^^^^^^
+Warning 26 [unused-var]: unused variable total_items_gathered.
+ 99%|█████████▉| 1307/1319 [3:11:07<01:13,  6.13s/it] 99%|█████████▉| 1308/1319 [3:11:10<00:57,  5.26s/it] 99%|█████████▉| 1309/1319 [3:11:13<00:45,  4.50s/it] 99%|█████████▉| 1310/1319 [3:11:18<00:40,  4.54s/it] 99%|█████████▉| 1311/1319 [3:11:20<00:31,  3.98s/it] 99%|█████████▉| 1312/1319 [3:11:26<00:30,  4.34s/it]100%|█████████▉| 1313/1319 [3:11:29<00:24,  4.06s/it]100%|█████████▉| 1314/1319 [3:11:32<00:18,  3.62s/it]100%|█████████▉| 1315/1319 [3:11:35<00:14,  3.65s/it]100%|█████████▉| 1316/1319 [3:11:42<00:13,  4.61s/it]100%|█████████▉| 1317/1319 [3:11:46<00:08,  4.27s/it]100%|█████████▉| 1318/1319 [3:11:50<00:04,  4.30s/it]100%|██████████| 1319/1319 [3:11:53<00:00,  3.94s/it]100%|██████████| 1319/1319 [3:11:53<00:00,  8.73s/it]
+Accuracy - 0.8127369219105383

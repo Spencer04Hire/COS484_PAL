@@ -1,0 +1,273 @@
+  0%|          | 0/369 [00:00<?, ?it/s]  0%|          | 1/369 [00:06<37:45,  6.16s/it]  1%|          | 2/369 [00:15<50:00,  8.18s/it]  1%|          | 3/369 [01:06<2:47:29, 27.46s/it]  1%|          | 4/369 [01:10<1:51:58, 18.41s/it]  1%|▏         | 5/369 [02:11<3:24:57, 33.78s/it]llm_build/718df40c-2bdd-11f0-826f-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/718df40c-2bdd-11f0-826f-e1a5a23921f1/Solution.cpp:22:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+  2%|▏         | 6/369 [03:05<4:05:11, 40.53s/it]  2%|▏         | 7/369 [03:11<2:57:26, 29.41s/it]  2%|▏         | 8/369 [04:10<3:53:23, 38.79s/it]  2%|▏         | 9/369 [04:17<2:51:49, 28.64s/it]  3%|▎         | 10/369 [05:10<3:37:38, 36.37s/it]  3%|▎         | 11/369 [05:16<2:41:53, 27.13s/it]  3%|▎         | 12/369 [06:20<3:47:14, 38.19s/it]  4%|▎         | 13/369 [07:11<4:09:45, 42.09s/it]  4%|▍         | 14/369 [07:19<3:07:20, 31.66s/it]  4%|▍         | 15/369 [08:20<4:00:02, 40.68s/it]  4%|▍         | 16/369 [08:29<3:03:07, 31.13s/it]  5%|▍         | 17/369 [09:20<3:37:39, 37.10s/it]  5%|▍         | 18/369 [09:28<2:45:23, 28.27s/it]  5%|▌         | 19/369 [10:32<3:47:33, 39.01s/it]  5%|▌         | 20/369 [11:05<3:36:42, 37.26s/it]  6%|▌         | 21/369 [11:24<3:04:16, 31.77s/it]  6%|▌         | 22/369 [12:12<3:32:42, 36.78s/it]  6%|▌         | 23/369 [12:18<2:37:33, 27.32s/it]llm_build/bf545806-2bde-11f0-826f-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/bf545806-2bde-11f0-826f-e1a5a23921f1/Solution.cpp:22:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+  7%|▋         | 24/369 [12:25<2:02:21, 21.28s/it]  7%|▋         | 25/369 [13:30<3:16:58, 34.36s/it]  7%|▋         | 26/369 [14:09<3:24:29, 35.77s/it]  7%|▋         | 27/369 [14:28<2:54:49, 30.67s/it]  8%|▊         | 28/369 [14:32<2:09:24, 22.77s/it]  8%|▊         | 29/369 [15:11<2:36:38, 27.64s/it]  8%|▊         | 30/369 [15:29<2:20:20, 24.84s/it]  8%|▊         | 31/369 [15:36<1:48:36, 19.28s/it]  9%|▊         | 32/369 [16:10<2:13:26, 23.76s/it]llm_build/525fe75a-2bdf-11f0-8271-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/525fe75a-2bdf-11f0-8271-e1a5a23921f1/Solution.cpp:22:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+  9%|▉         | 33/369 [16:32<2:09:44, 23.17s/it]  9%|▉         | 34/369 [16:36<1:37:17, 17.43s/it]  9%|▉         | 35/369 [17:14<2:12:05, 23.73s/it] 10%|▉         | 36/369 [17:32<2:02:13, 22.02s/it] 10%|█         | 37/369 [17:36<1:32:30, 16.72s/it] 10%|█         | 38/369 [17:47<1:22:36, 14.97s/it] 11%|█         | 39/369 [18:08<1:32:09, 16.76s/it] 11%|█         | 40/369 [18:31<1:41:35, 18.53s/it] 11%|█         | 41/369 [18:35<1:17:31, 14.18s/it]llm_build/b052c080-2bdf-11f0-8273-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/b052c080-2bdf-11f0-8273-e1a5a23921f1/Solution.cpp:22:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 11%|█▏        | 42/369 [19:09<1:50:04, 20.20s/it] 12%|█▏        | 43/369 [19:33<1:55:36, 21.28s/it] 12%|█▏        | 44/369 [19:37<1:27:50, 16.22s/it] 12%|█▏        | 45/369 [19:42<1:09:31, 12.87s/it] 12%|█▏        | 46/369 [20:09<1:30:54, 16.89s/it] 13%|█▎        | 47/369 [20:32<1:40:45, 18.78s/it] 13%|█▎        | 48/369 [20:38<1:20:04, 14.97s/it] 13%|█▎        | 49/369 [21:11<1:48:39, 20.37s/it] 14%|█▎        | 50/369 [21:32<1:49:43, 20.64s/it]llm_build/0c30e4fe-2be0-11f0-8274-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/0c30e4fe-2be0-11f0-8274-e1a5a23921f1/Solution.cpp:22:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 14%|█▍        | 51/369 [21:43<1:34:24, 17.81s/it] 14%|█▍        | 52/369 [22:11<1:49:51, 20.79s/it] 14%|█▍        | 53/369 [22:38<1:58:25, 22.49s/it] 15%|█▍        | 54/369 [23:11<2:15:36, 25.83s/it] 15%|█▍        | 55/369 [23:40<2:20:26, 26.83s/it] 15%|█▌        | 56/369 [24:13<2:29:10, 28.59s/it] 15%|█▌        | 57/369 [24:43<2:30:07, 28.87s/it] 16%|█▌        | 58/369 [25:17<2:37:36, 30.41s/it]llm_build/999c22ea-2be0-11f0-8275-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/999c22ea-2be0-11f0-8275-e1a5a23921f1/Solution.cpp:23:39: error: conversion from ‘time_point<[...],duration<[...],ratio<54,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   23 |     sys_days a_month_ago = today_days - months{1};
+      |                            ~~~~~~~~~~~^~~~~~~~~~~
+ 16%|█▌        | 59/369 [25:41<2:27:01, 28.46s/it]llm_build/9e255052-2be0-11f0-8275-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/9e255052-2be0-11f0-8275-e1a5a23921f1/Solution.cpp:23:40: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   23 |     sys_days one_year_ago = today_days - years{1};
+      |                             ~~~~~~~~~~~^~~~~~~~~~
+ 16%|█▋        | 60/369 [25:48<1:54:20, 22.20s/it] 17%|█▋        | 61/369 [26:16<2:02:43, 23.91s/it] 17%|█▋        | 62/369 [26:42<2:04:50, 24.40s/it]llm_build/c40c8d94-2be0-11f0-8275-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/c40c8d94-2be0-11f0-8275-e1a5a23921f1/Solution.cpp:23:33: error: conversion from ‘time_point<[...],duration<[...],ratio<3600>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400>>>’ requested
+   23 |     sys_days later = today_days + hours{24};
+      |                      ~~~~~~~~~~~^~~~~~~~~~~
+ 17%|█▋        | 63/369 [26:52<1:42:37, 20.12s/it] 17%|█▋        | 64/369 [27:13<1:43:30, 20.36s/it] 18%|█▊        | 65/369 [28:35<3:17:28, 38.98s/it] 18%|█▊        | 66/369 [28:41<2:26:37, 29.04s/it] 18%|█▊        | 67/369 [28:53<2:01:21, 24.11s/it]llm_build/116ad866-2be1-11f0-8275-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/116ad866-2be1-11f0-8275-e1a5a23921f1/Solution.cpp:23:39: error: conversion from ‘time_point<[...],duration<[...],ratio<54,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   23 |     sys_days a_month_ago = today_days - months{1};
+      |                            ~~~~~~~~~~~^~~~~~~~~~~
+ 18%|█▊        | 68/369 [29:02<1:36:48, 19.30s/it]llm_build/1d088de4-2be1-11f0-8275-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/1d088de4-2be1-11f0-8275-e1a5a23921f1/Solution.cpp:23:40: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   23 |     sys_days one_year_ago = today_days - years{1};
+      |                             ~~~~~~~~~~~^~~~~~~~~~
+ 19%|█▊        | 69/369 [29:21<1:36:42, 19.34s/it] 19%|█▉        | 70/369 [29:34<1:27:33, 17.57s/it] 19%|█▉        | 71/369 [30:13<1:58:20, 23.83s/it]llm_build/60b2951c-2be1-11f0-8275-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/60b2951c-2be1-11f0-8275-e1a5a23921f1/Solution.cpp:23:33: error: conversion from ‘time_point<[...],duration<[...],ratio<3600>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400>>>’ requested
+   23 |     sys_days later = today_days + hours{24};
+      |                      ~~~~~~~~~~~^~~~~~~~~~~
+ 20%|█▉        | 72/369 [31:15<2:54:16, 35.21s/it]llm_build/7b5f3230-2be1-11f0-8275-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/7b5f3230-2be1-11f0-8275-e1a5a23921f1/Solution.cpp:20:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   20 |     sys_days today = wedding_date + years{50};
+      |                      ~~~~~~~~~~~~~^~~~~~~~~~~
+ 20%|█▉        | 73/369 [31:59<3:07:39, 38.04s/it]llm_build/7f0c014c-2be1-11f0-8275-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/7f0c014c-2be1-11f0-8275-e1a5a23921f1/Solution.cpp:20:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   20 |     sys_days today = wedding_date + years{50};
+      |                      ~~~~~~~~~~~~~^~~~~~~~~~~
+ 20%|██        | 74/369 [32:05<2:20:00, 28.48s/it] 20%|██        | 75/369 [32:21<2:00:59, 24.69s/it]llm_build/a9d8275c-2be1-11f0-8276-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/a9d8275c-2be1-11f0-8276-e1a5a23921f1/Solution.cpp:20:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   20 |     sys_days today = wedding_date + years{50};
+      |                      ~~~~~~~~~~~~~^~~~~~~~~~~
+ 21%|██        | 76/369 [33:17<2:46:24, 34.08s/it]llm_build/b7c1b9aa-2be1-11f0-8276-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/b7c1b9aa-2be1-11f0-8276-e1a5a23921f1/Solution.cpp:20:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   20 |     sys_days today = wedding_date + years{50};
+      |                      ~~~~~~~~~~~~~^~~~~~~~~~~
+llm_build/b7c1b9aa-2be1-11f0-8276-e1a5a23921f1/Solution.cpp:23:34: error: conversion from ‘time_point<[...],duration<[...],ratio<54,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   23 |     sys_days a_month_ago = today - months{1};
+      |                            ~~~~~~^~~~~~~~~~~
+ 21%|██        | 77/369 [33:41<2:30:07, 30.85s/it]llm_build/cc42132a-2be1-11f0-8276-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/cc42132a-2be1-11f0-8276-e1a5a23921f1/Solution.cpp:20:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   20 |     sys_days today = wedding_date + years{50};
+      |                      ~~~~~~~~~~~~~^~~~~~~~~~~
+llm_build/cc42132a-2be1-11f0-8276-e1a5a23921f1/Solution.cpp:23:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   23 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 21%|██        | 78/369 [34:15<2:34:56, 31.95s/it]llm_build/d1623074-2be1-11f0-8276-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/d1623074-2be1-11f0-8276-e1a5a23921f1/Solution.cpp:20:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   20 |     sys_days today = wedding_date + years{50};
+      |                      ~~~~~~~~~~~~~^~~~~~~~~~~
+ 21%|██▏       | 79/369 [34:24<2:00:23, 24.91s/it]llm_build/df3540e2-2be1-11f0-8276-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/df3540e2-2be1-11f0-8276-e1a5a23921f1/Solution.cpp:20:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   20 |     sys_days today = wedding_date + years{50};
+      |                      ~~~~~~~~~~~~~^~~~~~~~~~~
+ 22%|██▏       | 80/369 [34:47<1:57:30, 24.40s/it]llm_build/e3d69682-2be1-11f0-8276-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/e3d69682-2be1-11f0-8276-e1a5a23921f1/Solution.cpp:23:33: error: conversion from ‘time_point<[...],duration<[...],ratio<3600>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400>>>’ requested
+   23 |     sys_days later = today_days + hours{24};
+      |                      ~~~~~~~~~~~^~~~~~~~~~~
+ 22%|██▏       | 81/369 [34:55<1:33:08, 19.40s/it]llm_build/e74455d4-2be1-11f0-8276-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/e74455d4-2be1-11f0-8276-e1a5a23921f1/Solution.cpp:20:33: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   20 |     sys_days today = start_date + years{3};
+      |                      ~~~~~~~~~~~^~~~~~~~~~
+ 22%|██▏       | 82/369 [35:00<1:13:13, 15.31s/it]llm_build/f0b73d52-2be1-11f0-8276-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/f0b73d52-2be1-11f0-8276-e1a5a23921f1/Solution.cpp:20:33: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   20 |     sys_days today = start_date + years{3};
+      |                      ~~~~~~~~~~~^~~~~~~~~~
+ 22%|██▏       | 83/369 [35:16<1:13:44, 15.47s/it]llm_build/f35a973e-2be1-11f0-8276-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/f35a973e-2be1-11f0-8276-e1a5a23921f1/Solution.cpp:20:33: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   20 |     sys_days today = start_date + years{3};
+      |                      ~~~~~~~~~~~^~~~~~~~~~
+ 23%|██▎       | 84/369 [35:21<57:50, 12.18s/it]  llm_build/fcf2465c-2be1-11f0-8276-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/fcf2465c-2be1-11f0-8276-e1a5a23921f1/Solution.cpp:20:33: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   20 |     sys_days today = start_date + years{3};
+      |                      ~~~~~~~~~~~^~~~~~~~~~
+ 23%|██▎       | 85/369 [35:37<1:03:07, 13.34s/it]llm_build/14498af4-2be2-11f0-8276-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/14498af4-2be2-11f0-8276-e1a5a23921f1/Solution.cpp:20:33: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   20 |     sys_days today = start_date + years{3};
+      |                      ~~~~~~~~~~~^~~~~~~~~~
+ 23%|██▎       | 86/369 [36:16<1:39:27, 21.09s/it]llm_build/1ab7a86c-2be2-11f0-8277-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/1ab7a86c-2be2-11f0-8277-e1a5a23921f1/Solution.cpp:20:33: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   20 |     sys_days today = start_date + years{3};
+      |                      ~~~~~~~~~~~^~~~~~~~~~
+llm_build/1ab7a86c-2be2-11f0-8277-e1a5a23921f1/Solution.cpp:23:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   23 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 24%|██▎       | 87/369 [36:27<1:24:32, 17.99s/it]llm_build/27c13d52-2be2-11f0-8277-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/27c13d52-2be2-11f0-8277-e1a5a23921f1/Solution.cpp:20:33: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   20 |     sys_days today = start_date + years{3};
+      |                      ~~~~~~~~~~~^~~~~~~~~~
+ 24%|██▍       | 88/369 [36:48<1:29:43, 19.16s/it]llm_build/3902ebec-2be2-11f0-8277-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/3902ebec-2be2-11f0-8277-e1a5a23921f1/Solution.cpp:20:33: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   20 |     sys_days today = start_date + years{3};
+      |                      ~~~~~~~~~~~^~~~~~~~~~
+ 24%|██▍       | 89/369 [37:17<1:43:06, 22.09s/it]llm_build/3e73a1ca-2be2-11f0-8278-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/3e73a1ca-2be2-11f0-8278-e1a5a23921f1/Solution.cpp:20:33: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   20 |     sys_days today = start_date + years{3};
+      |                      ~~~~~~~~~~~^~~~~~~~~~
+ 24%|██▍       | 90/369 [37:27<1:24:40, 18.21s/it] 25%|██▍       | 91/369 [37:38<1:14:38, 16.11s/it] 25%|██▍       | 92/369 [38:20<1:49:52, 23.80s/it] 25%|██▌       | 93/369 [38:37<1:41:15, 22.01s/it] 25%|██▌       | 94/369 [39:23<2:13:51, 29.20s/it] 26%|██▌       | 95/369 [40:17<2:46:39, 36.49s/it] 26%|██▌       | 96/369 [40:22<2:03:35, 27.16s/it] 26%|██▋       | 97/369 [40:37<1:46:36, 23.52s/it] 27%|██▋       | 98/369 [41:22<2:14:40, 29.82s/it] 27%|██▋       | 99/369 [41:26<1:40:06, 22.24s/it] 27%|██▋       | 100/369 [41:37<1:24:34, 18.87s/it] 27%|██▋       | 101/369 [42:23<2:00:27, 26.97s/it] 28%|██▊       | 102/369 [42:30<1:32:26, 20.77s/it] 28%|██▊       | 103/369 [42:40<1:18:48, 17.78s/it] 28%|██▊       | 104/369 [43:26<1:55:34, 26.17s/it] 28%|██▊       | 105/369 [43:32<1:28:45, 20.17s/it] 29%|██▊       | 106/369 [43:37<1:08:27, 15.62s/it] 29%|██▉       | 107/369 [44:22<1:46:15, 24.34s/it] 29%|██▉       | 108/369 [44:29<1:23:25, 19.18s/it] 30%|██▉       | 109/369 [44:39<1:11:14, 16.44s/it] 30%|██▉       | 110/369 [45:28<1:52:22, 26.03s/it] 30%|███       | 111/369 [45:33<1:25:02, 19.78s/it] 30%|███       | 112/369 [46:25<2:06:29, 29.53s/it] 31%|███       | 113/369 [46:32<1:37:16, 22.80s/it]llm_build/89a8d6e6-2be3-11f0-827a-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/89a8d6e6-2be3-11f0-827a-e1a5a23921f1/Solution.cpp:22:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 31%|███       | 114/369 [46:42<1:20:46, 19.00s/it] 31%|███       | 115/369 [47:34<2:02:02, 28.83s/it] 31%|███▏      | 116/369 [47:39<1:31:33, 21.71s/it] 32%|███▏      | 117/369 [48:41<2:21:43, 33.74s/it] 32%|███▏      | 118/369 [49:30<2:40:32, 38.38s/it] 32%|███▏      | 119/369 [49:34<1:56:49, 28.04s/it] 33%|███▎      | 120/369 [49:39<1:27:33, 21.10s/it] 33%|███▎      | 121/369 [50:35<2:10:51, 31.66s/it] 33%|███▎      | 122/369 [50:44<1:41:45, 24.72s/it]llm_build/31a3d8d2-2be4-11f0-827c-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/31a3d8d2-2be4-11f0-827c-e1a5a23921f1/Solution.cpp:22:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 33%|███▎      | 123/369 [51:24<2:00:32, 29.40s/it] 34%|███▎      | 124/369 [51:35<1:37:55, 23.98s/it] 34%|███▍      | 125/369 [51:41<1:15:20, 18.53s/it] 34%|███▍      | 126/369 [52:27<1:48:39, 26.83s/it] 34%|███▍      | 127/369 [52:41<1:31:38, 22.72s/it] 35%|███▍      | 128/369 [52:56<1:22:44, 20.60s/it] 35%|███▍      | 129/369 [53:25<1:32:42, 23.18s/it] 35%|███▌      | 130/369 [53:42<1:24:38, 21.25s/it] 36%|███▌      | 131/369 [53:48<1:05:56, 16.62s/it]llm_build/a5de0114-2be4-11f0-827d-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/a5de0114-2be4-11f0-827d-e1a5a23921f1/Solution.cpp:23:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   23 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 36%|███▌      | 132/369 [54:39<1:46:39, 27.00s/it] 36%|███▌      | 133/369 [54:46<1:22:03, 20.86s/it] 36%|███▋      | 134/369 [54:53<1:06:07, 16.88s/it] 37%|███▋      | 135/369 [55:41<1:42:12, 26.21s/it] 37%|███▋      | 136/369 [55:52<1:23:34, 21.52s/it] 37%|███▋      | 137/369 [56:24<1:36:01, 24.83s/it] 37%|███▋      | 138/369 [56:41<1:25:44, 22.27s/it] 38%|███▊      | 139/369 [56:46<1:06:14, 17.28s/it] 38%|███▊      | 140/369 [56:54<54:24, 14.26s/it]   38%|███▊      | 141/369 [57:36<1:26:15, 22.70s/it] 38%|███▊      | 142/369 [57:43<1:08:38, 18.14s/it] 39%|███▉      | 143/369 [57:48<53:14, 14.13s/it]   39%|███▉      | 144/369 [57:55<44:20, 11.83s/it] 39%|███▉      | 145/369 [58:27<1:06:43, 17.87s/it] 40%|███▉      | 146/369 [58:44<1:06:03, 17.77s/it] 40%|███▉      | 147/369 [58:49<51:02, 13.80s/it]   40%|████      | 148/369 [58:53<40:16, 10.93s/it] 40%|████      | 149/369 [59:28<1:06:20, 18.09s/it]llm_build/5d588dc8-2be5-11f0-827d-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/5d588dc8-2be5-11f0-827d-e1a5a23921f1/Solution.cpp:22:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 41%|████      | 150/369 [59:47<1:07:31, 18.50s/it] 41%|████      | 151/369 [59:53<53:04, 14.61s/it]   41%|████      | 152/369 [59:59<43:57, 12.16s/it] 41%|████▏     | 153/369 [1:00:27<1:00:32, 16.82s/it] 42%|████▏     | 154/369 [1:00:46<1:03:08, 17.62s/it] 42%|████▏     | 155/369 [1:00:50<47:59, 13.46s/it]   42%|████▏     | 156/369 [1:00:56<39:12, 11.05s/it] 43%|████▎     | 157/369 [1:01:47<1:22:22, 23.31s/it]llm_build/a9af89a6-2be5-11f0-827f-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/a9af89a6-2be5-11f0-827f-e1a5a23921f1/Solution.cpp:22:34: error: conversion from ‘time_point<[...],duration<[...],ratio<54,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days a_month_ago = today - months{1};
+      |                            ~~~~~~^~~~~~~~~~~
+ 43%|████▎     | 158/369 [1:01:55<1:05:21, 18.59s/it]llm_build/ace39d74-2be5-11f0-827f-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/ace39d74-2be5-11f0-827f-e1a5a23921f1/Solution.cpp:22:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 43%|████▎     | 159/369 [1:02:00<51:06, 14.60s/it]   43%|████▎     | 160/369 [1:02:29<1:05:04, 18.68s/it] 44%|████▎     | 161/369 [1:02:52<1:09:29, 20.05s/it] 44%|████▍     | 162/369 [1:02:58<54:45, 15.87s/it]   44%|████▍     | 163/369 [1:03:53<1:35:12, 27.73s/it] 44%|████▍     | 164/369 [1:03:58<1:10:43, 20.70s/it] 45%|████▍     | 165/369 [1:04:04<56:04, 16.49s/it]   45%|████▍     | 166/369 [1:04:31<1:05:57, 19.49s/it] 45%|████▌     | 167/369 [1:04:56<1:11:06, 21.12s/it]llm_build/1985e662-2be6-11f0-827f-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/1985e662-2be6-11f0-827f-e1a5a23921f1/Solution.cpp:22:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 46%|████▌     | 168/369 [1:05:03<56:34, 16.89s/it]   46%|████▌     | 169/369 [1:05:10<46:13, 13.87s/it] 46%|████▌     | 170/369 [1:05:27<49:46, 15.01s/it] 46%|████▋     | 171/369 [1:05:56<1:02:49, 19.04s/it] 47%|████▋     | 172/369 [1:06:00<47:53, 14.59s/it]   47%|████▋     | 173/369 [1:06:05<38:08, 11.68s/it] 47%|████▋     | 174/369 [1:06:28<49:29, 15.23s/it] 47%|████▋     | 175/369 [1:07:02<1:07:24, 20.85s/it] 48%|████▊     | 176/369 [1:07:08<52:20, 16.27s/it]  llm_build/70f8559c-2be6-11f0-827f-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/70f8559c-2be6-11f0-827f-e1a5a23921f1/Solution.cpp:22:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 48%|████▊     | 177/369 [1:07:29<57:05, 17.84s/it] 48%|████▊     | 178/369 [1:08:05<1:14:14, 23.32s/it] 49%|████▊     | 179/369 [1:08:10<55:52, 17.64s/it]   49%|████▉     | 180/369 [1:08:45<1:12:08, 22.90s/it] 49%|████▉     | 181/369 [1:09:03<1:07:18, 21.48s/it] 49%|████▉     | 182/369 [1:09:16<59:01, 18.94s/it]   50%|████▉     | 183/369 [1:09:31<54:42, 17.65s/it] 50%|████▉     | 184/369 [1:10:04<1:08:30, 22.22s/it] 50%|█████     | 185/369 [1:10:10<53:53, 17.58s/it]  llm_build/f0fcf13a-2be6-11f0-827f-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/f0fcf13a-2be6-11f0-827f-e1a5a23921f1/Solution.cpp:22:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 50%|█████     | 186/369 [1:11:04<1:26:40, 28.42s/it] 51%|█████     | 187/369 [1:11:13<1:08:14, 22.50s/it] 51%|█████     | 188/369 [1:12:06<1:35:33, 31.68s/it] 51%|█████     | 189/369 [1:12:14<1:13:30, 24.50s/it] 51%|█████▏    | 190/369 [1:12:28<1:04:00, 21.46s/it] 52%|█████▏    | 191/369 [1:13:05<1:17:14, 26.04s/it] 52%|█████▏    | 192/369 [1:13:14<1:02:13, 21.09s/it] 52%|█████▏    | 193/369 [1:13:30<57:01, 19.44s/it]  llm_build/4d230760-2be7-11f0-827f-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/4d230760-2be7-11f0-827f-e1a5a23921f1/Solution.cpp:22:34: error: conversion from ‘time_point<[...],duration<[...],ratio<54,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days a_month_ago = today - months{1};
+      |                            ~~~~~~^~~~~~~~~~~
+ 53%|█████▎    | 194/369 [1:13:39<47:24, 16.25s/it]llm_build/5d89d1e2-2be7-11f0-827f-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/5d89d1e2-2be7-11f0-827f-e1a5a23921f1/Solution.cpp:22:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 53%|█████▎    | 195/369 [1:14:06<56:58, 19.65s/it] 53%|█████▎    | 196/369 [1:15:08<1:32:43, 32.16s/it] 53%|█████▎    | 197/369 [1:15:13<1:08:54, 24.04s/it] 54%|█████▎    | 198/369 [1:15:20<54:29, 19.12s/it]   54%|█████▍    | 199/369 [1:15:29<45:41, 16.13s/it] 54%|█████▍    | 200/369 [1:16:17<1:11:41, 25.45s/it]llm_build/b2672e8a-2be7-11f0-8283-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/b2672e8a-2be7-11f0-8283-e1a5a23921f1/Solution.cpp:23:32: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   23 |     sys_days yesterday = today - days{1};
+      |                          ~~~~~~^~~~~~~~~
+ 54%|█████▍    | 201/369 [1:16:29<59:57, 21.41s/it]   55%|█████▍    | 202/369 [1:17:07<1:13:19, 26.35s/it] 55%|█████▌    | 203/369 [1:17:12<55:17, 19.98s/it]   55%|█████▌    | 204/369 [1:17:22<47:11, 17.16s/it] 56%|█████▌    | 205/369 [1:17:31<39:42, 14.53s/it] 56%|█████▌    | 206/369 [1:18:08<58:25, 21.50s/it] 56%|█████▌    | 207/369 [1:18:15<45:47, 16.96s/it] 56%|█████▋    | 208/369 [1:18:30<44:17, 16.51s/it] 57%|█████▋    | 209/369 [1:19:18<1:09:07, 25.92s/it] 57%|█████▋    | 210/369 [1:19:24<52:36, 19.85s/it]   57%|█████▋    | 211/369 [1:19:31<42:07, 16.00s/it] 57%|█████▋    | 212/369 [1:19:39<35:56, 13.74s/it]llm_build/3438bc58-2be8-11f0-8283-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/3438bc58-2be8-11f0-8283-e1a5a23921f1/Solution.cpp:22:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 58%|█████▊    | 213/369 [1:20:06<46:07, 17.74s/it] 58%|█████▊    | 214/369 [1:20:11<35:33, 13.76s/it] 58%|█████▊    | 215/369 [1:20:18<30:19, 11.82s/it] 59%|█████▊    | 216/369 [1:20:28<28:48, 11.29s/it] 59%|█████▉    | 217/369 [1:20:32<22:41,  8.96s/it] 59%|█████▉    | 218/369 [1:21:35<1:03:20, 25.17s/it] 59%|█████▉    | 219/369 [1:22:07<1:08:09, 27.26s/it] 60%|█████▉    | 220/369 [1:22:13<52:04, 20.97s/it]   60%|█████▉    | 221/369 [1:22:23<43:15, 17.54s/it]llm_build/87ed9dd2-2be8-11f0-8283-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/87ed9dd2-2be8-11f0-8283-e1a5a23921f1/Solution.cpp:22:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 60%|██████    | 222/369 [1:22:27<33:09, 13.53s/it] 60%|██████    | 223/369 [1:22:33<27:13, 11.19s/it] 61%|██████    | 224/369 [1:22:40<24:15, 10.04s/it] 61%|██████    | 225/369 [1:23:08<37:06, 15.46s/it] 61%|██████    | 226/369 [1:23:12<28:56, 12.14s/it] 62%|██████▏   | 227/369 [1:23:19<24:32, 10.37s/it] 62%|██████▏   | 228/369 [1:23:23<20:00,  8.52s/it] 62%|██████▏   | 229/369 [1:23:27<16:58,  7.27s/it]llm_build/af1b3e96-2be8-11f0-8283-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/af1b3e96-2be8-11f0-8283-e1a5a23921f1/Solution.cpp:22:34: error: conversion from ‘time_point<[...],duration<[...],ratio<54,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days a_month_ago = today - months{1};
+      |                            ~~~~~~^~~~~~~~~~~
+ 62%|██████▏   | 230/369 [1:23:33<15:37,  6.74s/it]llm_build/b31436f6-2be8-11f0-8283-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/b31436f6-2be8-11f0-8283-e1a5a23921f1/Solution.cpp:22:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 63%|██████▎   | 231/369 [1:23:40<15:35,  6.78s/it] 63%|██████▎   | 232/369 [1:24:38<51:10, 22.41s/it] 63%|██████▎   | 233/369 [1:24:47<41:18, 18.22s/it] 63%|██████▎   | 234/369 [1:25:40<1:04:12, 28.54s/it] 64%|██████▎   | 235/369 [1:25:45<48:14, 21.60s/it]   64%|██████▍   | 236/369 [1:25:57<41:21, 18.66s/it] 64%|██████▍   | 237/369 [1:26:08<36:13, 16.47s/it] 64%|██████▍   | 238/369 [1:26:41<46:32, 21.31s/it] 65%|██████▍   | 239/369 [1:26:46<35:53, 16.56s/it] 65%|██████▌   | 240/369 [1:26:53<29:04, 13.52s/it] 65%|██████▌   | 241/369 [1:27:10<31:02, 14.55s/it] 66%|██████▌   | 242/369 [1:27:43<43:00, 20.32s/it] 66%|██████▌   | 243/369 [1:27:47<32:24, 15.43s/it] 66%|██████▌   | 244/369 [1:27:51<24:50, 11.92s/it] 66%|██████▋   | 245/369 [1:28:10<29:11, 14.13s/it] 67%|██████▋   | 246/369 [1:28:42<39:48, 19.42s/it] 67%|██████▋   | 247/369 [1:28:47<30:37, 15.07s/it] 67%|██████▋   | 248/369 [1:28:54<25:19, 12.56s/it]llm_build/783cd2da-2be9-11f0-8284-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/783cd2da-2be9-11f0-8284-e1a5a23921f1/Solution.cpp:23:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   23 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 67%|██████▋   | 249/369 [1:29:10<27:19, 13.66s/it] 68%|██████▊   | 250/369 [1:29:42<38:09, 19.24s/it] 68%|██████▊   | 251/369 [1:29:55<33:44, 17.15s/it] 68%|██████▊   | 252/369 [1:30:10<32:30, 16.67s/it] 69%|██████▊   | 253/369 [1:30:44<42:07, 21.79s/it] 69%|██████▉   | 254/369 [1:30:49<32:04, 16.73s/it] 69%|██████▉   | 255/369 [1:30:55<25:49, 13.59s/it] 69%|██████▉   | 256/369 [1:31:09<25:58, 13.79s/it] 70%|██████▉   | 257/369 [1:31:48<39:49, 21.34s/it] 70%|██████▉   | 258/369 [1:31:54<31:01, 16.77s/it] 70%|███████   | 259/369 [1:32:01<25:17, 13.79s/it] 70%|███████   | 260/369 [1:32:11<22:37, 12.46s/it] 71%|███████   | 261/369 [1:32:50<36:50, 20.46s/it] 71%|███████   | 262/369 [1:32:55<28:23, 15.93s/it] 71%|███████▏  | 263/369 [1:33:03<24:09, 13.67s/it] 72%|███████▏  | 264/369 [1:33:17<23:41, 13.54s/it] 72%|███████▏  | 265/369 [1:33:52<34:42, 20.03s/it]llm_build/22ef91ae-2bea-11f0-8285-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/22ef91ae-2bea-11f0-8285-e1a5a23921f1/Solution.cpp:22:34: error: conversion from ‘time_point<[...],duration<[...],ratio<54,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days a_month_ago = today - months{1};
+      |                            ~~~~~~^~~~~~~~~~~
+ 72%|███████▏  | 266/369 [1:33:56<26:26, 15.40s/it]llm_build/26ae389a-2bea-11f0-8285-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/26ae389a-2bea-11f0-8285-e1a5a23921f1/Solution.cpp:22:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 72%|███████▏  | 267/369 [1:34:03<21:30, 12.66s/it] 73%|███████▎  | 268/369 [1:34:10<18:44, 11.13s/it] 73%|███████▎  | 269/369 [1:34:56<35:52, 21.53s/it] 73%|███████▎  | 270/369 [1:35:02<27:36, 16.74s/it] 73%|███████▎  | 271/369 [1:35:09<22:45, 13.94s/it] 74%|███████▎  | 272/369 [1:35:50<35:38, 22.04s/it] 74%|███████▍  | 273/369 [1:35:57<28:08, 17.59s/it] 74%|███████▍  | 274/369 [1:36:12<26:32, 16.76s/it] 75%|███████▍  | 275/369 [1:36:53<37:40, 24.04s/it]llm_build/9104cd44-2bea-11f0-8287-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/9104cd44-2bea-11f0-8287-e1a5a23921f1/Solution.cpp:22:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 75%|███████▍  | 276/369 [1:37:01<29:49, 19.24s/it] 75%|███████▌  | 277/369 [1:37:06<22:51, 14.90s/it] 75%|███████▌  | 278/369 [1:37:12<18:33, 12.23s/it] 76%|███████▌  | 279/369 [1:37:52<30:43, 20.48s/it] 76%|███████▌  | 280/369 [1:37:57<23:31, 15.86s/it] 76%|███████▌  | 281/369 [1:38:10<22:21, 15.25s/it] 76%|███████▋  | 282/369 [1:38:16<17:50, 12.31s/it] 77%|███████▋  | 283/369 [1:38:57<29:57, 20.90s/it] 77%|███████▋  | 284/369 [1:39:07<24:49, 17.53s/it] 77%|███████▋  | 285/369 [1:39:13<19:47, 14.13s/it] 78%|███████▊  | 286/369 [1:40:01<33:44, 24.39s/it] 78%|███████▊  | 287/369 [1:40:15<28:56, 21.18s/it] 78%|███████▊  | 288/369 [1:41:05<40:22, 29.91s/it] 78%|███████▊  | 289/369 [1:41:12<30:37, 22.97s/it] 79%|███████▊  | 290/369 [1:41:19<24:06, 18.32s/it] 79%|███████▉  | 291/369 [1:41:53<29:42, 22.86s/it] 79%|███████▉  | 292/369 [1:42:02<24:14, 18.89s/it]llm_build/4886e72c-2beb-11f0-8288-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/4886e72c-2beb-11f0-8288-e1a5a23921f1/Solution.cpp:22:34: error: conversion from ‘time_point<[...],duration<[...],ratio<54,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days a_month_ago = today - months{1};
+      |                            ~~~~~~^~~~~~~~~~~
+ 79%|███████▉  | 293/369 [1:42:09<19:17, 15.23s/it]llm_build/4f67444c-2beb-11f0-8288-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/4f67444c-2beb-11f0-8288-e1a5a23921f1/Solution.cpp:22:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 80%|███████▉  | 294/369 [1:42:21<17:37, 14.10s/it] 80%|███████▉  | 295/369 [1:42:53<24:11, 19.61s/it] 80%|████████  | 296/369 [1:43:04<20:39, 16.98s/it] 80%|████████  | 297/369 [1:43:11<16:57, 14.14s/it] 81%|████████  | 298/369 [1:43:17<13:49, 11.68s/it] 81%|████████  | 299/369 [1:43:23<11:28,  9.83s/it] 81%|████████▏ | 300/369 [1:43:54<18:45, 16.32s/it] 82%|████████▏ | 301/369 [1:44:01<15:09, 13.37s/it]llm_build/91183748-2beb-11f0-8288-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/91183748-2beb-11f0-8288-e1a5a23921f1/Solution.cpp:23:34: error: conversion from ‘time_point<[...],duration<[...],ratio<54,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   23 |     sys_days a_month_ago = today - months{1};
+      |                            ~~~~~~^~~~~~~~~~~
+ 82%|████████▏ | 302/369 [1:44:11<13:48, 12.37s/it]llm_build/96c69496-2beb-11f0-8289-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/96c69496-2beb-11f0-8289-e1a5a23921f1/Solution.cpp:22:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 82%|████████▏ | 303/369 [1:44:20<12:38, 11.49s/it] 82%|████████▏ | 304/369 [1:44:54<19:48, 18.29s/it] 83%|████████▎ | 305/369 [1:45:08<18:03, 16.93s/it] 83%|████████▎ | 306/369 [1:45:12<13:45, 13.11s/it] 83%|████████▎ | 307/369 [1:45:19<11:25, 11.06s/it] 83%|████████▎ | 308/369 [1:45:24<09:22,  9.23s/it] 84%|████████▎ | 309/369 [1:45:55<16:02, 16.04s/it] 84%|████████▍ | 310/369 [1:46:11<15:44, 16.01s/it] 84%|████████▍ | 311/369 [1:46:17<12:28, 12.90s/it]llm_build/df568bbc-2beb-11f0-828a-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/df568bbc-2beb-11f0-828a-e1a5a23921f1/Solution.cpp:22:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 85%|████████▍ | 312/369 [1:46:22<09:58, 10.50s/it] 85%|████████▍ | 313/369 [1:46:28<08:37,  9.24s/it] 85%|████████▌ | 314/369 [1:47:20<20:11, 22.02s/it] 85%|████████▌ | 315/369 [1:47:24<15:02, 16.71s/it] 86%|████████▌ | 316/369 [1:47:29<11:33, 13.08s/it] 86%|████████▌ | 317/369 [1:48:17<20:18, 23.42s/it] 86%|████████▌ | 318/369 [1:48:22<15:20, 18.05s/it] 86%|████████▋ | 319/369 [1:48:27<11:46, 14.13s/it]llm_build/2cb9a48e-2bec-11f0-828a-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/2cb9a48e-2bec-11f0-828a-e1a5a23921f1/Solution.cpp:22:34: error: conversion from ‘time_point<[...],duration<[...],ratio<54,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days a_month_ago = today - months{1};
+      |                            ~~~~~~^~~~~~~~~~~
+ 87%|████████▋ | 320/369 [1:48:32<09:13, 11.30s/it]llm_build/2fd59b32-2bec-11f0-828a-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/2fd59b32-2bec-11f0-828a-e1a5a23921f1/Solution.cpp:22:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 87%|████████▋ | 321/369 [1:48:37<07:35,  9.49s/it] 87%|████████▋ | 322/369 [1:48:59<10:19, 13.18s/it] 88%|████████▊ | 323/369 [1:49:21<12:07, 15.81s/it] 88%|████████▊ | 324/369 [1:49:26<09:26, 12.59s/it] 88%|████████▊ | 325/369 [1:49:31<07:31, 10.26s/it] 88%|████████▊ | 326/369 [1:49:35<06:07,  8.54s/it] 89%|████████▊ | 327/369 [1:49:55<08:23, 12.00s/it] 89%|████████▉ | 328/369 [1:50:26<11:57, 17.49s/it]llm_build/7374e5b4-2bec-11f0-828a-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/7374e5b4-2bec-11f0-828a-e1a5a23921f1/Solution.cpp:22:34: error: conversion from ‘time_point<[...],duration<[...],ratio<54,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days a_month_ago = today - months{1};
+      |                            ~~~~~~^~~~~~~~~~~
+ 89%|████████▉ | 329/369 [1:50:31<09:08, 13.72s/it] 89%|████████▉ | 330/369 [1:50:36<07:21, 11.32s/it] 90%|████████▉ | 331/369 [1:50:41<05:58,  9.44s/it] 90%|████████▉ | 332/369 [1:50:52<06:03,  9.84s/it] 90%|█████████ | 333/369 [1:51:24<09:51, 16.42s/it] 91%|█████████ | 334/369 [1:51:26<07:08, 12.26s/it]llm_build/97d778b8-2bec-11f0-828a-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/97d778b8-2bec-11f0-828a-e1a5a23921f1/Solution.cpp:20:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   20 |     sys_days today = wedding_date + years{5};
+      |                      ~~~~~~~~~~~~~^~~~~~~~~~
+ 91%|█████████ | 335/369 [1:51:32<05:45, 10.15s/it] 91%|█████████ | 336/369 [1:52:21<12:00, 21.84s/it] 91%|█████████▏| 337/369 [1:52:25<08:51, 16.60s/it]llm_build/b902a274-2bec-11f0-828a-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/b902a274-2bec-11f0-828a-e1a5a23921f1/Solution.cpp:20:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   20 |     sys_days today = wedding_date + years{5};
+      |                      ~~~~~~~~~~~~~^~~~~~~~~~
+llm_build/b902a274-2bec-11f0-828a-e1a5a23921f1/Solution.cpp:23:34: error: conversion from ‘time_point<[...],duration<[...],ratio<54,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   23 |     sys_days a_month_ago = today - months{1};
+      |                            ~~~~~~^~~~~~~~~~~
+ 92%|█████████▏| 338/369 [1:52:27<06:19, 12.24s/it]llm_build/da78057a-2bec-11f0-828a-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/da78057a-2bec-11f0-828a-e1a5a23921f1/Solution.cpp:20:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   20 |     sys_days today = wedding_date + years{5};
+      |                      ~~~~~~~~~~~~~^~~~~~~~~~
+llm_build/da78057a-2bec-11f0-828a-e1a5a23921f1/Solution.cpp:23:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   23 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 92%|█████████▏| 339/369 [1:53:23<12:42, 25.42s/it]llm_build/e03b0b42-2bec-11f0-828a-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/e03b0b42-2bec-11f0-828a-e1a5a23921f1/Solution.cpp:20:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   20 |     sys_days today = wedding_date + years{5};
+      |                      ~~~~~~~~~~~~~^~~~~~~~~~
+ 92%|█████████▏| 340/369 [1:53:33<10:00, 20.70s/it]llm_build/e3b7e574-2bec-11f0-828a-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/e3b7e574-2bec-11f0-828a-e1a5a23921f1/Solution.cpp:20:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   20 |     sys_days today = wedding_date + years{5};
+      |                      ~~~~~~~~~~~~~^~~~~~~~~~
+ 92%|█████████▏| 341/369 [1:53:39<07:34, 16.25s/it]llm_build/e721086c-2bec-11f0-828a-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/e721086c-2bec-11f0-828a-e1a5a23921f1/Solution.cpp:20:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   20 |     sys_days today = wedding_date + years{5};
+      |                      ~~~~~~~~~~~~~^~~~~~~~~~
+ 93%|█████████▎| 342/369 [1:53:45<05:52, 13.06s/it] 93%|█████████▎| 343/369 [1:53:55<05:17, 12.20s/it] 93%|█████████▎| 344/369 [1:54:36<08:42, 20.89s/it] 93%|█████████▎| 345/369 [1:54:44<06:47, 16.97s/it] 94%|█████████▍| 346/369 [1:55:00<06:24, 16.72s/it] 94%|█████████▍| 347/369 [1:55:23<06:51, 18.72s/it] 94%|█████████▍| 348/369 [1:55:26<04:54, 14.01s/it] 95%|█████████▍| 349/369 [1:55:29<03:30, 10.50s/it] 95%|█████████▍| 350/369 [1:55:32<02:40,  8.44s/it] 95%|█████████▌| 351/369 [1:55:39<02:22,  7.91s/it] 95%|█████████▌| 352/369 [1:55:45<02:04,  7.33s/it] 96%|█████████▌| 353/369 [1:56:26<04:37, 17.33s/it] 96%|█████████▌| 354/369 [1:56:28<03:13, 12.93s/it] 96%|█████████▌| 355/369 [1:56:31<02:19,  9.99s/it]llm_build/4ca5fecc-2bed-11f0-828a-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/4ca5fecc-2bed-11f0-828a-e1a5a23921f1/Solution.cpp:22:34: error: conversion from ‘time_point<[...],duration<[...],ratio<54,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days a_month_ago = today - months{1};
+      |                            ~~~~~~^~~~~~~~~~~
+ 96%|█████████▋| 356/369 [1:56:35<01:44,  8.07s/it]llm_build/5542d4d8-2bed-11f0-828a-e1a5a23921f1/Solution.cpp: In function ‘int main()’:
+llm_build/5542d4d8-2bed-11f0-828a-e1a5a23921f1/Solution.cpp:22:35: error: conversion from ‘time_point<[...],duration<[...],ratio<216,[...]>>>’ to non-scalar type ‘time_point<[...],duration<[...],ratio<86400,[...]>>>’ requested
+   22 |     sys_days one_year_ago = today - years{1};
+      |                             ~~~~~~^~~~~~~~~~
+ 97%|█████████▋| 357/369 [1:56:49<01:59,  9.96s/it] 97%|█████████▋| 358/369 [1:57:32<03:36, 19.69s/it] 97%|█████████▋| 359/369 [1:57:37<02:32, 15.30s/it] 98%|█████████▊| 360/369 [1:57:56<02:27, 16.41s/it] 98%|█████████▊| 361/369 [1:58:28<02:48, 21.08s/it] 98%|█████████▊| 362/369 [1:58:35<01:59, 17.10s/it] 98%|█████████▊| 363/369 [1:58:41<01:22, 13.68s/it] 99%|█████████▊| 364/369 [1:58:50<01:01, 12.29s/it] 99%|█████████▉| 365/369 [1:58:59<00:44, 11.20s/it] 99%|█████████▉| 366/369 [1:59:33<00:53, 17.93s/it] 99%|█████████▉| 367/369 [1:59:39<00:28, 14.34s/it]100%|█████████▉| 368/369 [2:00:37<00:27, 27.70s/it]100%|██████████| 369/369 [2:00:40<00:00, 20.11s/it]100%|██████████| 369/369 [2:00:40<00:00, 19.62s/it]
+Accuracy - 0.6856368563685636
