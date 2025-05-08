@@ -1,1703 +1,0 @@
-  0%|          | 0/508 [00:00<?, ?it/s]  0%|          | 1/508 [00:01<15:32,  1.84s/it]  0%|          | 2/508 [00:02<11:40,  1.38s/it]  1%|          | 3/508 [00:04<10:50,  1.29s/it]  1%|          | 4/508 [00:05<10:06,  1.20s/it]  1%|          | 5/508 [00:06<09:29,  1.13s/it]  1%|          | 6/508 [00:07<09:52,  1.18s/it]  1%|▏         | 7/508 [00:09<10:57,  1.31s/it]  2%|▏         | 8/508 [00:09<09:58,  1.20s/it]  2%|▏         | 9/508 [00:11<10:06,  1.22s/it]  2%|▏         | 10/508 [00:12<09:48,  1.18s/it]  2%|▏         | 11/508 [00:13<10:45,  1.30s/it]  2%|▏         | 12/508 [00:14<09:37,  1.16s/it]  3%|▎         | 13/508 [00:20<20:57,  2.54s/it]  3%|▎         | 14/508 [01:03<2:01:32, 14.76s/it]  3%|▎         | 15/508 [01:05<1:28:33, 10.78s/it]  3%|▎         | 16/508 [01:06<1:04:38,  7.88s/it]  3%|▎         | 17/508 [01:07<47:54,  5.85s/it]    4%|▎         | 18/508 [01:08<36:09,  4.43s/it]  4%|▎         | 19/508 [01:09<28:03,  3.44s/it]  4%|▍         | 20/508 [01:10<22:20,  2.75s/it]  4%|▍         | 21/508 [01:11<18:33,  2.29s/it]  4%|▍         | 22/508 [01:13<17:42,  2.19s/it]  5%|▍         | 23/508 [01:14<15:00,  1.86s/it]  5%|▍         | 24/508 [01:15<13:01,  1.61s/it]  5%|▍         | 25/508 [01:17<12:07,  1.51s/it]  5%|▌         | 26/508 [01:21<18:56,  2.36s/it]  5%|▌         | 27/508 [02:05<1:58:38, 14.80s/it]  6%|▌         | 28/508 [02:07<1:27:33, 10.94s/it]  6%|▌         | 29/508 [02:09<1:05:15,  8.17s/it]  6%|▌         | 30/508 [02:10<48:37,  6.10s/it]    6%|▌         | 31/508 [02:14<42:45,  5.38s/it]  6%|▋         | 32/508 [02:15<34:13,  4.31s/it]  6%|▋         | 33/508 [02:17<28:28,  3.60s/it]  7%|▋         | 34/508 [02:20<25:52,  3.28s/it]  7%|▋         | 35/508 [02:21<21:15,  2.70s/it]  7%|▋         | 36/508 [02:47<1:15:19,  9.58s/it]  7%|▋         | 37/508 [02:58<1:18:25,  9.99s/it]  7%|▋         | 38/508 [03:01<1:02:44,  8.01s/it]  8%|▊         | 39/508 [03:03<49:01,  6.27s/it]    8%|▊         | 40/508 [03:05<37:54,  4.86s/it]  8%|▊         | 41/508 [03:08<33:32,  4.31s/it]  8%|▊         | 42/508 [03:09<26:00,  3.35s/it]  8%|▊         | 43/508 [03:12<26:11,  3.38s/it]  9%|▊         | 44/508 [03:14<21:09,  2.73s/it]  9%|▉         | 45/508 [03:16<19:58,  2.59s/it]  9%|▉         | 46/508 [03:17<17:15,  2.24s/it]  9%|▉         | 47/508 [03:19<14:46,  1.92s/it]  9%|▉         | 48/508 [03:21<15:21,  2.00s/it] 10%|▉         | 49/508 [03:22<13:03,  1.71s/it] 10%|▉         | 50/508 [03:23<11:58,  1.57s/it] 10%|█         | 51/508 [03:48<1:04:53,  8.52s/it] 10%|█         | 52/508 [04:02<1:16:46, 10.10s/it] 10%|█         | 53/508 [04:05<1:02:18,  8.22s/it] 11%|█         | 54/508 [04:08<49:13,  6.51s/it]   11%|█         | 55/508 [04:10<39:14,  5.20s/it] 11%|█         | 56/508 [04:16<40:22,  5.36s/it] 11%|█         | 57/508 [04:17<30:56,  4.12s/it] 11%|█▏        | 58/508 [04:18<24:15,  3.24s/it] 12%|█▏        | 59/508 [04:19<19:47,  2.64s/it] 12%|█▏        | 60/508 [04:21<17:47,  2.38s/it] 12%|█▏        | 61/508 [04:22<15:03,  2.02s/it] 12%|█▏        | 62/508 [04:24<13:18,  1.79s/it] 12%|█▏        | 63/508 [04:49<1:05:55,  8.89s/it] 13%|█▎        | 64/508 [05:04<1:19:53, 10.80s/it] 13%|█▎        | 65/508 [05:06<59:04,  8.00s/it]   13%|█▎        | 66/508 [05:07<43:32,  5.91s/it] 13%|█▎        | 67/508 [05:08<32:39,  4.44s/it] 13%|█▎        | 68/508 [05:09<26:01,  3.55s/it] 14%|█▎        | 69/508 [05:11<21:01,  2.87s/it] 14%|█▍        | 70/508 [05:13<19:22,  2.65s/it] 14%|█▍        | 71/508 [05:17<21:47,  2.99s/it] 14%|█▍        | 72/508 [05:18<17:42,  2.44s/it] 14%|█▍        | 73/508 [05:19<14:27,  1.99s/it] 15%|█▍        | 74/508 [05:20<13:50,  1.91s/it] 15%|█▍        | 75/508 [05:21<12:04,  1.67s/it] 15%|█▍        | 76/508 [05:23<10:54,  1.51s/it] 15%|█▌        | 77/508 [05:24<09:48,  1.37s/it] 15%|█▌        | 78/508 [05:33<26:20,  3.68s/it] 16%|█▌        | 79/508 [05:58<1:12:47, 10.18s/it] 16%|█▌        | 80/508 [06:05<1:05:54,  9.24s/it] 16%|█▌        | 81/508 [06:06<48:16,  6.78s/it]   16%|█▌        | 82/508 [06:08<36:51,  5.19s/it] 16%|█▋        | 83/508 [06:11<32:42,  4.62s/it] 17%|█▋        | 84/508 [06:12<25:02,  3.54s/it] 17%|█▋        | 85/508 [06:13<20:03,  2.85s/it] 17%|█▋        | 86/508 [06:14<16:15,  2.31s/it] 17%|█▋        | 87/508 [06:16<15:54,  2.27s/it] 17%|█▋        | 88/508 [06:18<13:25,  1.92s/it] 18%|█▊        | 89/508 [06:19<12:24,  1.78s/it] 18%|█▊        | 90/508 [06:20<10:39,  1.53s/it] 18%|█▊        | 91/508 [06:21<09:49,  1.41s/it] 18%|█▊        | 92/508 [06:22<09:25,  1.36s/it] 18%|█▊        | 93/508 [06:23<08:43,  1.26s/it] 19%|█▊        | 94/508 [06:24<08:01,  1.16s/it] 19%|█▊        | 95/508 [06:25<07:46,  1.13s/it] 19%|█▉        | 96/508 [06:34<22:40,  3.30s/it] 19%|█▉        | 97/508 [06:48<45:35,  6.66s/it] 19%|█▉        | 98/508 [07:05<1:07:20,  9.85s/it] 19%|█▉        | 99/508 [07:07<49:40,  7.29s/it]   20%|█▉        | 100/508 [07:08<37:27,  5.51s/it] 20%|█▉        | 101/508 [07:10<30:16,  4.46s/it] 20%|██        | 102/508 [07:11<23:04,  3.41s/it] 20%|██        | 103/508 [07:12<18:13,  2.70s/it] 20%|██        | 104/508 [07:13<14:59,  2.23s/it] 21%|██        | 105/508 [07:14<12:16,  1.83s/it] 21%|██        | 106/508 [07:16<11:29,  1.71s/it] 21%|██        | 107/508 [07:17<10:09,  1.52s/it] 21%|██▏       | 108/508 [07:19<11:15,  1.69s/it] 21%|██▏       | 109/508 [07:21<11:42,  1.76s/it] 22%|██▏       | 110/508 [07:22<10:08,  1.53s/it] 22%|██▏       | 111/508 [07:23<09:00,  1.36s/it] 22%|██▏       | 112/508 [07:46<52:17,  7.92s/it] 22%|██▏       | 113/508 [07:59<1:02:57,  9.56s/it] 22%|██▏       | 114/508 [08:07<59:03,  8.99s/it]   23%|██▎       | 115/508 [08:08<43:20,  6.62s/it] 23%|██▎       | 116/508 [08:14<41:53,  6.41s/it] 23%|██▎       | 117/508 [08:15<31:51,  4.89s/it] 23%|██▎       | 118/508 [08:16<23:49,  3.67s/it] 23%|██▎       | 119/508 [08:17<18:59,  2.93s/it] 24%|██▎       | 120/508 [08:19<17:12,  2.66s/it] 24%|██▍       | 121/508 [08:21<15:57,  2.47s/it] 24%|██▍       | 122/508 [08:22<13:15,  2.06s/it] 24%|██▍       | 123/508 [08:24<11:39,  1.82s/it] 24%|██▍       | 124/508 [08:29<17:38,  2.76s/it] 25%|██▍       | 125/508 [08:50<52:44,  8.26s/it] 25%|██▍       | 126/508 [09:07<1:10:18, 11.04s/it] 25%|██▌       | 127/508 [09:09<51:47,  8.16s/it]   25%|██▌       | 128/508 [09:10<38:20,  6.05s/it] 25%|██▌       | 129/508 [09:11<28:39,  4.54s/it] 26%|██▌       | 130/508 [09:12<22:27,  3.56s/it] 26%|██▌       | 131/508 [09:14<18:45,  2.98s/it] 26%|██▌       | 132/508 [09:15<14:51,  2.37s/it] 26%|██▌       | 133/508 [09:17<14:22,  2.30s/it] 26%|██▋       | 134/508 [09:18<12:30,  2.01s/it] 27%|██▋       | 135/508 [09:20<11:44,  1.89s/it] 27%|██▋       | 136/508 [09:25<18:21,  2.96s/it] 27%|██▋       | 137/508 [09:26<14:29,  2.34s/it] 27%|██▋       | 138/508 [09:27<11:53,  1.93s/it] 27%|██▋       | 139/508 [09:29<12:01,  1.96s/it] 28%|██▊       | 140/508 [09:50<45:57,  7.49s/it] 28%|██▊       | 141/508 [10:03<56:11,  9.19s/it] 28%|██▊       | 142/508 [10:08<48:50,  8.01s/it] 28%|██▊       | 143/508 [10:09<36:33,  6.01s/it] 28%|██▊       | 144/508 [10:11<28:01,  4.62s/it] 29%|██▊       | 145/508 [10:12<21:12,  3.51s/it] 29%|██▊       | 146/508 [10:15<20:28,  3.39s/it] 29%|██▉       | 147/508 [10:20<23:21,  3.88s/it] 29%|██▉       | 148/508 [10:23<21:15,  3.54s/it] 29%|██▉       | 149/508 [10:24<17:19,  2.90s/it] 30%|██▉       | 150/508 [10:25<13:57,  2.34s/it] 30%|██▉       | 151/508 [11:18<1:45:20, 17.71s/it] 30%|██▉       | 152/508 [11:21<1:17:47, 13.11s/it] 30%|███       | 153/508 [11:22<56:21,  9.52s/it]   30%|███       | 154/508 [11:25<43:48,  7.42s/it] 31%|███       | 155/508 [11:26<32:28,  5.52s/it] 31%|███       | 156/508 [11:28<26:39,  4.54s/it] 31%|███       | 157/508 [11:51<58:50, 10.06s/it] 31%|███       | 158/508 [12:04<1:04:17, 11.02s/it] 31%|███▏      | 159/508 [12:06<48:21,  8.31s/it]   31%|███▏      | 160/508 [12:11<41:30,  7.16s/it] 32%|███▏      | 161/508 [12:16<37:53,  6.55s/it] 32%|███▏      | 162/508 [12:17<28:34,  4.96s/it] 32%|███▏      | 163/508 [12:18<21:31,  3.74s/it] 32%|███▏      | 164/508 [12:19<16:39,  2.91s/it] 32%|███▏      | 165/508 [12:20<13:42,  2.40s/it] 33%|███▎      | 166/508 [12:22<12:55,  2.27s/it] 33%|███▎      | 167/508 [12:23<10:57,  1.93s/it] 33%|███▎      | 168/508 [12:26<11:49,  2.09s/it] 33%|███▎      | 169/508 [12:27<10:03,  1.78s/it] 33%|███▎      | 170/508 [12:28<08:50,  1.57s/it] 34%|███▎      | 171/508 [12:29<08:07,  1.45s/it] 34%|███▍      | 172/508 [12:30<07:47,  1.39s/it] 34%|███▍      | 173/508 [12:31<07:15,  1.30s/it] 34%|███▍      | 174/508 [12:32<06:42,  1.20s/it] 34%|███▍      | 175/508 [13:05<58:29, 10.54s/it] 35%|███▍      | 176/508 [13:10<49:38,  8.97s/it] 35%|███▍      | 177/508 [13:11<36:22,  6.59s/it] 35%|███▌      | 178/508 [13:13<28:52,  5.25s/it] 35%|███▌      | 179/508 [13:14<21:28,  3.92s/it] 35%|███▌      | 180/508 [13:17<20:51,  3.81s/it] 36%|███▌      | 181/508 [13:19<16:50,  3.09s/it] 36%|███▌      | 182/508 [13:20<13:20,  2.46s/it] 36%|███▌      | 183/508 [13:21<11:14,  2.07s/it] 36%|███▌      | 184/508 [13:22<09:13,  1.71s/it] 36%|███▋      | 185/508 [13:24<09:38,  1.79s/it] 37%|███▋      | 186/508 [13:25<09:00,  1.68s/it] 37%|███▋      | 187/508 [13:26<08:21,  1.56s/it] 37%|███▋      | 188/508 [13:28<07:30,  1.41s/it] 37%|███▋      | 189/508 [13:29<07:11,  1.35s/it] 37%|███▋      | 190/508 [13:30<07:00,  1.32s/it] 38%|███▊      | 191/508 [13:31<07:03,  1.33s/it] 38%|███▊      | 192/508 [13:32<06:38,  1.26s/it] 38%|███▊      | 193/508 [13:53<36:40,  6.99s/it] 38%|███▊      | 194/508 [14:05<44:36,  8.52s/it] 38%|███▊      | 195/508 [14:10<39:20,  7.54s/it] 39%|███▊      | 196/508 [14:13<31:27,  6.05s/it] 39%|███▉      | 197/508 [14:14<24:03,  4.64s/it] 39%|███▉      | 198/508 [14:15<18:37,  3.61s/it] 39%|███▉      | 199/508 [14:16<14:52,  2.89s/it] 39%|███▉      | 200/508 [14:18<12:32,  2.44s/it] 40%|███▉      | 201/508 [14:21<13:06,  2.56s/it] 40%|███▉      | 202/508 [14:22<10:27,  2.05s/it] 40%|███▉      | 203/508 [14:23<09:00,  1.77s/it] 40%|████      | 204/508 [14:25<09:32,  1.88s/it] 40%|████      | 205/508 [14:27<10:03,  1.99s/it] 41%|████      | 206/508 [14:34<16:54,  3.36s/it] 41%|████      | 207/508 [14:53<41:29,  8.27s/it] 41%|████      | 208/508 [15:07<49:18,  9.86s/it] 41%|████      | 209/508 [15:14<44:51,  9.00s/it] 41%|████▏     | 210/508 [15:17<36:05,  7.27s/it] 42%|████▏     | 211/508 [15:21<30:08,  6.09s/it] 42%|████▏     | 212/508 [15:23<25:10,  5.10s/it] 42%|████▏     | 213/508 [15:25<20:04,  4.08s/it]File "llm_build/74218c21-2885-11f0-8aef-e10f5b0b7eea/Solution.ml", line 4, characters 18-38:
-4 | let total_spent = basketball_game_cost + racing_game_cost in
-                      ^^^^^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 42%|████▏     | 214/508 [15:26<15:40,  3.20s/it]File "llm_build/75d3fb8e-2885-11f0-8aef-e10f5b0b7eea/Solution.ml", line 4, characters 18-30:
-4 | let total_spent = trumpet_cost + song_book_cost in
-                      ^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 42%|████▏     | 215/508 [15:28<13:25,  2.75s/it]File "llm_build/75d3fb8f-2885-11f0-8aef-e10f5b0b7eea/Solution.ml", line 4, characters 18-31:
-4 | let total_spent = football_cost + marbles_cost in
-                      ^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 43%|████▎     | 216/508 [15:29<10:52,  2.24s/it] 43%|████▎     | 217/508 [15:31<09:56,  2.05s/it]File "llm_build/7768155d-2885-11f0-8aef-e10f5b0b7eea/Solution.ml", line 4, characters 17-29:
-4 | let total_cost = cat_toy_cost + cage_cost in
-                     ^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 43%|████▎     | 218/508 [15:32<08:40,  1.80s/it]File "llm_build/78e77b34-2885-11f0-8aef-e10f5b0b7eea/Solution.ml", line 4, characters 17-28:
-4 | let total_bill = hotdog_cost + salad_cost in
-                     ^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 43%|████▎     | 219/508 [15:33<07:56,  1.65s/it]File "llm_build/78e77b35-2885-11f0-8aef-e10f5b0b7eea/Solution.ml", line 4, characters 18-29:
-4 | let total_spent = shorts_cost + jacket_cost in
-                      ^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 43%|████▎     | 220/508 [15:34<07:09,  1.49s/it]File "llm_build/7b66d1e8-2885-11f0-8aef-e10f5b0b7eea/Solution.ml", line 4, characters 18-29:
-4 | let total_spent = grapes_cost + cherries_cost in
-                      ^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 44%|████▎     | 221/508 [15:37<09:24,  1.97s/it]File "llm_build/840753d6-2885-11f0-8aef-e10f5b0b7eea/Solution.ml", line 5, characters 18-30:
-5 | let total_spent = berries_cost + apples_cost + peaches_cost in
-                      ^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/74218c21-2885-11f0-8aef-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/75d3fb8e-2885-11f0-8aef-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/75d3fb8f-2885-11f0-8aef-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/7768155d-2885-11f0-8aef-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/78e77b34-2885-11f0-8aef-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/78e77b35-2885-11f0-8aef-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/7b66d1e8-2885-11f0-8aef-e10f5b0b7eea/Solution'
-
-Execute error: 
- 44%|████▎     | 222/508 [15:52<27:15,  5.72s/it]File "llm_build/84eeaac4-2885-11f0-8aef-e10f5b0b7eea/Solution.ml", line 5, characters 18-29:
-5 | let total_spent = shorts_cost + shirt_cost + jacket_cost in
-                      ^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 44%|████▍     | 223/508 [15:53<21:09,  4.46s/it]File "llm_build/84eeaac5-2885-11f0-8aef-e10f5b0b7eea/Solution.ml", line 5, characters 18-28:
-5 | let total_spent = flute_cost + music_stand_cost + song_book_cost in
-                      ^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 44%|████▍     | 224/508 [15:55<16:43,  3.53s/it]File "llm_build/86cd4fee-2885-11f0-8aef-e10f5b0b7eea/Solution.ml", line 5, characters 18-36:
-5 | let total_spent = football_game_cost + strategy_game_cost + batman_game_cost in
-                      ^^^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 44%|████▍     | 225/508 [15:56<14:08,  3.00s/it] 44%|████▍     | 226/508 [16:08<27:01,  5.75s/it] 45%|████▍     | 227/508 [16:10<21:32,  4.60s/it]File "llm_build/926e6a40-2885-11f0-8aef-e10f5b0b7eea/Solution.ml", line 5, characters 18-30:
-5 | let total_spent = marbles_cost + football_cost + baseball_cost in
-                      ^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 45%|████▍     | 228/508 [16:16<22:37,  4.85s/it]File "llm_build/93b8fe6a-2885-11f0-8aef-e10f5b0b7eea/Solution.ml", line 4, characters 17-29:
-4 | let total_cost = berries_cost + peaches_cost in
-                     ^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 45%|████▌     | 229/508 [16:18<18:48,  4.05s/it]File "llm_build/95452fb0-2885-11f0-8aef-e10f5b0b7eea/Solution.ml", line 4, characters 17-27:
-4 | let total_cost = pants_cost + shirt_cost in
-                     ^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 45%|████▌     | 230/508 [16:21<16:43,  3.61s/it]File "llm_build/962a421c-2885-11f0-8aef-e10f5b0b7eea/Solution.ml", line 4, characters 18-30:
-4 | let total_spent = cat_toy_cost + cage_cost in
-                      ^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/840753d6-2885-11f0-8aef-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/84eeaac4-2885-11f0-8aef-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/84eeaac5-2885-11f0-8aef-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/86cd4fee-2885-11f0-8aef-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/926e6a40-2885-11f0-8aef-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/93b8fe6a-2885-11f0-8aef-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/95452fb0-2885-11f0-8aef-e10f5b0b7eea/Solution'
-
-Execute error: 
- 45%|████▌     | 231/508 [16:22<13:44,  2.98s/it] 46%|████▌     | 232/508 [16:24<11:53,  2.58s/it]File "llm_build/9727b191-2885-11f0-8aef-e10f5b0b7eea/Solution.ml", line 4, characters 17-30:
-4 | let total_cost = football_cost + baseball_cost in
-                     ^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 46%|████▌     | 233/508 [16:25<09:52,  2.15s/it] 46%|████▌     | 234/508 [16:27<10:10,  2.23s/it] 46%|████▋     | 235/508 [16:29<08:49,  1.94s/it] 46%|████▋     | 236/508 [16:30<07:49,  1.73s/it] 47%|████▋     | 237/508 [16:32<08:11,  1.81s/it] 47%|████▋     | 238/508 [16:33<07:21,  1.63s/it] 47%|████▋     | 239/508 [16:34<06:38,  1.48s/it] 47%|████▋     | 240/508 [16:35<06:06,  1.37s/it] 47%|████▋     | 241/508 [16:36<05:27,  1.23s/it] 48%|████▊     | 242/508 [16:37<05:31,  1.25s/it] 48%|████▊     | 243/508 [16:52<22:46,  5.16s/it] 48%|████▊     | 244/508 [16:53<17:26,  3.96s/it] 48%|████▊     | 245/508 [17:09<33:44,  7.70s/it] 48%|████▊     | 246/508 [17:15<31:11,  7.15s/it] 49%|████▊     | 247/508 [17:17<23:46,  5.46s/it] 49%|████▉     | 248/508 [17:19<19:34,  4.52s/it] 49%|████▉     | 249/508 [17:21<16:44,  3.88s/it] 49%|████▉     | 250/508 [17:24<14:22,  3.34s/it] 49%|████▉     | 251/508 [17:25<11:50,  2.76s/it] 50%|████▉     | 252/508 [17:28<12:36,  2.95s/it] 50%|████▉     | 253/508 [17:30<10:25,  2.45s/it] 50%|█████     | 254/508 [17:31<09:08,  2.16s/it] 50%|█████     | 255/508 [17:34<10:16,  2.43s/it] 50%|█████     | 256/508 [17:36<09:00,  2.15s/it] 51%|█████     | 257/508 [17:39<09:52,  2.36s/it] 51%|█████     | 258/508 [18:09<44:25, 10.66s/it] 51%|█████     | 259/508 [18:15<39:30,  9.52s/it] 51%|█████     | 260/508 [18:17<29:21,  7.10s/it] 51%|█████▏    | 261/508 [18:18<22:27,  5.46s/it] 52%|█████▏    | 262/508 [18:20<17:15,  4.21s/it] 52%|█████▏    | 263/508 [18:23<15:39,  3.83s/it] 52%|█████▏    | 264/508 [18:24<12:24,  3.05s/it] 52%|█████▏    | 265/508 [18:25<09:53,  2.44s/it] 52%|█████▏    | 266/508 [18:27<09:22,  2.32s/it] 53%|█████▎    | 267/508 [18:29<08:36,  2.14s/it] 53%|█████▎    | 268/508 [18:30<07:40,  1.92s/it] 53%|█████▎    | 269/508 [18:32<07:24,  1.86s/it] 53%|█████▎    | 270/508 [18:35<08:56,  2.26s/it] 53%|█████▎    | 271/508 [18:36<07:53,  2.00s/it] 54%|█████▎    | 272/508 [18:38<07:04,  1.80s/it] 54%|█████▎    | 273/508 [18:39<06:34,  1.68s/it] 54%|█████▍    | 274/508 [18:41<06:28,  1.66s/it] 54%|█████▍    | 275/508 [18:55<21:05,  5.43s/it] 54%|█████▍    | 276/508 [19:08<29:11,  7.55s/it] 55%|█████▍    | 277/508 [19:21<36:25,  9.46s/it] 55%|█████▍    | 278/508 [19:25<28:59,  7.56s/it] 55%|█████▍    | 279/508 [19:27<23:32,  6.17s/it] 55%|█████▌    | 280/508 [19:29<17:51,  4.70s/it] 55%|█████▌    | 281/508 [19:30<14:09,  3.74s/it] 56%|█████▌    | 282/508 [19:32<11:24,  3.03s/it] 56%|█████▌    | 283/508 [19:37<13:52,  3.70s/it] 56%|█████▌    | 284/508 [19:38<11:00,  2.95s/it] 56%|█████▌    | 285/508 [19:39<08:50,  2.38s/it] 56%|█████▋    | 286/508 [19:40<07:28,  2.02s/it] 56%|█████▋    | 287/508 [19:42<06:50,  1.86s/it]File "llm_build/0d30ad11-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 17-24:
-4 | let total_nuts = walnuts + almonds in
-                     ^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 57%|█████▋    | 288/508 [19:43<06:04,  1.66s/it]File "llm_build/1434e7ca-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 21-36:
-4 | let total_distance = distance_mother + distance_father in
-                         ^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 57%|█████▋    | 289/508 [19:54<15:48,  4.33s/it] 57%|█████▋    | 290/508 [20:08<27:14,  7.50s/it] 57%|█████▋    | 291/508 [20:11<21:33,  5.96s/it]File "llm_build/1e7d5c63-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 21-37:
-4 | let total_fraction = bikinis_fraction + trunks_fraction in
-                         ^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 57%|█████▋    | 292/508 [20:12<16:21,  4.55s/it] 58%|█████▊    | 293/508 [20:16<16:05,  4.49s/it] 58%|█████▊    | 294/508 [20:18<12:31,  3.51s/it]File "llm_build/23800476-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 20-33:
-4 | let total_peppers = green_peppers + red_peppers in
-                        ^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 58%|█████▊    | 295/508 [20:19<10:23,  2.93s/it] 58%|█████▊    | 296/508 [20:21<08:35,  2.43s/it] 58%|█████▊    | 297/508 [20:24<09:11,  2.61s/it] 59%|█████▊    | 298/508 [20:25<07:36,  2.17s/it]File "llm_build/276e54ca-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 26-44:
-4 | let total_food_fraction = groceries_fraction + eating_out_fraction in
-                              ^^^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 59%|█████▉    | 299/508 [20:26<06:28,  1.86s/it]File "llm_build/276e54cb-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 24-34:
-4 | let fraction_received = fraction_A + fraction_B in
-                            ^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/962a421c-2885-11f0-8aef-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/9727b191-2885-11f0-8aef-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/0d30ad11-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/1434e7ca-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/1e7d5c63-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/23800476-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/276e54ca-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
- 59%|█████▉    | 300/508 [20:27<05:53,  1.70s/it]File "llm_build/2909227e-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 16-27:
-4 | let total_oil = oil_initial + oil_added in
-                    ^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 59%|█████▉    | 301/508 [20:29<05:31,  1.60s/it]File "llm_build/29ca35e0-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 25-43:
-4 | let total_bread_served = wheat_bread_served + white_bread_served in
-                             ^^^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 59%|█████▉    | 302/508 [20:30<05:09,  1.50s/it] 60%|█████▉    | 303/508 [20:31<04:34,  1.34s/it] 60%|█████▉    | 304/508 [20:32<04:16,  1.26s/it]File "llm_build/2afe2c0b-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 23-34:
-4 | let total_fish_eaten = trout_eaten + salmon_eaten in
-                           ^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 60%|██████    | 305/508 [20:33<04:21,  1.29s/it] 60%|██████    | 306/508 [20:34<04:21,  1.29s/it]File "llm_build/2c967c8f-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 21-37:
-4 | let total_fraction = trumpet_fraction + trombone_fraction in
-                         ^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 60%|██████    | 307/508 [20:36<04:12,  1.26s/it] 61%|██████    | 308/508 [20:41<07:53,  2.37s/it]File "llm_build/310d1570-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 19-31:
-4 | let total_weight = melon_weight + berries_weight in
-                       ^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 61%|██████    | 309/508 [20:42<06:50,  2.06s/it] 61%|██████    | 310/508 [20:43<06:15,  1.90s/it]File "llm_build/3290fc4a-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 17-29:
-4 | let total_milk = regular_milk + soy_milk in
-                     ^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 61%|██████    | 311/508 [20:45<05:22,  1.64s/it]File "llm_build/3365faee-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 21-35:
-4 | let total_hair_cut = hair_cut_first + hair_cut_second in
-                         ^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/276e54cb-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/2909227e-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/29ca35e0-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/2afe2c0b-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/2c967c8f-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/310d1570-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/3290fc4a-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
- 61%|██████▏   | 312/508 [20:46<05:06,  1.57s/it]File "llm_build/386730f8-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 21-41:
-4 | let fraction_total = fraction_one_bedroom + fraction_two_bedroom in
-                         ^^^^^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 62%|██████▏   | 313/508 [20:54<11:44,  3.62s/it] 62%|██████▏   | 314/508 [21:09<22:47,  7.05s/it] 62%|██████▏   | 315/508 [21:11<17:29,  5.44s/it] 62%|██████▏   | 316/508 [21:12<13:19,  4.16s/it]File "llm_build/4792008a-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 21-46:
-4 | let total_distance = distance_school_to_davids + distance_davids_to_own in
-                         ^^^^^^^^^^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 62%|██████▏   | 317/508 [21:20<16:27,  5.17s/it] 63%|██████▎   | 318/508 [21:21<12:44,  4.02s/it]File "llm_build/4c2c5e6a-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 21-37:
-4 | let total_fraction = fraction_size_2d + fraction_size_4d in
-                         ^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 63%|██████▎   | 319/508 [21:27<14:54,  4.73s/it] 63%|██████▎   | 320/508 [21:31<13:38,  4.35s/it] 63%|██████▎   | 321/508 [21:32<10:38,  3.41s/it]File "llm_build/4fd513b8-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 20-34:
-4 | let total_raisins = yellow_raisins + black_raisins in
-                        ^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 63%|██████▎   | 322/508 [21:34<08:44,  2.82s/it]File "llm_build/514e12d0-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 24-45:
-4 | let extra_food_needed = total_food_needed_now - food_per_cat_initial in
-                            ^^^^^^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 64%|██████▎   | 323/508 [21:36<08:22,  2.71s/it]File "llm_build/514e12d1-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 21-37:
-4 | let total_snowfall = snowfall_morning + snowfall_afternoon in
-                         ^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 64%|██████▍   | 324/508 [21:37<06:50,  2.23s/it]File "llm_build/52a808f2-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 23-39:
-4 | let total_flour_used = wheat_flour_used + white_flour_used in
-                           ^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/3365faee-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/386730f8-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/4792008a-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/4c2c5e6a-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/4fd513b8-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/514e12d0-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/514e12d1-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
- 64%|██████▍   | 325/508 [21:38<05:50,  1.91s/it] 64%|██████▍   | 326/508 [21:40<05:12,  1.72s/it]File "llm_build/54ab3214-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 5, characters 17-31:
-5 | let total_hike = hike_to_stream + hike_to_meadow + hike_to_campsite in
-                     ^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 64%|██████▍   | 327/508 [21:42<05:32,  1.83s/it]File "llm_build/560388b4-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 5, characters 17-38:
-5 | let total_bags = golden_delicious_bags + macintosh_bags + cortland_bags in
-                     ^^^^^^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 65%|██████▍   | 328/508 [21:44<05:53,  1.96s/it]File "llm_build/583f8984-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 5, characters 20-39:
-5 | let total_mustard = mustard_first_table + mustard_second_table + mustard_third_table in
-                        ^^^^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 65%|██████▍   | 329/508 [21:48<07:27,  2.50s/it]File "llm_build/662e3c70-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 5, characters 27-40:
-5 | let total_leftover_tarts = cherries_tart + blueberries_tart + peaches_tart in
-                               ^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 65%|██████▍   | 330/508 [22:11<25:59,  8.76s/it]File "llm_build/672c78b2-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 5, characters 21-46:
-5 | let total_distance = distance_to_postcard_shop + distance_to_tshirt_shop + distance_back_to_hotel in
-                         ^^^^^^^^^^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 65%|██████▌   | 331/508 [22:13<19:34,  6.63s/it]File "llm_build/6aa55f90-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 5, characters 22-29:
-5 | let total_trail_mix = peanuts + chocolate_chips + raisins in
-                          ^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 65%|██████▌   | 332/508 [22:19<18:44,  6.39s/it]File "llm_build/6bb68ab2-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 5, characters 22-32:
-5 | let total_ice_cream = rocky_road + cookie_dough + strawberry_cheesecake in
-                          ^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/52a808f2-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/54ab3214-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/560388b4-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/583f8984-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/662e3c70-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/672c78b2-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/6aa55f90-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
- 66%|██████▌   | 333/508 [22:20<14:36,  5.01s/it]File "llm_build/6ca9a4fe-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 5, characters 17-26:
-5 | let total_bins = soup_bins + vegetable_bins + pasta_bins in
-                     ^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 66%|██████▌   | 334/508 [22:22<11:33,  3.99s/it]File "llm_build/6dd199c2-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 5, characters 19-25:
-5 | let total_marble = piece1 + piece2 + piece3 in
-                       ^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 66%|██████▌   | 335/508 [22:24<09:43,  3.37s/it]File "llm_build/6dd199c3-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 5, characters 16-25:
-5 | let total_run = first_run + second_run + third_run in
-                    ^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 66%|██████▌   | 336/508 [22:25<08:00,  2.79s/it]File "llm_build/70588b10-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 5, characters 17-28:
-5 | let total_rain = rain_monday + rain_tuesday + rain_wednesday in
-                     ^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 66%|██████▋   | 337/508 [22:28<07:57,  2.79s/it]File "llm_build/72ad2844-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 5, characters 21-40:
-5 | let total_distance = distance_to_library + distance_to_post_office + distance_back_home in
-                         ^^^^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 67%|██████▋   | 338/508 [22:32<08:51,  3.13s/it]File "llm_build/72ad2845-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 5, characters 21-34:
-5 | let total_material = concrete_tons + bricks_tons + stone_tons in
-                         ^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 67%|██████▋   | 339/508 [22:34<07:30,  2.67s/it]File "llm_build/74b5251a-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 5, characters 18-29:
-5 | let total_punch = grape_juice + cranberry_juice + club_soda in
-                      ^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/6bb68ab2-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/6ca9a4fe-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/6dd199c2-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/6dd199c3-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/70588b10-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/72ad2844-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/72ad2845-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
- 67%|██████▋   | 340/508 [22:35<06:45,  2.41s/it]File "llm_build/75b7100e-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 5, characters 21-40:
-5 | let total_distance = distance_earth_to_x + distance_x_to_y + distance_y_to_earth in
-                         ^^^^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 67%|██████▋   | 341/508 [22:37<06:06,  2.20s/it]File "llm_build/76dcd73e-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 5, characters 17-31:
-5 | let total_snow = snow_wednesday + snow_thursday + snow_friday in
-                     ^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 67%|██████▋   | 342/508 [22:39<05:50,  2.11s/it]File "llm_build/78467620-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 5, characters 24-36:
-5 | let total_ingredients = strawberries + yogurt + orange_juice in
-                            ^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 68%|██████▊   | 343/508 [22:41<06:01,  2.19s/it]File "llm_build/792546d4-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 5, characters 21-35:
-5 | let total_lemonade = lemonade_first + lemonade_second + lemonade_third in
-                         ^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 68%|██████▊   | 344/508 [22:43<05:23,  1.97s/it]File "llm_build/7a54deb6-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 5, characters 19-35:
-5 | let total_walked = walk_to_entrance + walk_to_rides + walk_back_to_car in
-                       ^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 68%|██████▊   | 345/508 [22:45<05:22,  1.98s/it]File "llm_build/7a54deb7-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 5, characters 18-28:
-5 | let total_loads = sand_loads + dirt_loads + cement_loads in
-                      ^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 68%|██████▊   | 346/508 [22:46<04:55,  1.83s/it]File "llm_build/89c6b2de-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 5, characters 19-37:
-5 | let total_weight = orange_ring_weight + purple_ring_weight + white_ring_weight in
-                       ^^^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/74b5251a-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/75b7100e-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/76dcd73e-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/78467620-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/792546d4-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/7a54deb6-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/7a54deb7-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
- 68%|██████▊   | 347/508 [23:11<23:06,  8.61s/it]File "llm_build/89c6b2df-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 19-27:
-4 | let total_liquid = oil_cups + water_cups in
-                       ^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 69%|██████▊   | 348/508 [23:12<17:02,  6.39s/it]File "llm_build/8c1325ea-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 20-33:
-4 | let total_peppers = green_peppers + red_peppers in
-                        ^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 69%|██████▊   | 349/508 [23:15<13:57,  5.27s/it] 69%|██████▉   | 350/508 [23:20<13:52,  5.27s/it] 69%|██████▉   | 351/508 [23:23<11:39,  4.45s/it]File "llm_build/9189139a-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 19-30:
-4 | let total_cement = cement_lexi + cement_tess in
-                       ^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 69%|██████▉   | 352/508 [23:24<09:08,  3.52s/it]File "llm_build/94099720-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 20-33:
-4 | let total_buckets = buckets_first + buckets_second in
-                        ^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 69%|██████▉   | 353/508 [23:28<09:36,  3.72s/it]File "llm_build/94099721-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 17-24:
-4 | let total_laps = laps_pe + laps_track in
-                     ^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 70%|██████▉   | 354/508 [23:29<07:33,  2.95s/it]File "llm_build/95521e7c-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 18-31:
-4 | let total_water = water_initial + water_added in
-                      ^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 70%|██████▉   | 355/508 [23:30<06:02,  2.37s/it]File "llm_build/96cccc48-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 17-32:
-4 | let total_soda = lemon_lime_soda + cola in
-                     ^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/89c6b2de-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/89c6b2df-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/8c1325ea-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/9189139a-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/94099720-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/94099721-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/95521e7c-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
- 70%|███████   | 356/508 [23:33<06:05,  2.40s/it] 70%|███████   | 357/508 [23:35<06:07,  2.43s/it]File "llm_build/9993d052-2886-11f0-8af0-e10f5b0b7eea/Solution.ml", line 4, characters 21-39:
-4 | let total_movement = movement_last_year + movement_year_before in
-                         ^^^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 70%|███████   | 358/508 [23:37<05:52,  2.35s/it]File "llm_build/9a90ed32-2886-11f0-8af1-e10f5b0b7eea/Solution.ml", line 4, characters 25-40:
-4 | let total_pages_called = pages_last_week + pages_this_week in
-                             ^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 71%|███████   | 359/508 [23:39<05:19,  2.14s/it] 71%|███████   | 360/508 [23:40<04:44,  1.92s/it] 71%|███████   | 361/508 [23:42<04:20,  1.77s/it]File "llm_build/9dc13c96-2886-11f0-8af1-e10f5b0b7eea/Solution.ml", line 4, characters 22-38:
-4 | let total_ice_cream = ice_cream_friday + ice_cream_saturday in
-                          ^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 71%|███████▏  | 362/508 [23:44<04:51,  2.00s/it] 71%|███████▏  | 363/508 [23:46<04:16,  1.77s/it] 72%|███████▏  | 364/508 [23:48<04:57,  2.07s/it] 72%|███████▏  | 365/508 [23:55<08:24,  3.53s/it]File "llm_build/ae7e14e6-2886-11f0-8af1-e10f5b0b7eea/Solution.ml", line 4, characters 18-31:
-4 | let total_water = water_initial + water_added in
-                      ^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 72%|███████▏  | 366/508 [24:12<18:01,  7.61s/it] 72%|███████▏  | 367/508 [24:14<13:17,  5.66s/it] 72%|███████▏  | 368/508 [24:15<10:10,  4.36s/it]File "llm_build/b2f9e39c-2886-11f0-8af1-e10f5b0b7eea/Solution.ml", line 4, characters 18-32:
-4 | let total_miles = miles_saturday + miles_sunday in
-                      ^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 73%|███████▎  | 369/508 [24:20<10:36,  4.58s/it] 73%|███████▎  | 370/508 [24:21<08:24,  3.66s/it]File "llm_build/b57d8ef2-2886-11f0-8af1-e10f5b0b7eea/Solution.ml", line 4, characters 26-40:
-4 | let total_snacks_weight = peanuts_weight + raisins_weight in
-                              ^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 73%|███████▎  | 371/508 [24:24<07:42,  3.37s/it]File "llm_build/b57d8ef3-2886-11f0-8af1-e10f5b0b7eea/Solution.ml", line 4, characters 19-33:
-4 | let total_weight = watermelon_one + watermelon_two in
-                       ^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/96cccc48-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/9993d052-2886-11f0-8af0-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/9a90ed32-2886-11f0-8af1-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/9dc13c96-2886-11f0-8af1-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/ae7e14e6-2886-11f0-8af1-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/b2f9e39c-2886-11f0-8af1-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/b57d8ef2-2886-11f0-8af1-e10f5b0b7eea/Solution'
-
-Execute error: 
- 73%|███████▎  | 372/508 [24:25<06:10,  2.72s/it] 73%|███████▎  | 373/508 [24:26<04:58,  2.21s/it]File "llm_build/ba0e362e-2886-11f0-8af1-e10f5b0b7eea/Solution.ml", line 4, characters 19-35:
-4 | let total_weight = blue_ball_weight + brown_ball_weight in
-                       ^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 74%|███████▎  | 374/508 [24:32<07:06,  3.18s/it] 74%|███████▍  | 375/508 [24:33<05:38,  2.55s/it] 74%|███████▍  | 376/508 [24:35<05:17,  2.40s/it]File "llm_build/bbec8415-2886-11f0-8af1-e10f5b0b7eea/Solution.ml", line 4, characters 17-28:
-4 | let total_snow = snow_monday + snow_tuesday in
-                     ^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 74%|███████▍  | 377/508 [24:36<04:28,  2.05s/it] 74%|███████▍  | 378/508 [24:37<03:48,  1.76s/it]File "llm_build/bd48d97b-2886-11f0-8af1-e10f5b0b7eea/Solution.ml", line 4, characters 21-32:
-4 | let total_material = gravel_tons + sand_tons in
-                         ^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 75%|███████▍  | 379/508 [24:38<03:24,  1.58s/it]File "llm_build/bf484314-2886-11f0-8af1-e10f5b0b7eea/Solution.ml", line 4, characters 17-30:
-4 | let total_rain = rain_saturday + rain_sunday in
-                     ^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 75%|███████▍  | 380/508 [24:41<03:44,  1.75s/it] 75%|███████▌  | 381/508 [24:43<04:15,  2.01s/it] 75%|███████▌  | 382/508 [24:45<03:52,  1.84s/it]File "llm_build/c24d02ac-2886-11f0-8af1-e10f5b0b7eea/Solution.ml", line 4, characters 24-38:
-4 | let total_nuts_weight = almonds_weight + pecans_weight in
-                            ^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 75%|███████▌  | 383/508 [24:46<03:19,  1.59s/it]File "llm_build/c24d02ad-2886-11f0-8af1-e10f5b0b7eea/Solution.ml", line 4, characters 19-37:
-4 | let total_weight = pumpkin_one_weight + pumpkin_two_weight in
-                       ^^^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 76%|███████▌  | 384/508 [24:47<02:54,  1.41s/it] 76%|███████▌  | 385/508 [25:16<19:55,  9.72s/it]File "llm_build/d96d9a82-2886-11f0-8af1-e10f5b0b7eea/Solution.ml", line 4, characters 22-41:
-4 | let tori_height_now = tori_height_initial + tori_growth in
-                          ^^^^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/b57d8ef3-2886-11f0-8af1-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/ba0e362e-2886-11f0-8af1-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/bbec8415-2886-11f0-8af1-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/bd48d97b-2886-11f0-8af1-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/bf484314-2886-11f0-8af1-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/c24d02ac-2886-11f0-8af1-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/c24d02ad-2886-11f0-8af1-e10f5b0b7eea/Solution'
-
-Execute error: 
- 76%|███████▌  | 386/508 [25:24<19:08,  9.42s/it] 76%|███████▌  | 387/508 [25:26<14:09,  7.02s/it] 76%|███████▋  | 388/508 [25:27<10:22,  5.19s/it] 77%|███████▋  | 389/508 [25:28<08:10,  4.12s/it] 77%|███████▋  | 390/508 [25:30<06:21,  3.23s/it] 77%|███████▋  | 391/508 [25:32<05:53,  3.02s/it] 77%|███████▋  | 392/508 [25:33<04:40,  2.42s/it] 77%|███████▋  | 393/508 [25:34<03:48,  1.99s/it] 78%|███████▊  | 394/508 [25:35<03:15,  1.72s/it] 78%|███████▊  | 395/508 [25:36<02:51,  1.52s/it] 78%|███████▊  | 396/508 [25:38<02:42,  1.45s/it] 78%|███████▊  | 397/508 [25:39<02:34,  1.39s/it] 78%|███████▊  | 398/508 [25:40<02:21,  1.29s/it] 79%|███████▊  | 399/508 [25:41<02:17,  1.27s/it] 79%|███████▊  | 400/508 [25:43<02:33,  1.42s/it] 79%|███████▉  | 401/508 [25:44<02:17,  1.29s/it] 79%|███████▉  | 402/508 [25:45<02:22,  1.34s/it] 79%|███████▉  | 403/508 [25:47<02:20,  1.34s/it] 80%|███████▉  | 404/508 [25:48<02:16,  1.31s/it] 80%|███████▉  | 405/508 [25:55<05:29,  3.20s/it] 80%|███████▉  | 406/508 [26:13<12:44,  7.49s/it] 80%|████████  | 407/508 [26:14<09:28,  5.63s/it] 80%|████████  | 408/508 [26:15<07:07,  4.28s/it] 81%|████████  | 409/508 [26:23<08:37,  5.23s/it] 81%|████████  | 410/508 [26:25<07:01,  4.30s/it] 81%|████████  | 411/508 [26:30<07:26,  4.60s/it] 81%|████████  | 412/508 [26:32<05:59,  3.74s/it] 81%|████████▏ | 413/508 [26:36<06:06,  3.86s/it] 81%|████████▏ | 414/508 [26:38<05:02,  3.21s/it] 82%|████████▏ | 415/508 [26:39<04:11,  2.70s/it] 82%|████████▏ | 416/508 [26:42<03:57,  2.58s/it] 82%|████████▏ | 417/508 [26:43<03:16,  2.16s/it] 82%|████████▏ | 418/508 [26:44<02:55,  1.95s/it] 82%|████████▏ | 419/508 [26:46<02:46,  1.87s/it] 83%|████████▎ | 420/508 [26:47<02:21,  1.61s/it] 83%|████████▎ | 421/508 [26:49<02:20,  1.62s/it] 83%|████████▎ | 422/508 [27:15<12:59,  9.06s/it] 83%|████████▎ | 423/508 [27:16<09:27,  6.68s/it] 83%|████████▎ | 424/508 [27:25<10:24,  7.43s/it] 84%|████████▎ | 425/508 [27:27<07:51,  5.68s/it] 84%|████████▍ | 426/508 [27:28<05:52,  4.30s/it] 84%|████████▍ | 427/508 [27:30<04:59,  3.70s/it] 84%|████████▍ | 428/508 [27:33<04:25,  3.31s/it] 84%|████████▍ | 429/508 [27:34<03:31,  2.68s/it] 85%|████████▍ | 430/508 [27:35<02:53,  2.23s/it] 85%|████████▍ | 431/508 [27:36<02:25,  1.89s/it] 85%|████████▌ | 432/508 [27:38<02:10,  1.72s/it] 85%|████████▌ | 433/508 [27:40<02:15,  1.80s/it] 85%|████████▌ | 434/508 [27:42<02:32,  2.06s/it] 86%|████████▌ | 435/508 [27:43<02:10,  1.79s/it] 86%|████████▌ | 436/508 [27:44<01:52,  1.56s/it] 86%|████████▌ | 437/508 [27:46<01:45,  1.48s/it] 86%|████████▌ | 438/508 [27:50<02:34,  2.21s/it] 86%|████████▋ | 439/508 [27:51<02:18,  2.01s/it] 87%|████████▋ | 440/508 [27:52<01:56,  1.71s/it] 87%|████████▋ | 441/508 [27:53<01:45,  1.58s/it] 87%|████████▋ | 442/508 [28:15<08:15,  7.51s/it] 87%|████████▋ | 443/508 [28:16<05:58,  5.52s/it] 87%|████████▋ | 444/508 [28:18<04:45,  4.46s/it] 88%|████████▊ | 445/508 [28:26<05:54,  5.63s/it] 88%|████████▊ | 446/508 [28:27<04:28,  4.33s/it] 88%|████████▊ | 447/508 [28:29<03:29,  3.43s/it] 88%|████████▊ | 448/508 [28:30<02:43,  2.73s/it] 88%|████████▊ | 449/508 [28:31<02:14,  2.27s/it] 89%|████████▊ | 450/508 [28:32<01:53,  1.96s/it] 89%|████████▉ | 451/508 [28:33<01:38,  1.74s/it] 89%|████████▉ | 452/508 [28:34<01:25,  1.52s/it] 89%|████████▉ | 453/508 [28:35<01:15,  1.37s/it] 89%|████████▉ | 454/508 [28:38<01:41,  1.88s/it] 90%|████████▉ | 455/508 [28:40<01:28,  1.68s/it] 90%|████████▉ | 456/508 [28:41<01:22,  1.59s/it] 90%|████████▉ | 457/508 [28:42<01:19,  1.55s/it] 90%|█████████ | 458/508 [28:44<01:14,  1.48s/it] 90%|█████████ | 459/508 [28:45<01:05,  1.33s/it] 91%|█████████ | 460/508 [28:46<01:01,  1.29s/it] 91%|█████████ | 461/508 [28:47<00:55,  1.19s/it] 91%|█████████ | 462/508 [28:48<00:52,  1.14s/it] 91%|█████████ | 463/508 [28:49<00:52,  1.17s/it] 91%|█████████▏| 464/508 [28:54<01:42,  2.32s/it] 92%|█████████▏| 465/508 [29:15<05:42,  7.97s/it] 92%|█████████▏| 466/508 [29:36<08:19, 11.89s/it] 92%|█████████▏| 467/508 [29:37<05:54,  8.66s/it] 92%|█████████▏| 468/508 [29:38<04:12,  6.32s/it] 92%|█████████▏| 469/508 [29:40<03:06,  4.79s/it] 93%|█████████▎| 470/508 [29:41<02:19,  3.68s/it] 93%|█████████▎| 471/508 [29:45<02:19,  3.76s/it] 93%|█████████▎| 472/508 [29:47<01:56,  3.25s/it] 93%|█████████▎| 473/508 [29:48<01:30,  2.58s/it] 93%|█████████▎| 474/508 [29:49<01:11,  2.10s/it] 94%|█████████▎| 475/508 [29:50<01:01,  1.85s/it] 94%|█████████▎| 476/508 [29:51<00:51,  1.61s/it] 94%|█████████▍| 477/508 [29:52<00:44,  1.45s/it] 94%|█████████▍| 478/508 [29:54<00:51,  1.72s/it] 94%|█████████▍| 479/508 [29:58<01:03,  2.21s/it] 94%|█████████▍| 480/508 [30:18<03:31,  7.57s/it] 95%|█████████▍| 481/508 [30:19<02:31,  5.60s/it] 95%|█████████▍| 482/508 [30:25<02:28,  5.69s/it] 95%|█████████▌| 483/508 [30:30<02:22,  5.70s/it] 95%|█████████▌| 484/508 [30:32<01:50,  4.60s/it] 95%|█████████▌| 485/508 [30:35<01:33,  4.08s/it] 96%|█████████▌| 486/508 [30:37<01:10,  3.22s/it] 96%|█████████▌| 487/508 [30:38<00:55,  2.64s/it] 96%|█████████▌| 488/508 [30:41<00:53,  2.67s/it] 96%|█████████▋| 489/508 [30:42<00:42,  2.25s/it] 96%|█████████▋| 490/508 [30:43<00:33,  1.89s/it] 97%|█████████▋| 491/508 [30:44<00:27,  1.64s/it] 97%|█████████▋| 492/508 [30:46<00:26,  1.68s/it] 97%|█████████▋| 493/508 [30:47<00:22,  1.53s/it] 97%|█████████▋| 494/508 [30:48<00:19,  1.43s/it] 97%|█████████▋| 495/508 [30:49<00:17,  1.37s/it] 98%|█████████▊| 496/508 [30:50<00:15,  1.27s/it] 98%|█████████▊| 497/508 [30:52<00:13,  1.25s/it] 98%|█████████▊| 498/508 [30:53<00:12,  1.25s/it] 98%|█████████▊| 499/508 [30:54<00:12,  1.36s/it] 98%|█████████▊| 500/508 [30:56<00:11,  1.40s/it]File "llm_build/a018ec68-2887-11f0-8af4-e10f5b0b7eea/Solution.ml", line 6, characters 19-38:
-6 | let sales_needed = required_commission /. commission_rate in
-                       ^^^^^^^^^^^^^^^^^^^
-Error: This expression has type "int" but an expression was expected of type
-         "float"
- 99%|█████████▊| 501/508 [30:58<00:10,  1.52s/it] 99%|█████████▉| 502/508 [30:59<00:08,  1.40s/it]File "llm_build/a1f194c2-2887-11f0-8af4-e10f5b0b7eea/Solution.ml", line 4, characters 29-50:
-4 | let shortest_player_height = tallest_player_height - height_difference in
-                                 ^^^^^^^^^^^^^^^^^^^^^
-Error: This expression has type "float" but an expression was expected of type
-         "int"
- 99%|█████████▉| 503/508 [31:01<00:07,  1.57s/it]File "llm_build/ab9447cc-2887-11f0-8af4-e10f5b0b7eea/Solution.ml", line 2, characters 8-15:
-2 | let x = (6 + 4) /. 0.20 in
-            ^^^^^^^
-Error: This expression has type "int" but an expression was expected of type
-         "float"
- 99%|█████████▉| 504/508 [31:17<00:23,  5.95s/it] 99%|█████████▉| 505/508 [31:18<00:13,  4.55s/it]100%|█████████▉| 506/508 [31:19<00:06,  3.46s/it]100%|█████████▉| 507/508 [31:21<00:02,  2.98s/it]100%|██████████| 508/508 [31:27<00:00,  4.01s/it]100%|██████████| 508/508 [31:27<00:00,  3.72s/it]
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/d96d9a82-2886-11f0-8af1-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/a018ec68-2887-11f0-8af4-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/a1f194c2-2887-11f0-8af4-e10f5b0b7eea/Solution'
-
-Execute error: 
-Traceback (most recent call last):
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 185, in run
-    exec_result = self.execute(code)
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/interface.py", line 114, in execute
-    self.runtime.exec_code('\n'.join(code))
-  File "/home/doyle/Documents/COS484/COS484_PAL/.venv/lib/python3.10/site-packages/pal/core/runtime.py", line 145, in exec_code
-    result = subprocess.run([f"llm_build/{str(random_uuid)}/Solution"], capture_output=True)
-  File "/usr/lib/python3.10/subprocess.py", line 503, in run
-    with Popen(*popenargs, **kwargs) as process:
-  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'llm_build/ab9447cc-2887-11f0-8af4-e10f5b0b7eea/Solution'
-
-Accuracy - 0.8110236220472441
