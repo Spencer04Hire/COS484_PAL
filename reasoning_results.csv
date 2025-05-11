@@ -1,0 +1,46 @@
+Dataset,Language,Accuracy
+Colored Objects,Direct (Gao),0.757
+Colored Objects,Direct,0.850
+Colored Objects,CoT (Gao),0.863
+Colored Objects,CoT,0.984
+Colored Objects,C++,0.946
+Colored Objects,Java,0.946
+Colored Objects,OCaml,0.791
+Colored Objects,Python (Gao),0.951
+Colored Objects,Python,0.934
+Penguins,Direct (Gao),0.711
+Penguins,Direct,0.789
+Penguins,CoT (Gao),0.792
+Penguins,CoT,0.979
+Penguins,C++,0.987
+Penguins,Java,0.966
+Penguins,OCaml,0.925
+Penguins,Python (Gao),0.933
+Penguins,Python,0.957
+Date Understanding,Direct (Gao),0.499
+Date Understanding,Direct,0.526
+Date Understanding,CoT (Gao),0.648
+Date Understanding,CoT,0.841
+Date Understanding,C++,0.687
+Date Understanding,Java,0.870
+Date Understanding,OCaml,0.622
+Date Understanding,Python (Gao),0.762
+Date Understanding,Python,0.869
+Repeat Copy,Direct (Gao),0.813
+Repeat Copy,Direct,0.688
+Repeat Copy,CoT (Gao),0.688
+Repeat Copy,CoT,0.869
+Repeat Copy,C++,0.794
+Repeat Copy,Java,0.713
+Repeat Copy,OCaml,0.856
+Repeat Copy,Python (Gao),0.906
+Repeat Copy,Python,0.906
+Object Counting,Direct (Gao),0.376
+Object Counting,Direct,0.480
+Object Counting,CoT (Gao),0.730
+Object Counting,CoT,0.938
+Object Counting,C++,0.994
+Object Counting,Java,0.994
+Object Counting,OCaml,0.974
+Object Counting,Python (Gao),0.967
+Object Counting,Python,0.991

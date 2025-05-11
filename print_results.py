@@ -1,5 +1,5 @@
 from pathlib import Path
-lang = "" # "" for all
+lang = "COT" # "" for all
 num = 4
 
 for file in sorted(Path(f"pal/outputs{num}/").glob(f"*{lang}.txt")):

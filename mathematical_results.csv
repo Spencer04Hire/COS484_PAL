@@ -1,0 +1,64 @@
+Dataset,Language,Accuracy
+GSM,Direct (Gao),0.197
+GSM,Direct,0.367
+GSM,CoT (Gao),0.656
+GSM,CoT,0.921
+GSM,C++,0.894
+GSM,Java,0.899
+GSM,OCaml,0.818
+GSM,Python (Gao),0.720
+GSM,Python,0.912
+GSM-Hard,Direct (Gao),0.050
+GSM-Hard,Direct,0.145
+GSM-Hard,CoT (Gao),0.231
+GSM-Hard,CoT,0.505
+GSM-Hard,C++,0.575
+GSM-Hard,Java,0.612
+GSM-Hard,OCaml,0.560
+GSM-Hard,Python (Gao),0.612
+GSM-Hard,Python,0.712
+AddSub,Direct (Gao),0.909
+AddSub,Direct,0.894
+AddSub,CoT (Gao),0.860
+AddSub,CoT,0.966
+AddSub,C++,0.972
+AddSub,Java,0.958
+AddSub,OCaml,0.754
+AddSub,Python (Gao),0.925
+AddSub,Python,0.967
+MultiArith,Direct (Gao),0.440
+MultiArith,Direct,0.947
+MultiArith,CoT (Gao),0.959
+MultiArith,CoT,0.988
+MultiArith,C++,0.993
+MultiArith,Java,0.992
+MultiArith,OCaml,0.993
+MultiArith,Python (Gao),0.992
+MultiArith,Python,0.992
+SingleEq,Direct (Gao),0.868
+SingleEq,Direct,0.937
+SingleEq,CoT (Gao),0.891
+SingleEq,CoT,0.976
+SingleEq,C++,0.970
+SingleEq,Java,0.956
+SingleEq,OCaml,0.811
+SingleEq,Python (Gao),0.961
+SingleEq,Python,0.987
+SingleOp,Direct (Gao),0.931
+SingleOp,Direct,0.932
+SingleOp,CoT (Gao),0.919
+SingleOp,CoT,0.957
+SingleOp,C++,0.968
+SingleOp,Java,0.964
+SingleOp,OCaml,0.958
+SingleOp,Python (Gao),0.946
+SingleOp,Python,0.960
+SVAMP,Direct (Gao),0.699
+SVAMP,Direct,0.793
+SVAMP,CoT (Gao),0.748
+SVAMP,CoT,0.931
+SVAMP,C++,0.945
+SVAMP,Java,0.943
+SVAMP,OCaml,0.942
+SVAMP,Python (Gao),0.794
+SVAMP,Python,0.938

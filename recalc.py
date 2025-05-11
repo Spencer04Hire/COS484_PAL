@@ -24,7 +24,7 @@ def recalc(path, debug=False, diff=False):
 
         parsed = result["answer"]
         if parsed[:2] == "A:":
-            parsed = parsed[2:]
+            parsed = parsed[2:].strip()
 
         score = 0
 
@@ -42,6 +42,10 @@ def recalc(path, debug=False, diff=False):
         else:
             answer = parsed.strip()
             score = 1 if answer.lower() == str(target).lower() else 0
+            if target.lower() == "yes" and answer.lower() == "true":
+                score = 1
+            if target.lower() == "no" and answer.lower() == "false":
+                score = 1
 
         if score == 1:
             total += 1
@@ -63,11 +67,16 @@ def results(lang, start=1, end=3, diff=False):
             acc = recalc(path, diff=diff)
             print(f"{f[:-6]} Run {i}: {acc}")
 
-lang = "COT"
-start = 4
-end = 5
-results(lang, start, end, False)
+lang = "Java"
+start = 1
+end = 1
+# results(lang, start, end, True)
 
 # ['date_understanding', 'gsm', 'gsmhardv2', 'mawpsaddsub', 'mawpsmultiarith', 'mawpssingleeq', 'mawpssingleop', 'object_counting', 'penguins_in_a_table', 'reasoning_about_colored_objects', 'repeat_copy', 'svamp']
-path = 'pal/eval_results1/Java/reasoning_about_colored_objects.jsonl'
-# print(recalc(path, debug=True, diff=False))
+languages = ['COT','Cpp','Direct','Java','Ocaml','Python']
+start = 1
+end = 5
+for i in range(start, end+1):
+    for lang in languages:
+        path = f'pal/eval_results{i}/{lang}/reasoning_about_colored_objects.jsonl'
+        print(f'{lang} Run {i}: {recalc(path, debug=False, diff=False)}')
